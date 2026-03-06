@@ -1,0 +1,44 @@
+[
+  {
+    "slug": "sole-proprietorship",
+    "name": "Sole Proprietorship",
+    "description": "Business income reported on the owner’s individual return (Schedule C).",
+    "federalForm": "Form 1040 Schedule C",
+    "deadlineInfo": "Due April 15, 2026 with extension to October 15, 2026."
+  },
+  {
+    "slug": "partnership",
+    "name": "Partnership",
+    "description": "Pass-through entity filing Form 1065 and issuing Schedule K-1s.",
+    "federalForm": "Form 1065",
+    "deadlineInfo": "Due March 16, 2026 with extension to September 15, 2026."
+  },
+  {
+    "slug": "s-corporation",
+    "name": "S Corporation",
+    "description": "Pass-through corporation filing Form 1120-S and issuing Schedule K-1s.",
+    "federalForm": "Form 1120-S",
+    "deadlineInfo": "Due March 16, 2026 with extension to September 15, 2026."
+  },
+  {
+    "slug": "c-corporation",
+    "name": "C Corporation",
+    "description": "Separate corporate taxpayer filing Form 1120.",
+    "federalForm": "Form 1120",
+    "deadlineInfo": "Due April 15, 2026 with extension to October 15, 2026."
+  },
+  {
+    "slug": "llc",
+    "name": "LLC",
+    "description": "Deadline depends on tax classification (Schedule C, 1065, or 1120).",
+    "federalForm": "Depends on classification",
+    "deadlineInfo": "Single-member LLCs follow April 15; multi-member LLCs follow March 16."
+  },
+  {
+    "slug": "nonprofit",
+    "name": "Nonprofit",
+    "description": "Tax-exempt organizations file Form 990-series returns.",
+    "federalForm": "Form 990 / 990-EZ / 990-PF",
+    "deadlineInfo": "Due May 15, 2026 with extension to November 15, 2026."
+  }
+]

@@ -1,0 +1,4151 @@
+[
+  {
+    "stateSlug": "alabama",
+    "stateName": "Alabama",
+    "abbreviation": "AL",
+    "hasIncomeTax": true,
+    "taxAgency": {
+      "name": "Alabama Department of Revenue",
+      "url": "https://www.revenue.alabama.gov"
+    },
+    "deadlines": [
+      {
+        "entityType": "individual",
+        "returnForm": "State income tax return",
+        "dueDate": "2026-04-15",
+        "extensionDate": "2026-10-15",
+        "estimatedPayments": [
+          "2026-04-15",
+          "2026-06-15",
+          "2026-09-15",
+          "2027-01-15"
+        ],
+        "notes": "Conforms to the federal calendar-year due date unless the state announces relief."
+      },
+      {
+        "entityType": "sole-proprietorship",
+        "returnForm": "State income tax return",
+        "dueDate": "2026-04-15",
+        "extensionDate": "2026-10-15",
+        "estimatedPayments": [
+          "2026-04-15",
+          "2026-06-15",
+          "2026-09-15",
+          "2027-01-15"
+        ],
+        "notes": "Conforms to the federal calendar-year due date unless the state announces relief."
+      },
+      {
+        "entityType": "partnership",
+        "returnForm": "State business income tax return",
+        "dueDate": "2026-03-16",
+        "extensionDate": "2026-09-15",
+        "estimatedPayments": [],
+        "notes": "Calendar-year due date follows federal timing for pass-through entities."
+      },
+      {
+        "entityType": "s-corporation",
+        "returnForm": "State business income tax return",
+        "dueDate": "2026-03-16",
+        "extensionDate": "2026-09-15",
+        "estimatedPayments": [],
+        "notes": "Calendar-year due date follows federal timing for pass-through entities."
+      },
+      {
+        "entityType": "c-corporation",
+        "returnForm": "State corporate income tax return",
+        "dueDate": "2026-04-15",
+        "extensionDate": "2026-10-15",
+        "estimatedPayments": [
+          "2026-04-15",
+          "2026-06-15",
+          "2026-09-15",
+          "2026-12-15"
+        ],
+        "notes": "Calendar-year due date follows federal timing for corporations."
+      },
+      {
+        "entityType": "llc",
+        "returnForm": "State business income tax return",
+        "dueDate": "2026-03-16",
+        "extensionDate": "2026-09-15",
+        "estimatedPayments": [],
+        "notes": "Calendar-year due date follows federal timing for pass-through entities."
+      },
+      {
+        "entityType": "nonprofit",
+        "returnForm": "State nonprofit return",
+        "dueDate": "2026-05-15",
+        "extensionDate": "2026-11-15",
+        "estimatedPayments": [],
+        "notes": "Nonprofit annual return generally due the 15th day of the 5th month."
+      }
+    ],
+    "notes": "Dates reflect calendar-year filers and common conformity to federal due dates."
+  },
+  {
+    "stateSlug": "alaska",
+    "stateName": "Alaska",
+    "abbreviation": "AK",
+    "hasIncomeTax": false,
+    "taxAgency": {
+      "name": "Alaska Department of Revenue",
+      "url": "https://tax.alaska.gov"
+    },
+    "deadlines": [
+      {
+        "entityType": "individual",
+        "returnForm": "N/A",
+        "dueDate": null,
+        "extensionDate": null,
+        "estimatedPayments": [],
+        "notes": "No state individual income tax. Other business taxes may apply."
+      },
+      {
+        "entityType": "sole-proprietorship",
+        "returnForm": "N/A",
+        "dueDate": null,
+        "extensionDate": null,
+        "estimatedPayments": [],
+        "notes": "No state individual income tax. Other business taxes may apply."
+      },
+      {
+        "entityType": "partnership",
+        "returnForm": "N/A",
+        "dueDate": null,
+        "extensionDate": null,
+        "estimatedPayments": [],
+        "notes": "No state individual income tax. Other business taxes may apply."
+      },
+      {
+        "entityType": "s-corporation",
+        "returnForm": "N/A",
+        "dueDate": null,
+        "extensionDate": null,
+        "estimatedPayments": [],
+        "notes": "No state individual income tax. Other business taxes may apply."
+      },
+      {
+        "entityType": "c-corporation",
+        "returnForm": "N/A",
+        "dueDate": null,
+        "extensionDate": null,
+        "estimatedPayments": [],
+        "notes": "No state individual income tax. Other business taxes may apply."
+      },
+      {
+        "entityType": "llc",
+        "returnForm": "N/A",
+        "dueDate": null,
+        "extensionDate": null,
+        "estimatedPayments": [],
+        "notes": "No state individual income tax. Other business taxes may apply."
+      },
+      {
+        "entityType": "nonprofit",
+        "returnForm": "N/A",
+        "dueDate": null,
+        "extensionDate": null,
+        "estimatedPayments": [],
+        "notes": "No state individual income tax. Other business taxes may apply."
+      }
+    ],
+    "notes": "No state individual income tax; business taxes may still apply."
+  },
+  {
+    "stateSlug": "arizona",
+    "stateName": "Arizona",
+    "abbreviation": "AZ",
+    "hasIncomeTax": true,
+    "taxAgency": {
+      "name": "Arizona Department of Revenue",
+      "url": "https://azdor.gov"
+    },
+    "deadlines": [
+      {
+        "entityType": "individual",
+        "returnForm": "Form 140 / 140NR",
+        "dueDate": "2026-04-15",
+        "extensionDate": "2026-10-15",
+        "estimatedPayments": [
+          "2026-04-15",
+          "2026-06-15",
+          "2026-09-15",
+          "2027-01-15"
+        ],
+        "notes": "Arizona extension provides time to file until October 15."
+      },
+      {
+        "entityType": "sole-proprietorship",
+        "returnForm": "Form 140 / 140NR",
+        "dueDate": "2026-04-15",
+        "extensionDate": "2026-10-15",
+        "estimatedPayments": [
+          "2026-04-15",
+          "2026-06-15",
+          "2026-09-15",
+          "2027-01-15"
+        ],
+        "notes": "Business income reported on AZ personal return."
+      },
+      {
+        "entityType": "partnership",
+        "returnForm": "State partnership return",
+        "dueDate": "2026-03-16",
+        "extensionDate": "2026-09-15",
+        "estimatedPayments": [],
+        "notes": "Calendar-year due date follows federal timing for pass-through entities."
+      },
+      {
+        "entityType": "s-corporation",
+        "returnForm": "State S-corporation return",
+        "dueDate": "2026-03-16",
+        "extensionDate": "2026-09-15",
+        "estimatedPayments": [],
+        "notes": "Calendar-year due date follows federal timing for pass-through entities."
+      },
+      {
+        "entityType": "c-corporation",
+        "returnForm": "State C-corporation return",
+        "dueDate": "2026-04-15",
+        "extensionDate": "2026-10-15",
+        "estimatedPayments": [
+          "2026-04-15",
+          "2026-06-15",
+          "2026-09-15",
+          "2026-12-15"
+        ],
+        "notes": "Calendar-year due date follows federal timing for corporations."
+      },
+      {
+        "entityType": "llc",
+        "returnForm": "State LLC return",
+        "dueDate": "2026-03-16",
+        "extensionDate": "2026-09-15",
+        "estimatedPayments": [],
+        "notes": "Calendar-year due date follows federal timing for pass-through entities."
+      },
+      {
+        "entityType": "nonprofit",
+        "returnForm": "State nonprofit return",
+        "dueDate": "2026-05-15",
+        "extensionDate": "2026-11-15",
+        "estimatedPayments": [],
+        "notes": "Nonprofit annual return generally due the 15th day of the 5th month."
+      }
+    ],
+    "notes": "Dates reflect calendar-year filers and common conformity to federal due dates."
+  },
+  {
+    "stateSlug": "arkansas",
+    "stateName": "Arkansas",
+    "abbreviation": "AR",
+    "hasIncomeTax": true,
+    "taxAgency": {
+      "name": "Arkansas Department of Finance and Administration",
+      "url": "https://www.dfa.arkansas.gov"
+    },
+    "deadlines": [
+      {
+        "entityType": "individual",
+        "returnForm": "State income tax return",
+        "dueDate": "2026-04-15",
+        "extensionDate": "2026-10-15",
+        "estimatedPayments": [
+          "2026-04-15",
+          "2026-06-15",
+          "2026-09-15",
+          "2027-01-15"
+        ],
+        "notes": "Conforms to the federal calendar-year due date unless the state announces relief."
+      },
+      {
+        "entityType": "sole-proprietorship",
+        "returnForm": "State income tax return",
+        "dueDate": "2026-04-15",
+        "extensionDate": "2026-10-15",
+        "estimatedPayments": [
+          "2026-04-15",
+          "2026-06-15",
+          "2026-09-15",
+          "2027-01-15"
+        ],
+        "notes": "Conforms to the federal calendar-year due date unless the state announces relief."
+      },
+      {
+        "entityType": "partnership",
+        "returnForm": "State business income tax return",
+        "dueDate": "2026-03-16",
+        "extensionDate": "2026-09-15",
+        "estimatedPayments": [],
+        "notes": "Calendar-year due date follows federal timing for pass-through entities."
+      },
+      {
+        "entityType": "s-corporation",
+        "returnForm": "State business income tax return",
+        "dueDate": "2026-03-16",
+        "extensionDate": "2026-09-15",
+        "estimatedPayments": [],
+        "notes": "Calendar-year due date follows federal timing for pass-through entities."
+      },
+      {
+        "entityType": "c-corporation",
+        "returnForm": "State corporate income tax return",
+        "dueDate": "2026-04-15",
+        "extensionDate": "2026-10-15",
+        "estimatedPayments": [
+          "2026-04-15",
+          "2026-06-15",
+          "2026-09-15",
+          "2026-12-15"
+        ],
+        "notes": "Calendar-year due date follows federal timing for corporations."
+      },
+      {
+        "entityType": "llc",
+        "returnForm": "State business income tax return",
+        "dueDate": "2026-03-16",
+        "extensionDate": "2026-09-15",
+        "estimatedPayments": [],
+        "notes": "Calendar-year due date follows federal timing for pass-through entities."
+      },
+      {
+        "entityType": "nonprofit",
+        "returnForm": "State nonprofit return",
+        "dueDate": "2026-05-15",
+        "extensionDate": "2026-11-15",
+        "estimatedPayments": [],
+        "notes": "Nonprofit annual return generally due the 15th day of the 5th month."
+      }
+    ],
+    "notes": "Dates reflect calendar-year filers and common conformity to federal due dates."
+  },
+  {
+    "stateSlug": "california",
+    "stateName": "California",
+    "abbreviation": "CA",
+    "hasIncomeTax": true,
+    "taxAgency": {
+      "name": "California Franchise Tax Board",
+      "url": "https://www.ftb.ca.gov"
+    },
+    "deadlines": [
+      {
+        "entityType": "individual",
+        "returnForm": "Form 540 / 540NR",
+        "dueDate": "2026-04-15",
+        "extensionDate": "2026-10-15",
+        "estimatedPayments": [
+          "2026-04-15",
+          "2026-06-15",
+          "2026-09-15",
+          "2027-01-15"
+        ],
+        "notes": "Automatic extension to file; payment due by April 15."
+      },
+      {
+        "entityType": "sole-proprietorship",
+        "returnForm": "Form 540 / 540NR",
+        "dueDate": "2026-04-15",
+        "extensionDate": "2026-10-15",
+        "estimatedPayments": [
+          "2026-04-15",
+          "2026-06-15",
+          "2026-09-15",
+          "2027-01-15"
+        ],
+        "notes": "Sole proprietors file with personal return; automatic extension to file."
+      },
+      {
+        "entityType": "partnership",
+        "returnForm": "Form 565",
+        "dueDate": "2026-03-16",
+        "extensionDate": "2026-10-15",
+        "estimatedPayments": [],
+        "notes": "Automatic extension for CA partnerships; payment still due by original date."
+      },
+      {
+        "entityType": "s-corporation",
+        "returnForm": "Form 100S",
+        "dueDate": "2026-03-16",
+        "extensionDate": "2026-09-15",
+        "estimatedPayments": [],
+        "notes": "Automatic extension for CA S corporations."
+      },
+      {
+        "entityType": "c-corporation",
+        "returnForm": "Form 100",
+        "dueDate": "2026-04-15",
+        "extensionDate": "2026-11-15",
+        "estimatedPayments": [
+          "2026-04-15",
+          "2026-06-15",
+          "2026-09-15",
+          "2026-12-15"
+        ],
+        "notes": "Automatic 7-month extension for most corporations in CA."
+      },
+      {
+        "entityType": "llc",
+        "returnForm": "Form 568",
+        "dueDate": "2026-03-16",
+        "extensionDate": "2026-10-15",
+        "estimatedPayments": [],
+        "notes": "LLC returns follow the partnership calendar-year due date."
+      },
+      {
+        "entityType": "nonprofit",
+        "returnForm": "Form 199 / 199N",
+        "dueDate": "2026-05-15",
+        "extensionDate": "2026-12-15",
+        "estimatedPayments": [],
+        "notes": "CA allows a 7-month extension for exempt organizations."
+      }
+    ],
+    "notes": "Dates reflect calendar-year filers and common conformity to federal due dates."
+  },
+  {
+    "stateSlug": "colorado",
+    "stateName": "Colorado",
+    "abbreviation": "CO",
+    "hasIncomeTax": true,
+    "taxAgency": {
+      "name": "Colorado Department of Revenue",
+      "url": "https://tax.colorado.gov"
+    },
+    "deadlines": [
+      {
+        "entityType": "individual",
+        "returnForm": "Form DR 0104",
+        "dueDate": "2026-04-15",
+        "extensionDate": "2026-10-15",
+        "estimatedPayments": [
+          "2026-04-15",
+          "2026-06-15",
+          "2026-09-15",
+          "2027-01-15"
+        ],
+        "notes": "Colorado provides an automatic 6-month extension to file."
+      },
+      {
+        "entityType": "sole-proprietorship",
+        "returnForm": "Form DR 0104",
+        "dueDate": "2026-04-15",
+        "extensionDate": "2026-10-15",
+        "estimatedPayments": [
+          "2026-04-15",
+          "2026-06-15",
+          "2026-09-15",
+          "2027-01-15"
+        ],
+        "notes": "Business income reported on CO personal return."
+      },
+      {
+        "entityType": "partnership",
+        "returnForm": "State partnership return",
+        "dueDate": "2026-03-16",
+        "extensionDate": "2026-09-15",
+        "estimatedPayments": [],
+        "notes": "Calendar-year due date follows federal timing for pass-through entities."
+      },
+      {
+        "entityType": "s-corporation",
+        "returnForm": "State S-corporation return",
+        "dueDate": "2026-03-16",
+        "extensionDate": "2026-09-15",
+        "estimatedPayments": [],
+        "notes": "Calendar-year due date follows federal timing for pass-through entities."
+      },
+      {
+        "entityType": "c-corporation",
+        "returnForm": "State C-corporation return",
+        "dueDate": "2026-04-15",
+        "extensionDate": "2026-10-15",
+        "estimatedPayments": [
+          "2026-04-15",
+          "2026-06-15",
+          "2026-09-15",
+          "2026-12-15"
+        ],
+        "notes": "Calendar-year due date follows federal timing for corporations."
+      },
+      {
+        "entityType": "llc",
+        "returnForm": "State LLC return",
+        "dueDate": "2026-03-16",
+        "extensionDate": "2026-09-15",
+        "estimatedPayments": [],
+        "notes": "Calendar-year due date follows federal timing for pass-through entities."
+      },
+      {
+        "entityType": "nonprofit",
+        "returnForm": "State nonprofit return",
+        "dueDate": "2026-05-15",
+        "extensionDate": "2026-11-15",
+        "estimatedPayments": [],
+        "notes": "Nonprofit annual return generally due the 15th day of the 5th month."
+      }
+    ],
+    "notes": "Dates reflect calendar-year filers and common conformity to federal due dates."
+  },
+  {
+    "stateSlug": "connecticut",
+    "stateName": "Connecticut",
+    "abbreviation": "CT",
+    "hasIncomeTax": true,
+    "taxAgency": {
+      "name": "Connecticut Department of Revenue Services",
+      "url": "https://portal.ct.gov/DRS"
+    },
+    "deadlines": [
+      {
+        "entityType": "individual",
+        "returnForm": "Form CT-1040",
+        "dueDate": "2026-04-15",
+        "extensionDate": "2026-10-15",
+        "estimatedPayments": [
+          "2026-04-15",
+          "2026-06-15",
+          "2026-09-15",
+          "2027-01-15"
+        ],
+        "notes": "CT individual returns due April 15, 2026."
+      },
+      {
+        "entityType": "sole-proprietorship",
+        "returnForm": "Form CT-1040",
+        "dueDate": "2026-04-15",
+        "extensionDate": "2026-10-15",
+        "estimatedPayments": [
+          "2026-04-15",
+          "2026-06-15",
+          "2026-09-15",
+          "2027-01-15"
+        ],
+        "notes": "Business income reported on CT personal return."
+      },
+      {
+        "entityType": "partnership",
+        "returnForm": "Form CT-PET / CT-1065",
+        "dueDate": "2026-03-16",
+        "extensionDate": "2026-09-15",
+        "estimatedPayments": [],
+        "notes": "CT pass-through returns due March 15 (next business day if weekend)."
+      },
+      {
+        "entityType": "s-corporation",
+        "returnForm": "Form CT-1120SI",
+        "dueDate": "2026-03-16",
+        "extensionDate": "2026-09-15",
+        "estimatedPayments": [],
+        "notes": "CT S corporation returns due March 15 (next business day if weekend)."
+      },
+      {
+        "entityType": "c-corporation",
+        "returnForm": "Form CT-1120",
+        "dueDate": "2026-05-15",
+        "extensionDate": "2026-11-15",
+        "estimatedPayments": [
+          "2026-04-15",
+          "2026-06-15",
+          "2026-09-15",
+          "2026-12-15"
+        ],
+        "notes": "CT corporation business tax returns due May 15 for calendar-year filers."
+      },
+      {
+        "entityType": "llc",
+        "returnForm": "State business income tax return",
+        "dueDate": "2026-03-16",
+        "extensionDate": "2026-09-15",
+        "estimatedPayments": [],
+        "notes": "Calendar-year due date follows federal timing for pass-through entities."
+      },
+      {
+        "entityType": "nonprofit",
+        "returnForm": "State nonprofit return",
+        "dueDate": "2026-05-15",
+        "extensionDate": "2026-11-15",
+        "estimatedPayments": [],
+        "notes": "Nonprofit annual return generally due the 15th day of the 5th month."
+      }
+    ],
+    "notes": "Dates reflect calendar-year filers and common conformity to federal due dates."
+  },
+  {
+    "stateSlug": "delaware",
+    "stateName": "Delaware",
+    "abbreviation": "DE",
+    "hasIncomeTax": true,
+    "taxAgency": {
+      "name": "Delaware Division of Revenue",
+      "url": "https://revenue.delaware.gov"
+    },
+    "deadlines": [
+      {
+        "entityType": "individual",
+        "returnForm": "State income tax return",
+        "dueDate": "2026-04-15",
+        "extensionDate": "2026-10-15",
+        "estimatedPayments": [
+          "2026-04-15",
+          "2026-06-15",
+          "2026-09-15",
+          "2027-01-15"
+        ],
+        "notes": "Conforms to the federal calendar-year due date unless the state announces relief."
+      },
+      {
+        "entityType": "sole-proprietorship",
+        "returnForm": "State income tax return",
+        "dueDate": "2026-04-15",
+        "extensionDate": "2026-10-15",
+        "estimatedPayments": [
+          "2026-04-15",
+          "2026-06-15",
+          "2026-09-15",
+          "2027-01-15"
+        ],
+        "notes": "Conforms to the federal calendar-year due date unless the state announces relief."
+      },
+      {
+        "entityType": "partnership",
+        "returnForm": "State business income tax return",
+        "dueDate": "2026-03-16",
+        "extensionDate": "2026-09-15",
+        "estimatedPayments": [],
+        "notes": "Calendar-year due date follows federal timing for pass-through entities."
+      },
+      {
+        "entityType": "s-corporation",
+        "returnForm": "State business income tax return",
+        "dueDate": "2026-03-16",
+        "extensionDate": "2026-09-15",
+        "estimatedPayments": [],
+        "notes": "Calendar-year due date follows federal timing for pass-through entities."
+      },
+      {
+        "entityType": "c-corporation",
+        "returnForm": "State corporate income tax return",
+        "dueDate": "2026-04-15",
+        "extensionDate": "2026-10-15",
+        "estimatedPayments": [
+          "2026-04-15",
+          "2026-06-15",
+          "2026-09-15",
+          "2026-12-15"
+        ],
+        "notes": "Calendar-year due date follows federal timing for corporations."
+      },
+      {
+        "entityType": "llc",
+        "returnForm": "State business income tax return",
+        "dueDate": "2026-03-16",
+        "extensionDate": "2026-09-15",
+        "estimatedPayments": [],
+        "notes": "Calendar-year due date follows federal timing for pass-through entities."
+      },
+      {
+        "entityType": "nonprofit",
+        "returnForm": "State nonprofit return",
+        "dueDate": "2026-05-15",
+        "extensionDate": "2026-11-15",
+        "estimatedPayments": [],
+        "notes": "Nonprofit annual return generally due the 15th day of the 5th month."
+      }
+    ],
+    "notes": "Dates reflect calendar-year filers and common conformity to federal due dates."
+  },
+  {
+    "stateSlug": "district-of-columbia",
+    "stateName": "District of Columbia",
+    "abbreviation": "DC",
+    "hasIncomeTax": true,
+    "taxAgency": {
+      "name": "DC Office of Tax and Revenue",
+      "url": "https://otr.cfo.dc.gov"
+    },
+    "deadlines": [
+      {
+        "entityType": "individual",
+        "returnForm": "Form D-40 / D-40B",
+        "dueDate": "2026-04-15",
+        "extensionDate": "2026-10-15",
+        "estimatedPayments": [
+          "2026-04-15",
+          "2026-06-15",
+          "2026-09-15",
+          "2027-01-15"
+        ],
+        "notes": "DC extension uses Form FR-127; payment due by April 15."
+      },
+      {
+        "entityType": "sole-proprietorship",
+        "returnForm": "Form D-40 / D-40B",
+        "dueDate": "2026-04-15",
+        "extensionDate": "2026-10-15",
+        "estimatedPayments": [
+          "2026-04-15",
+          "2026-06-15",
+          "2026-09-15",
+          "2027-01-15"
+        ],
+        "notes": "Business income reported on DC personal return."
+      },
+      {
+        "entityType": "partnership",
+        "returnForm": "State business income tax return",
+        "dueDate": "2026-03-16",
+        "extensionDate": "2026-09-15",
+        "estimatedPayments": [],
+        "notes": "Calendar-year due date follows federal timing for pass-through entities."
+      },
+      {
+        "entityType": "s-corporation",
+        "returnForm": "State business income tax return",
+        "dueDate": "2026-03-16",
+        "extensionDate": "2026-09-15",
+        "estimatedPayments": [],
+        "notes": "Calendar-year due date follows federal timing for pass-through entities."
+      },
+      {
+        "entityType": "c-corporation",
+        "returnForm": "State corporate income tax return",
+        "dueDate": "2026-04-15",
+        "extensionDate": "2026-10-15",
+        "estimatedPayments": [
+          "2026-04-15",
+          "2026-06-15",
+          "2026-09-15",
+          "2026-12-15"
+        ],
+        "notes": "Calendar-year due date follows federal timing for corporations."
+      },
+      {
+        "entityType": "llc",
+        "returnForm": "State business income tax return",
+        "dueDate": "2026-03-16",
+        "extensionDate": "2026-09-15",
+        "estimatedPayments": [],
+        "notes": "Calendar-year due date follows federal timing for pass-through entities."
+      },
+      {
+        "entityType": "nonprofit",
+        "returnForm": "State nonprofit return",
+        "dueDate": "2026-05-15",
+        "extensionDate": "2026-11-15",
+        "estimatedPayments": [],
+        "notes": "Nonprofit annual return generally due the 15th day of the 5th month."
+      }
+    ],
+    "notes": "Dates reflect calendar-year filers and common conformity to federal due dates."
+  },
+  {
+    "stateSlug": "florida",
+    "stateName": "Florida",
+    "abbreviation": "FL",
+    "hasIncomeTax": false,
+    "taxAgency": {
+      "name": "Florida Department of Revenue",
+      "url": "https://floridarevenue.com"
+    },
+    "deadlines": [
+      {
+        "entityType": "individual",
+        "returnForm": "N/A",
+        "dueDate": null,
+        "extensionDate": null,
+        "estimatedPayments": [],
+        "notes": "No state individual income tax. Other business taxes may apply."
+      },
+      {
+        "entityType": "sole-proprietorship",
+        "returnForm": "N/A",
+        "dueDate": null,
+        "extensionDate": null,
+        "estimatedPayments": [],
+        "notes": "No state individual income tax. Other business taxes may apply."
+      },
+      {
+        "entityType": "partnership",
+        "returnForm": "N/A",
+        "dueDate": null,
+        "extensionDate": null,
+        "estimatedPayments": [],
+        "notes": "No state individual income tax. Other business taxes may apply."
+      },
+      {
+        "entityType": "s-corporation",
+        "returnForm": "N/A",
+        "dueDate": null,
+        "extensionDate": null,
+        "estimatedPayments": [],
+        "notes": "No state individual income tax. Other business taxes may apply."
+      },
+      {
+        "entityType": "c-corporation",
+        "returnForm": "N/A",
+        "dueDate": null,
+        "extensionDate": null,
+        "estimatedPayments": [],
+        "notes": "No state individual income tax. Other business taxes may apply."
+      },
+      {
+        "entityType": "llc",
+        "returnForm": "N/A",
+        "dueDate": null,
+        "extensionDate": null,
+        "estimatedPayments": [],
+        "notes": "No state individual income tax. Other business taxes may apply."
+      },
+      {
+        "entityType": "nonprofit",
+        "returnForm": "N/A",
+        "dueDate": null,
+        "extensionDate": null,
+        "estimatedPayments": [],
+        "notes": "No state individual income tax. Other business taxes may apply."
+      }
+    ],
+    "notes": "No state individual income tax; business taxes may still apply."
+  },
+  {
+    "stateSlug": "georgia",
+    "stateName": "Georgia",
+    "abbreviation": "GA",
+    "hasIncomeTax": true,
+    "taxAgency": {
+      "name": "Georgia Department of Revenue",
+      "url": "https://dor.georgia.gov"
+    },
+    "deadlines": [
+      {
+        "entityType": "individual",
+        "returnForm": "Form 500",
+        "dueDate": "2026-04-15",
+        "extensionDate": "2026-10-15",
+        "estimatedPayments": [
+          "2026-04-15",
+          "2026-06-15",
+          "2026-09-15",
+          "2027-01-15"
+        ],
+        "notes": "Georgia individual returns are due April 15, 2026."
+      },
+      {
+        "entityType": "sole-proprietorship",
+        "returnForm": "Form 500",
+        "dueDate": "2026-04-15",
+        "extensionDate": "2026-10-15",
+        "estimatedPayments": [
+          "2026-04-15",
+          "2026-06-15",
+          "2026-09-15",
+          "2027-01-15"
+        ],
+        "notes": "Business income reported on GA personal return."
+      },
+      {
+        "entityType": "partnership",
+        "returnForm": "State partnership return",
+        "dueDate": "2026-03-16",
+        "extensionDate": "2026-09-15",
+        "estimatedPayments": [],
+        "notes": "Calendar-year due date follows federal timing for pass-through entities."
+      },
+      {
+        "entityType": "s-corporation",
+        "returnForm": "State S-corporation return",
+        "dueDate": "2026-03-16",
+        "extensionDate": "2026-09-15",
+        "estimatedPayments": [],
+        "notes": "Calendar-year due date follows federal timing for pass-through entities."
+      },
+      {
+        "entityType": "c-corporation",
+        "returnForm": "State C-corporation return",
+        "dueDate": "2026-04-15",
+        "extensionDate": "2026-10-15",
+        "estimatedPayments": [
+          "2026-04-15",
+          "2026-06-15",
+          "2026-09-15",
+          "2026-12-15"
+        ],
+        "notes": "Calendar-year due date follows federal timing for corporations."
+      },
+      {
+        "entityType": "llc",
+        "returnForm": "State LLC return",
+        "dueDate": "2026-03-16",
+        "extensionDate": "2026-09-15",
+        "estimatedPayments": [],
+        "notes": "Calendar-year due date follows federal timing for pass-through entities."
+      },
+      {
+        "entityType": "nonprofit",
+        "returnForm": "State nonprofit return",
+        "dueDate": "2026-05-15",
+        "extensionDate": "2026-11-15",
+        "estimatedPayments": [],
+        "notes": "Nonprofit annual return generally due the 15th day of the 5th month."
+      }
+    ],
+    "notes": "Dates reflect calendar-year filers and common conformity to federal due dates."
+  },
+  {
+    "stateSlug": "hawaii",
+    "stateName": "Hawaii",
+    "abbreviation": "HI",
+    "hasIncomeTax": true,
+    "taxAgency": {
+      "name": "Hawaii Department of Taxation",
+      "url": "https://tax.hawaii.gov"
+    },
+    "deadlines": [
+      {
+        "entityType": "individual",
+        "returnForm": "State income tax return",
+        "dueDate": "2026-04-15",
+        "extensionDate": "2026-10-15",
+        "estimatedPayments": [
+          "2026-04-15",
+          "2026-06-15",
+          "2026-09-15",
+          "2027-01-15"
+        ],
+        "notes": "Conforms to the federal calendar-year due date unless the state announces relief."
+      },
+      {
+        "entityType": "sole-proprietorship",
+        "returnForm": "State income tax return",
+        "dueDate": "2026-04-15",
+        "extensionDate": "2026-10-15",
+        "estimatedPayments": [
+          "2026-04-15",
+          "2026-06-15",
+          "2026-09-15",
+          "2027-01-15"
+        ],
+        "notes": "Conforms to the federal calendar-year due date unless the state announces relief."
+      },
+      {
+        "entityType": "partnership",
+        "returnForm": "State business income tax return",
+        "dueDate": "2026-03-16",
+        "extensionDate": "2026-09-15",
+        "estimatedPayments": [],
+        "notes": "Calendar-year due date follows federal timing for pass-through entities."
+      },
+      {
+        "entityType": "s-corporation",
+        "returnForm": "State business income tax return",
+        "dueDate": "2026-03-16",
+        "extensionDate": "2026-09-15",
+        "estimatedPayments": [],
+        "notes": "Calendar-year due date follows federal timing for pass-through entities."
+      },
+      {
+        "entityType": "c-corporation",
+        "returnForm": "State corporate income tax return",
+        "dueDate": "2026-04-15",
+        "extensionDate": "2026-10-15",
+        "estimatedPayments": [
+          "2026-04-15",
+          "2026-06-15",
+          "2026-09-15",
+          "2026-12-15"
+        ],
+        "notes": "Calendar-year due date follows federal timing for corporations."
+      },
+      {
+        "entityType": "llc",
+        "returnForm": "State business income tax return",
+        "dueDate": "2026-03-16",
+        "extensionDate": "2026-09-15",
+        "estimatedPayments": [],
+        "notes": "Calendar-year due date follows federal timing for pass-through entities."
+      },
+      {
+        "entityType": "nonprofit",
+        "returnForm": "State nonprofit return",
+        "dueDate": "2026-05-15",
+        "extensionDate": "2026-11-15",
+        "estimatedPayments": [],
+        "notes": "Nonprofit annual return generally due the 15th day of the 5th month."
+      }
+    ],
+    "notes": "Dates reflect calendar-year filers and common conformity to federal due dates."
+  },
+  {
+    "stateSlug": "idaho",
+    "stateName": "Idaho",
+    "abbreviation": "ID",
+    "hasIncomeTax": true,
+    "taxAgency": {
+      "name": "Idaho State Tax Commission",
+      "url": "https://tax.idaho.gov"
+    },
+    "deadlines": [
+      {
+        "entityType": "individual",
+        "returnForm": "State income tax return",
+        "dueDate": "2026-04-15",
+        "extensionDate": "2026-10-15",
+        "estimatedPayments": [
+          "2026-04-15",
+          "2026-06-15",
+          "2026-09-15",
+          "2027-01-15"
+        ],
+        "notes": "Conforms to the federal calendar-year due date unless the state announces relief."
+      },
+      {
+        "entityType": "sole-proprietorship",
+        "returnForm": "State income tax return",
+        "dueDate": "2026-04-15",
+        "extensionDate": "2026-10-15",
+        "estimatedPayments": [
+          "2026-04-15",
+          "2026-06-15",
+          "2026-09-15",
+          "2027-01-15"
+        ],
+        "notes": "Conforms to the federal calendar-year due date unless the state announces relief."
+      },
+      {
+        "entityType": "partnership",
+        "returnForm": "State business income tax return",
+        "dueDate": "2026-03-16",
+        "extensionDate": "2026-09-15",
+        "estimatedPayments": [],
+        "notes": "Calendar-year due date follows federal timing for pass-through entities."
+      },
+      {
+        "entityType": "s-corporation",
+        "returnForm": "State business income tax return",
+        "dueDate": "2026-03-16",
+        "extensionDate": "2026-09-15",
+        "estimatedPayments": [],
+        "notes": "Calendar-year due date follows federal timing for pass-through entities."
+      },
+      {
+        "entityType": "c-corporation",
+        "returnForm": "State corporate income tax return",
+        "dueDate": "2026-04-15",
+        "extensionDate": "2026-10-15",
+        "estimatedPayments": [
+          "2026-04-15",
+          "2026-06-15",
+          "2026-09-15",
+          "2026-12-15"
+        ],
+        "notes": "Calendar-year due date follows federal timing for corporations."
+      },
+      {
+        "entityType": "llc",
+        "returnForm": "State business income tax return",
+        "dueDate": "2026-03-16",
+        "extensionDate": "2026-09-15",
+        "estimatedPayments": [],
+        "notes": "Calendar-year due date follows federal timing for pass-through entities."
+      },
+      {
+        "entityType": "nonprofit",
+        "returnForm": "State nonprofit return",
+        "dueDate": "2026-05-15",
+        "extensionDate": "2026-11-15",
+        "estimatedPayments": [],
+        "notes": "Nonprofit annual return generally due the 15th day of the 5th month."
+      }
+    ],
+    "notes": "Dates reflect calendar-year filers and common conformity to federal due dates."
+  },
+  {
+    "stateSlug": "illinois",
+    "stateName": "Illinois",
+    "abbreviation": "IL",
+    "hasIncomeTax": true,
+    "taxAgency": {
+      "name": "Illinois Department of Revenue",
+      "url": "https://tax.illinois.gov"
+    },
+    "deadlines": [
+      {
+        "entityType": "individual",
+        "returnForm": "Form IL-1040",
+        "dueDate": "2026-04-15",
+        "extensionDate": "2026-10-15",
+        "estimatedPayments": [
+          "2026-04-15",
+          "2026-06-15",
+          "2026-09-15",
+          "2027-01-15"
+        ],
+        "notes": "Illinois filing period matches federal; automatic 6-month extension to file."
+      },
+      {
+        "entityType": "sole-proprietorship",
+        "returnForm": "Form IL-1040",
+        "dueDate": "2026-04-15",
+        "extensionDate": "2026-10-15",
+        "estimatedPayments": [
+          "2026-04-15",
+          "2026-06-15",
+          "2026-09-15",
+          "2027-01-15"
+        ],
+        "notes": "Business income reported on IL-1040."
+      },
+      {
+        "entityType": "partnership",
+        "returnForm": "State partnership return",
+        "dueDate": "2026-03-16",
+        "extensionDate": "2026-09-15",
+        "estimatedPayments": [],
+        "notes": "Calendar-year due date follows federal timing for pass-through entities."
+      },
+      {
+        "entityType": "s-corporation",
+        "returnForm": "State S-corporation return",
+        "dueDate": "2026-03-16",
+        "extensionDate": "2026-09-15",
+        "estimatedPayments": [],
+        "notes": "Calendar-year due date follows federal timing for pass-through entities."
+      },
+      {
+        "entityType": "c-corporation",
+        "returnForm": "State C-corporation return",
+        "dueDate": "2026-04-15",
+        "extensionDate": "2026-10-15",
+        "estimatedPayments": [
+          "2026-04-15",
+          "2026-06-15",
+          "2026-09-15",
+          "2026-12-15"
+        ],
+        "notes": "Calendar-year due date follows federal timing for corporations."
+      },
+      {
+        "entityType": "llc",
+        "returnForm": "State LLC return",
+        "dueDate": "2026-03-16",
+        "extensionDate": "2026-09-15",
+        "estimatedPayments": [],
+        "notes": "Calendar-year due date follows federal timing for pass-through entities."
+      },
+      {
+        "entityType": "nonprofit",
+        "returnForm": "State nonprofit return",
+        "dueDate": "2026-05-15",
+        "extensionDate": "2026-11-15",
+        "estimatedPayments": [],
+        "notes": "Nonprofit annual return generally due the 15th day of the 5th month."
+      }
+    ],
+    "notes": "Dates reflect calendar-year filers and common conformity to federal due dates."
+  },
+  {
+    "stateSlug": "indiana",
+    "stateName": "Indiana",
+    "abbreviation": "IN",
+    "hasIncomeTax": true,
+    "taxAgency": {
+      "name": "Indiana Department of Revenue",
+      "url": "https://www.in.gov/dor"
+    },
+    "deadlines": [
+      {
+        "entityType": "individual",
+        "returnForm": "State income tax return",
+        "dueDate": "2026-04-15",
+        "extensionDate": "2026-10-15",
+        "estimatedPayments": [
+          "2026-04-15",
+          "2026-06-15",
+          "2026-09-15",
+          "2027-01-15"
+        ],
+        "notes": "Conforms to the federal calendar-year due date unless the state announces relief."
+      },
+      {
+        "entityType": "sole-proprietorship",
+        "returnForm": "State income tax return",
+        "dueDate": "2026-04-15",
+        "extensionDate": "2026-10-15",
+        "estimatedPayments": [
+          "2026-04-15",
+          "2026-06-15",
+          "2026-09-15",
+          "2027-01-15"
+        ],
+        "notes": "Conforms to the federal calendar-year due date unless the state announces relief."
+      },
+      {
+        "entityType": "partnership",
+        "returnForm": "State business income tax return",
+        "dueDate": "2026-03-16",
+        "extensionDate": "2026-09-15",
+        "estimatedPayments": [],
+        "notes": "Calendar-year due date follows federal timing for pass-through entities."
+      },
+      {
+        "entityType": "s-corporation",
+        "returnForm": "State business income tax return",
+        "dueDate": "2026-03-16",
+        "extensionDate": "2026-09-15",
+        "estimatedPayments": [],
+        "notes": "Calendar-year due date follows federal timing for pass-through entities."
+      },
+      {
+        "entityType": "c-corporation",
+        "returnForm": "State corporate income tax return",
+        "dueDate": "2026-04-15",
+        "extensionDate": "2026-10-15",
+        "estimatedPayments": [
+          "2026-04-15",
+          "2026-06-15",
+          "2026-09-15",
+          "2026-12-15"
+        ],
+        "notes": "Calendar-year due date follows federal timing for corporations."
+      },
+      {
+        "entityType": "llc",
+        "returnForm": "State business income tax return",
+        "dueDate": "2026-03-16",
+        "extensionDate": "2026-09-15",
+        "estimatedPayments": [],
+        "notes": "Calendar-year due date follows federal timing for pass-through entities."
+      },
+      {
+        "entityType": "nonprofit",
+        "returnForm": "State nonprofit return",
+        "dueDate": "2026-05-15",
+        "extensionDate": "2026-11-15",
+        "estimatedPayments": [],
+        "notes": "Nonprofit annual return generally due the 15th day of the 5th month."
+      }
+    ],
+    "notes": "Dates reflect calendar-year filers and common conformity to federal due dates."
+  },
+  {
+    "stateSlug": "iowa",
+    "stateName": "Iowa",
+    "abbreviation": "IA",
+    "hasIncomeTax": true,
+    "taxAgency": {
+      "name": "Iowa Department of Revenue",
+      "url": "https://tax.iowa.gov"
+    },
+    "deadlines": [
+      {
+        "entityType": "individual",
+        "returnForm": "State income tax return",
+        "dueDate": "2026-04-15",
+        "extensionDate": "2026-10-15",
+        "estimatedPayments": [
+          "2026-04-15",
+          "2026-06-15",
+          "2026-09-15",
+          "2027-01-15"
+        ],
+        "notes": "Conforms to the federal calendar-year due date unless the state announces relief."
+      },
+      {
+        "entityType": "sole-proprietorship",
+        "returnForm": "State income tax return",
+        "dueDate": "2026-04-15",
+        "extensionDate": "2026-10-15",
+        "estimatedPayments": [
+          "2026-04-15",
+          "2026-06-15",
+          "2026-09-15",
+          "2027-01-15"
+        ],
+        "notes": "Conforms to the federal calendar-year due date unless the state announces relief."
+      },
+      {
+        "entityType": "partnership",
+        "returnForm": "State business income tax return",
+        "dueDate": "2026-03-16",
+        "extensionDate": "2026-09-15",
+        "estimatedPayments": [],
+        "notes": "Calendar-year due date follows federal timing for pass-through entities."
+      },
+      {
+        "entityType": "s-corporation",
+        "returnForm": "State business income tax return",
+        "dueDate": "2026-03-16",
+        "extensionDate": "2026-09-15",
+        "estimatedPayments": [],
+        "notes": "Calendar-year due date follows federal timing for pass-through entities."
+      },
+      {
+        "entityType": "c-corporation",
+        "returnForm": "State corporate income tax return",
+        "dueDate": "2026-04-15",
+        "extensionDate": "2026-10-15",
+        "estimatedPayments": [
+          "2026-04-15",
+          "2026-06-15",
+          "2026-09-15",
+          "2026-12-15"
+        ],
+        "notes": "Calendar-year due date follows federal timing for corporations."
+      },
+      {
+        "entityType": "llc",
+        "returnForm": "State business income tax return",
+        "dueDate": "2026-03-16",
+        "extensionDate": "2026-09-15",
+        "estimatedPayments": [],
+        "notes": "Calendar-year due date follows federal timing for pass-through entities."
+      },
+      {
+        "entityType": "nonprofit",
+        "returnForm": "State nonprofit return",
+        "dueDate": "2026-05-15",
+        "extensionDate": "2026-11-15",
+        "estimatedPayments": [],
+        "notes": "Nonprofit annual return generally due the 15th day of the 5th month."
+      }
+    ],
+    "notes": "Dates reflect calendar-year filers and common conformity to federal due dates."
+  },
+  {
+    "stateSlug": "kansas",
+    "stateName": "Kansas",
+    "abbreviation": "KS",
+    "hasIncomeTax": true,
+    "taxAgency": {
+      "name": "Kansas Department of Revenue",
+      "url": "https://www.ksrevenue.gov"
+    },
+    "deadlines": [
+      {
+        "entityType": "individual",
+        "returnForm": "State income tax return",
+        "dueDate": "2026-04-15",
+        "extensionDate": "2026-10-15",
+        "estimatedPayments": [
+          "2026-04-15",
+          "2026-06-15",
+          "2026-09-15",
+          "2027-01-15"
+        ],
+        "notes": "Conforms to the federal calendar-year due date unless the state announces relief."
+      },
+      {
+        "entityType": "sole-proprietorship",
+        "returnForm": "State income tax return",
+        "dueDate": "2026-04-15",
+        "extensionDate": "2026-10-15",
+        "estimatedPayments": [
+          "2026-04-15",
+          "2026-06-15",
+          "2026-09-15",
+          "2027-01-15"
+        ],
+        "notes": "Conforms to the federal calendar-year due date unless the state announces relief."
+      },
+      {
+        "entityType": "partnership",
+        "returnForm": "State business income tax return",
+        "dueDate": "2026-03-16",
+        "extensionDate": "2026-09-15",
+        "estimatedPayments": [],
+        "notes": "Calendar-year due date follows federal timing for pass-through entities."
+      },
+      {
+        "entityType": "s-corporation",
+        "returnForm": "State business income tax return",
+        "dueDate": "2026-03-16",
+        "extensionDate": "2026-09-15",
+        "estimatedPayments": [],
+        "notes": "Calendar-year due date follows federal timing for pass-through entities."
+      },
+      {
+        "entityType": "c-corporation",
+        "returnForm": "State corporate income tax return",
+        "dueDate": "2026-04-15",
+        "extensionDate": "2026-10-15",
+        "estimatedPayments": [
+          "2026-04-15",
+          "2026-06-15",
+          "2026-09-15",
+          "2026-12-15"
+        ],
+        "notes": "Calendar-year due date follows federal timing for corporations."
+      },
+      {
+        "entityType": "llc",
+        "returnForm": "State business income tax return",
+        "dueDate": "2026-03-16",
+        "extensionDate": "2026-09-15",
+        "estimatedPayments": [],
+        "notes": "Calendar-year due date follows federal timing for pass-through entities."
+      },
+      {
+        "entityType": "nonprofit",
+        "returnForm": "State nonprofit return",
+        "dueDate": "2026-05-15",
+        "extensionDate": "2026-11-15",
+        "estimatedPayments": [],
+        "notes": "Nonprofit annual return generally due the 15th day of the 5th month."
+      }
+    ],
+    "notes": "Dates reflect calendar-year filers and common conformity to federal due dates."
+  },
+  {
+    "stateSlug": "kentucky",
+    "stateName": "Kentucky",
+    "abbreviation": "KY",
+    "hasIncomeTax": true,
+    "taxAgency": {
+      "name": "Kentucky Department of Revenue",
+      "url": "https://revenue.ky.gov"
+    },
+    "deadlines": [
+      {
+        "entityType": "individual",
+        "returnForm": "State income tax return",
+        "dueDate": "2026-04-15",
+        "extensionDate": "2026-10-15",
+        "estimatedPayments": [
+          "2026-04-15",
+          "2026-06-15",
+          "2026-09-15",
+          "2027-01-15"
+        ],
+        "notes": "Conforms to the federal calendar-year due date unless the state announces relief."
+      },
+      {
+        "entityType": "sole-proprietorship",
+        "returnForm": "State income tax return",
+        "dueDate": "2026-04-15",
+        "extensionDate": "2026-10-15",
+        "estimatedPayments": [
+          "2026-04-15",
+          "2026-06-15",
+          "2026-09-15",
+          "2027-01-15"
+        ],
+        "notes": "Conforms to the federal calendar-year due date unless the state announces relief."
+      },
+      {
+        "entityType": "partnership",
+        "returnForm": "State business income tax return",
+        "dueDate": "2026-03-16",
+        "extensionDate": "2026-09-15",
+        "estimatedPayments": [],
+        "notes": "Calendar-year due date follows federal timing for pass-through entities."
+      },
+      {
+        "entityType": "s-corporation",
+        "returnForm": "State business income tax return",
+        "dueDate": "2026-03-16",
+        "extensionDate": "2026-09-15",
+        "estimatedPayments": [],
+        "notes": "Calendar-year due date follows federal timing for pass-through entities."
+      },
+      {
+        "entityType": "c-corporation",
+        "returnForm": "State corporate income tax return",
+        "dueDate": "2026-04-15",
+        "extensionDate": "2026-10-15",
+        "estimatedPayments": [
+          "2026-04-15",
+          "2026-06-15",
+          "2026-09-15",
+          "2026-12-15"
+        ],
+        "notes": "Calendar-year due date follows federal timing for corporations."
+      },
+      {
+        "entityType": "llc",
+        "returnForm": "State business income tax return",
+        "dueDate": "2026-03-16",
+        "extensionDate": "2026-09-15",
+        "estimatedPayments": [],
+        "notes": "Calendar-year due date follows federal timing for pass-through entities."
+      },
+      {
+        "entityType": "nonprofit",
+        "returnForm": "State nonprofit return",
+        "dueDate": "2026-05-15",
+        "extensionDate": "2026-11-15",
+        "estimatedPayments": [],
+        "notes": "Nonprofit annual return generally due the 15th day of the 5th month."
+      }
+    ],
+    "notes": "Dates reflect calendar-year filers and common conformity to federal due dates."
+  },
+  {
+    "stateSlug": "louisiana",
+    "stateName": "Louisiana",
+    "abbreviation": "LA",
+    "hasIncomeTax": true,
+    "taxAgency": {
+      "name": "Louisiana Department of Revenue",
+      "url": "https://revenue.louisiana.gov"
+    },
+    "deadlines": [
+      {
+        "entityType": "individual",
+        "returnForm": "State income tax return",
+        "dueDate": "2026-04-15",
+        "extensionDate": "2026-10-15",
+        "estimatedPayments": [
+          "2026-04-15",
+          "2026-06-15",
+          "2026-09-15",
+          "2027-01-15"
+        ],
+        "notes": "Conforms to the federal calendar-year due date unless the state announces relief."
+      },
+      {
+        "entityType": "sole-proprietorship",
+        "returnForm": "State income tax return",
+        "dueDate": "2026-04-15",
+        "extensionDate": "2026-10-15",
+        "estimatedPayments": [
+          "2026-04-15",
+          "2026-06-15",
+          "2026-09-15",
+          "2027-01-15"
+        ],
+        "notes": "Conforms to the federal calendar-year due date unless the state announces relief."
+      },
+      {
+        "entityType": "partnership",
+        "returnForm": "State business income tax return",
+        "dueDate": "2026-03-16",
+        "extensionDate": "2026-09-15",
+        "estimatedPayments": [],
+        "notes": "Calendar-year due date follows federal timing for pass-through entities."
+      },
+      {
+        "entityType": "s-corporation",
+        "returnForm": "State business income tax return",
+        "dueDate": "2026-03-16",
+        "extensionDate": "2026-09-15",
+        "estimatedPayments": [],
+        "notes": "Calendar-year due date follows federal timing for pass-through entities."
+      },
+      {
+        "entityType": "c-corporation",
+        "returnForm": "State corporate income tax return",
+        "dueDate": "2026-04-15",
+        "extensionDate": "2026-10-15",
+        "estimatedPayments": [
+          "2026-04-15",
+          "2026-06-15",
+          "2026-09-15",
+          "2026-12-15"
+        ],
+        "notes": "Calendar-year due date follows federal timing for corporations."
+      },
+      {
+        "entityType": "llc",
+        "returnForm": "State business income tax return",
+        "dueDate": "2026-03-16",
+        "extensionDate": "2026-09-15",
+        "estimatedPayments": [],
+        "notes": "Calendar-year due date follows federal timing for pass-through entities."
+      },
+      {
+        "entityType": "nonprofit",
+        "returnForm": "State nonprofit return",
+        "dueDate": "2026-05-15",
+        "extensionDate": "2026-11-15",
+        "estimatedPayments": [],
+        "notes": "Nonprofit annual return generally due the 15th day of the 5th month."
+      }
+    ],
+    "notes": "Dates reflect calendar-year filers and common conformity to federal due dates."
+  },
+  {
+    "stateSlug": "maine",
+    "stateName": "Maine",
+    "abbreviation": "ME",
+    "hasIncomeTax": true,
+    "taxAgency": {
+      "name": "Maine Revenue Services",
+      "url": "https://www.maine.gov/revenue"
+    },
+    "deadlines": [
+      {
+        "entityType": "individual",
+        "returnForm": "State income tax return",
+        "dueDate": "2026-04-15",
+        "extensionDate": "2026-10-15",
+        "estimatedPayments": [
+          "2026-04-15",
+          "2026-06-15",
+          "2026-09-15",
+          "2027-01-15"
+        ],
+        "notes": "Conforms to the federal calendar-year due date unless the state announces relief."
+      },
+      {
+        "entityType": "sole-proprietorship",
+        "returnForm": "State income tax return",
+        "dueDate": "2026-04-15",
+        "extensionDate": "2026-10-15",
+        "estimatedPayments": [
+          "2026-04-15",
+          "2026-06-15",
+          "2026-09-15",
+          "2027-01-15"
+        ],
+        "notes": "Conforms to the federal calendar-year due date unless the state announces relief."
+      },
+      {
+        "entityType": "partnership",
+        "returnForm": "State business income tax return",
+        "dueDate": "2026-03-16",
+        "extensionDate": "2026-09-15",
+        "estimatedPayments": [],
+        "notes": "Calendar-year due date follows federal timing for pass-through entities."
+      },
+      {
+        "entityType": "s-corporation",
+        "returnForm": "State business income tax return",
+        "dueDate": "2026-03-16",
+        "extensionDate": "2026-09-15",
+        "estimatedPayments": [],
+        "notes": "Calendar-year due date follows federal timing for pass-through entities."
+      },
+      {
+        "entityType": "c-corporation",
+        "returnForm": "State corporate income tax return",
+        "dueDate": "2026-04-15",
+        "extensionDate": "2026-10-15",
+        "estimatedPayments": [
+          "2026-04-15",
+          "2026-06-15",
+          "2026-09-15",
+          "2026-12-15"
+        ],
+        "notes": "Calendar-year due date follows federal timing for corporations."
+      },
+      {
+        "entityType": "llc",
+        "returnForm": "State business income tax return",
+        "dueDate": "2026-03-16",
+        "extensionDate": "2026-09-15",
+        "estimatedPayments": [],
+        "notes": "Calendar-year due date follows federal timing for pass-through entities."
+      },
+      {
+        "entityType": "nonprofit",
+        "returnForm": "State nonprofit return",
+        "dueDate": "2026-05-15",
+        "extensionDate": "2026-11-15",
+        "estimatedPayments": [],
+        "notes": "Nonprofit annual return generally due the 15th day of the 5th month."
+      }
+    ],
+    "notes": "Dates reflect calendar-year filers and common conformity to federal due dates."
+  },
+  {
+    "stateSlug": "maryland",
+    "stateName": "Maryland",
+    "abbreviation": "MD",
+    "hasIncomeTax": true,
+    "taxAgency": {
+      "name": "Comptroller of Maryland",
+      "url": "https://www.marylandtaxes.gov"
+    },
+    "deadlines": [
+      {
+        "entityType": "individual",
+        "returnForm": "Form 502 / 505",
+        "dueDate": "2026-04-15",
+        "extensionDate": "2026-10-15",
+        "estimatedPayments": [
+          "2026-04-15",
+          "2026-06-15",
+          "2026-09-15",
+          "2027-01-15"
+        ],
+        "notes": "Maryland allows a 6-month extension to file; payment due April 15."
+      },
+      {
+        "entityType": "sole-proprietorship",
+        "returnForm": "Form 502 / 505",
+        "dueDate": "2026-04-15",
+        "extensionDate": "2026-10-15",
+        "estimatedPayments": [
+          "2026-04-15",
+          "2026-06-15",
+          "2026-09-15",
+          "2027-01-15"
+        ],
+        "notes": "Business income reported on MD personal return."
+      },
+      {
+        "entityType": "partnership",
+        "returnForm": "State business income tax return",
+        "dueDate": "2026-03-16",
+        "extensionDate": "2026-09-15",
+        "estimatedPayments": [],
+        "notes": "Calendar-year due date follows federal timing for pass-through entities."
+      },
+      {
+        "entityType": "s-corporation",
+        "returnForm": "State business income tax return",
+        "dueDate": "2026-03-16",
+        "extensionDate": "2026-09-15",
+        "estimatedPayments": [],
+        "notes": "Calendar-year due date follows federal timing for pass-through entities."
+      },
+      {
+        "entityType": "c-corporation",
+        "returnForm": "State corporate income tax return",
+        "dueDate": "2026-04-15",
+        "extensionDate": "2026-10-15",
+        "estimatedPayments": [
+          "2026-04-15",
+          "2026-06-15",
+          "2026-09-15",
+          "2026-12-15"
+        ],
+        "notes": "Calendar-year due date follows federal timing for corporations."
+      },
+      {
+        "entityType": "llc",
+        "returnForm": "State business income tax return",
+        "dueDate": "2026-03-16",
+        "extensionDate": "2026-09-15",
+        "estimatedPayments": [],
+        "notes": "Calendar-year due date follows federal timing for pass-through entities."
+      },
+      {
+        "entityType": "nonprofit",
+        "returnForm": "State nonprofit return",
+        "dueDate": "2026-05-15",
+        "extensionDate": "2026-11-15",
+        "estimatedPayments": [],
+        "notes": "Nonprofit annual return generally due the 15th day of the 5th month."
+      }
+    ],
+    "notes": "Dates reflect calendar-year filers and common conformity to federal due dates."
+  },
+  {
+    "stateSlug": "massachusetts",
+    "stateName": "Massachusetts",
+    "abbreviation": "MA",
+    "hasIncomeTax": true,
+    "taxAgency": {
+      "name": "Massachusetts Department of Revenue",
+      "url": "https://www.mass.gov/orgs/massachusetts-department-of-revenue"
+    },
+    "deadlines": [
+      {
+        "entityType": "individual",
+        "returnForm": "Form 1 / 1-NR/PY",
+        "dueDate": "2026-04-15",
+        "extensionDate": "2026-10-15",
+        "estimatedPayments": [
+          "2026-04-15",
+          "2026-06-16",
+          "2026-09-15",
+          "2027-01-15"
+        ],
+        "notes": "MA extension requires payment of at least 80% of tax due."
+      },
+      {
+        "entityType": "sole-proprietorship",
+        "returnForm": "Form 1 / 1-NR/PY",
+        "dueDate": "2026-04-15",
+        "extensionDate": "2026-10-15",
+        "estimatedPayments": [
+          "2026-04-15",
+          "2026-06-16",
+          "2026-09-15",
+          "2027-01-15"
+        ],
+        "notes": "Business income reported on MA personal return."
+      },
+      {
+        "entityType": "partnership",
+        "returnForm": "Form 3",
+        "dueDate": "2026-03-16",
+        "extensionDate": "2026-09-15",
+        "estimatedPayments": [],
+        "notes": "MA partnerships receive an automatic 6-month extension."
+      },
+      {
+        "entityType": "s-corporation",
+        "returnForm": "State S-corporation return",
+        "dueDate": "2026-03-16",
+        "extensionDate": "2026-09-15",
+        "estimatedPayments": [],
+        "notes": "Calendar-year due date follows federal timing for pass-through entities."
+      },
+      {
+        "entityType": "c-corporation",
+        "returnForm": "State C-corporation return",
+        "dueDate": "2026-04-15",
+        "extensionDate": "2026-10-15",
+        "estimatedPayments": [
+          "2026-04-15",
+          "2026-06-15",
+          "2026-09-15",
+          "2026-12-15"
+        ],
+        "notes": "Calendar-year due date follows federal timing for corporations."
+      },
+      {
+        "entityType": "llc",
+        "returnForm": "State LLC return",
+        "dueDate": "2026-03-16",
+        "extensionDate": "2026-09-15",
+        "estimatedPayments": [],
+        "notes": "Calendar-year due date follows federal timing for pass-through entities."
+      },
+      {
+        "entityType": "nonprofit",
+        "returnForm": "State nonprofit return",
+        "dueDate": "2026-05-15",
+        "extensionDate": "2026-11-15",
+        "estimatedPayments": [],
+        "notes": "Nonprofit annual return generally due the 15th day of the 5th month."
+      }
+    ],
+    "notes": "Dates reflect calendar-year filers and common conformity to federal due dates."
+  },
+  {
+    "stateSlug": "michigan",
+    "stateName": "Michigan",
+    "abbreviation": "MI",
+    "hasIncomeTax": true,
+    "taxAgency": {
+      "name": "Michigan Department of Treasury",
+      "url": "https://www.michigan.gov/taxes"
+    },
+    "deadlines": [
+      {
+        "entityType": "individual",
+        "returnForm": "State income tax return",
+        "dueDate": "2026-04-15",
+        "extensionDate": "2026-10-15",
+        "estimatedPayments": [
+          "2026-04-15",
+          "2026-06-15",
+          "2026-09-15",
+          "2027-01-15"
+        ],
+        "notes": "Conforms to the federal calendar-year due date unless the state announces relief."
+      },
+      {
+        "entityType": "sole-proprietorship",
+        "returnForm": "State income tax return",
+        "dueDate": "2026-04-15",
+        "extensionDate": "2026-10-15",
+        "estimatedPayments": [
+          "2026-04-15",
+          "2026-06-15",
+          "2026-09-15",
+          "2027-01-15"
+        ],
+        "notes": "Conforms to the federal calendar-year due date unless the state announces relief."
+      },
+      {
+        "entityType": "partnership",
+        "returnForm": "State partnership return",
+        "dueDate": "2026-03-16",
+        "extensionDate": "2026-09-15",
+        "estimatedPayments": [],
+        "notes": "Calendar-year due date follows federal timing for pass-through entities."
+      },
+      {
+        "entityType": "s-corporation",
+        "returnForm": "State S-corporation return",
+        "dueDate": "2026-03-16",
+        "extensionDate": "2026-09-15",
+        "estimatedPayments": [],
+        "notes": "Calendar-year due date follows federal timing for pass-through entities."
+      },
+      {
+        "entityType": "c-corporation",
+        "returnForm": "State C-corporation return",
+        "dueDate": "2026-04-15",
+        "extensionDate": "2026-10-15",
+        "estimatedPayments": [
+          "2026-04-15",
+          "2026-06-15",
+          "2026-09-15",
+          "2026-12-15"
+        ],
+        "notes": "Calendar-year due date follows federal timing for corporations."
+      },
+      {
+        "entityType": "llc",
+        "returnForm": "State LLC return",
+        "dueDate": "2026-03-16",
+        "extensionDate": "2026-09-15",
+        "estimatedPayments": [],
+        "notes": "Calendar-year due date follows federal timing for pass-through entities."
+      },
+      {
+        "entityType": "nonprofit",
+        "returnForm": "State nonprofit return",
+        "dueDate": "2026-05-15",
+        "extensionDate": "2026-11-15",
+        "estimatedPayments": [],
+        "notes": "Nonprofit annual return generally due the 15th day of the 5th month."
+      }
+    ],
+    "notes": "Dates reflect calendar-year filers and common conformity to federal due dates."
+  },
+  {
+    "stateSlug": "minnesota",
+    "stateName": "Minnesota",
+    "abbreviation": "MN",
+    "hasIncomeTax": true,
+    "taxAgency": {
+      "name": "Minnesota Department of Revenue",
+      "url": "https://www.revenue.state.mn.us"
+    },
+    "deadlines": [
+      {
+        "entityType": "individual",
+        "returnForm": "Form M1",
+        "dueDate": "2026-04-15",
+        "extensionDate": "2026-10-15",
+        "estimatedPayments": [
+          "2026-04-15",
+          "2026-06-15",
+          "2026-09-15",
+          "2027-01-15"
+        ],
+        "notes": "MN returns must be filed by April 15; file by Oct 15 to avoid late filing penalty."
+      },
+      {
+        "entityType": "sole-proprietorship",
+        "returnForm": "Form M1",
+        "dueDate": "2026-04-15",
+        "extensionDate": "2026-10-15",
+        "estimatedPayments": [
+          "2026-04-15",
+          "2026-06-15",
+          "2026-09-15",
+          "2027-01-15"
+        ],
+        "notes": "Business income reported on MN personal return."
+      },
+      {
+        "entityType": "partnership",
+        "returnForm": "State partnership return",
+        "dueDate": "2026-03-16",
+        "extensionDate": "2026-09-15",
+        "estimatedPayments": [],
+        "notes": "Calendar-year due date follows federal timing for pass-through entities."
+      },
+      {
+        "entityType": "s-corporation",
+        "returnForm": "State S-corporation return",
+        "dueDate": "2026-03-16",
+        "extensionDate": "2026-09-15",
+        "estimatedPayments": [],
+        "notes": "Calendar-year due date follows federal timing for pass-through entities."
+      },
+      {
+        "entityType": "c-corporation",
+        "returnForm": "State C-corporation return",
+        "dueDate": "2026-04-15",
+        "extensionDate": "2026-10-15",
+        "estimatedPayments": [
+          "2026-04-15",
+          "2026-06-15",
+          "2026-09-15",
+          "2026-12-15"
+        ],
+        "notes": "Calendar-year due date follows federal timing for corporations."
+      },
+      {
+        "entityType": "llc",
+        "returnForm": "State LLC return",
+        "dueDate": "2026-03-16",
+        "extensionDate": "2026-09-15",
+        "estimatedPayments": [],
+        "notes": "Calendar-year due date follows federal timing for pass-through entities."
+      },
+      {
+        "entityType": "nonprofit",
+        "returnForm": "State nonprofit return",
+        "dueDate": "2026-05-15",
+        "extensionDate": "2026-11-15",
+        "estimatedPayments": [],
+        "notes": "Nonprofit annual return generally due the 15th day of the 5th month."
+      }
+    ],
+    "notes": "Dates reflect calendar-year filers and common conformity to federal due dates."
+  },
+  {
+    "stateSlug": "mississippi",
+    "stateName": "Mississippi",
+    "abbreviation": "MS",
+    "hasIncomeTax": true,
+    "taxAgency": {
+      "name": "Mississippi Department of Revenue",
+      "url": "https://www.dor.ms.gov"
+    },
+    "deadlines": [
+      {
+        "entityType": "individual",
+        "returnForm": "State income tax return",
+        "dueDate": "2026-04-15",
+        "extensionDate": "2026-10-15",
+        "estimatedPayments": [
+          "2026-04-15",
+          "2026-06-15",
+          "2026-09-15",
+          "2027-01-15"
+        ],
+        "notes": "Conforms to the federal calendar-year due date unless the state announces relief."
+      },
+      {
+        "entityType": "sole-proprietorship",
+        "returnForm": "State income tax return",
+        "dueDate": "2026-04-15",
+        "extensionDate": "2026-10-15",
+        "estimatedPayments": [
+          "2026-04-15",
+          "2026-06-15",
+          "2026-09-15",
+          "2027-01-15"
+        ],
+        "notes": "Conforms to the federal calendar-year due date unless the state announces relief."
+      },
+      {
+        "entityType": "partnership",
+        "returnForm": "State business income tax return",
+        "dueDate": "2026-03-16",
+        "extensionDate": "2026-09-15",
+        "estimatedPayments": [],
+        "notes": "Calendar-year due date follows federal timing for pass-through entities."
+      },
+      {
+        "entityType": "s-corporation",
+        "returnForm": "State business income tax return",
+        "dueDate": "2026-03-16",
+        "extensionDate": "2026-09-15",
+        "estimatedPayments": [],
+        "notes": "Calendar-year due date follows federal timing for pass-through entities."
+      },
+      {
+        "entityType": "c-corporation",
+        "returnForm": "State corporate income tax return",
+        "dueDate": "2026-04-15",
+        "extensionDate": "2026-10-15",
+        "estimatedPayments": [
+          "2026-04-15",
+          "2026-06-15",
+          "2026-09-15",
+          "2026-12-15"
+        ],
+        "notes": "Calendar-year due date follows federal timing for corporations."
+      },
+      {
+        "entityType": "llc",
+        "returnForm": "State business income tax return",
+        "dueDate": "2026-03-16",
+        "extensionDate": "2026-09-15",
+        "estimatedPayments": [],
+        "notes": "Calendar-year due date follows federal timing for pass-through entities."
+      },
+      {
+        "entityType": "nonprofit",
+        "returnForm": "State nonprofit return",
+        "dueDate": "2026-05-15",
+        "extensionDate": "2026-11-15",
+        "estimatedPayments": [],
+        "notes": "Nonprofit annual return generally due the 15th day of the 5th month."
+      }
+    ],
+    "notes": "Dates reflect calendar-year filers and common conformity to federal due dates."
+  },
+  {
+    "stateSlug": "missouri",
+    "stateName": "Missouri",
+    "abbreviation": "MO",
+    "hasIncomeTax": true,
+    "taxAgency": {
+      "name": "Missouri Department of Revenue",
+      "url": "https://dor.mo.gov"
+    },
+    "deadlines": [
+      {
+        "entityType": "individual",
+        "returnForm": "State income tax return",
+        "dueDate": "2026-04-15",
+        "extensionDate": "2026-10-15",
+        "estimatedPayments": [
+          "2026-04-15",
+          "2026-06-15",
+          "2026-09-15",
+          "2027-01-15"
+        ],
+        "notes": "Conforms to the federal calendar-year due date unless the state announces relief."
+      },
+      {
+        "entityType": "sole-proprietorship",
+        "returnForm": "State income tax return",
+        "dueDate": "2026-04-15",
+        "extensionDate": "2026-10-15",
+        "estimatedPayments": [
+          "2026-04-15",
+          "2026-06-15",
+          "2026-09-15",
+          "2027-01-15"
+        ],
+        "notes": "Conforms to the federal calendar-year due date unless the state announces relief."
+      },
+      {
+        "entityType": "partnership",
+        "returnForm": "State business income tax return",
+        "dueDate": "2026-03-16",
+        "extensionDate": "2026-09-15",
+        "estimatedPayments": [],
+        "notes": "Calendar-year due date follows federal timing for pass-through entities."
+      },
+      {
+        "entityType": "s-corporation",
+        "returnForm": "State business income tax return",
+        "dueDate": "2026-03-16",
+        "extensionDate": "2026-09-15",
+        "estimatedPayments": [],
+        "notes": "Calendar-year due date follows federal timing for pass-through entities."
+      },
+      {
+        "entityType": "c-corporation",
+        "returnForm": "State corporate income tax return",
+        "dueDate": "2026-04-15",
+        "extensionDate": "2026-10-15",
+        "estimatedPayments": [
+          "2026-04-15",
+          "2026-06-15",
+          "2026-09-15",
+          "2026-12-15"
+        ],
+        "notes": "Calendar-year due date follows federal timing for corporations."
+      },
+      {
+        "entityType": "llc",
+        "returnForm": "State business income tax return",
+        "dueDate": "2026-03-16",
+        "extensionDate": "2026-09-15",
+        "estimatedPayments": [],
+        "notes": "Calendar-year due date follows federal timing for pass-through entities."
+      },
+      {
+        "entityType": "nonprofit",
+        "returnForm": "State nonprofit return",
+        "dueDate": "2026-05-15",
+        "extensionDate": "2026-11-15",
+        "estimatedPayments": [],
+        "notes": "Nonprofit annual return generally due the 15th day of the 5th month."
+      }
+    ],
+    "notes": "Dates reflect calendar-year filers and common conformity to federal due dates."
+  },
+  {
+    "stateSlug": "montana",
+    "stateName": "Montana",
+    "abbreviation": "MT",
+    "hasIncomeTax": true,
+    "taxAgency": {
+      "name": "Montana Department of Revenue",
+      "url": "https://mtrevenue.gov"
+    },
+    "deadlines": [
+      {
+        "entityType": "individual",
+        "returnForm": "State income tax return",
+        "dueDate": "2026-04-15",
+        "extensionDate": "2026-10-15",
+        "estimatedPayments": [
+          "2026-04-15",
+          "2026-06-15",
+          "2026-09-15",
+          "2027-01-15"
+        ],
+        "notes": "Conforms to the federal calendar-year due date unless the state announces relief."
+      },
+      {
+        "entityType": "sole-proprietorship",
+        "returnForm": "State income tax return",
+        "dueDate": "2026-04-15",
+        "extensionDate": "2026-10-15",
+        "estimatedPayments": [
+          "2026-04-15",
+          "2026-06-15",
+          "2026-09-15",
+          "2027-01-15"
+        ],
+        "notes": "Conforms to the federal calendar-year due date unless the state announces relief."
+      },
+      {
+        "entityType": "partnership",
+        "returnForm": "State business income tax return",
+        "dueDate": "2026-03-16",
+        "extensionDate": "2026-09-15",
+        "estimatedPayments": [],
+        "notes": "Calendar-year due date follows federal timing for pass-through entities."
+      },
+      {
+        "entityType": "s-corporation",
+        "returnForm": "State business income tax return",
+        "dueDate": "2026-03-16",
+        "extensionDate": "2026-09-15",
+        "estimatedPayments": [],
+        "notes": "Calendar-year due date follows federal timing for pass-through entities."
+      },
+      {
+        "entityType": "c-corporation",
+        "returnForm": "State corporate income tax return",
+        "dueDate": "2026-04-15",
+        "extensionDate": "2026-10-15",
+        "estimatedPayments": [
+          "2026-04-15",
+          "2026-06-15",
+          "2026-09-15",
+          "2026-12-15"
+        ],
+        "notes": "Calendar-year due date follows federal timing for corporations."
+      },
+      {
+        "entityType": "llc",
+        "returnForm": "State business income tax return",
+        "dueDate": "2026-03-16",
+        "extensionDate": "2026-09-15",
+        "estimatedPayments": [],
+        "notes": "Calendar-year due date follows federal timing for pass-through entities."
+      },
+      {
+        "entityType": "nonprofit",
+        "returnForm": "State nonprofit return",
+        "dueDate": "2026-05-15",
+        "extensionDate": "2026-11-15",
+        "estimatedPayments": [],
+        "notes": "Nonprofit annual return generally due the 15th day of the 5th month."
+      }
+    ],
+    "notes": "Dates reflect calendar-year filers and common conformity to federal due dates."
+  },
+  {
+    "stateSlug": "nebraska",
+    "stateName": "Nebraska",
+    "abbreviation": "NE",
+    "hasIncomeTax": true,
+    "taxAgency": {
+      "name": "Nebraska Department of Revenue",
+      "url": "https://revenue.nebraska.gov"
+    },
+    "deadlines": [
+      {
+        "entityType": "individual",
+        "returnForm": "State income tax return",
+        "dueDate": "2026-04-15",
+        "extensionDate": "2026-10-15",
+        "estimatedPayments": [
+          "2026-04-15",
+          "2026-06-15",
+          "2026-09-15",
+          "2027-01-15"
+        ],
+        "notes": "Conforms to the federal calendar-year due date unless the state announces relief."
+      },
+      {
+        "entityType": "sole-proprietorship",
+        "returnForm": "State income tax return",
+        "dueDate": "2026-04-15",
+        "extensionDate": "2026-10-15",
+        "estimatedPayments": [
+          "2026-04-15",
+          "2026-06-15",
+          "2026-09-15",
+          "2027-01-15"
+        ],
+        "notes": "Conforms to the federal calendar-year due date unless the state announces relief."
+      },
+      {
+        "entityType": "partnership",
+        "returnForm": "State business income tax return",
+        "dueDate": "2026-03-16",
+        "extensionDate": "2026-09-15",
+        "estimatedPayments": [],
+        "notes": "Calendar-year due date follows federal timing for pass-through entities."
+      },
+      {
+        "entityType": "s-corporation",
+        "returnForm": "State business income tax return",
+        "dueDate": "2026-03-16",
+        "extensionDate": "2026-09-15",
+        "estimatedPayments": [],
+        "notes": "Calendar-year due date follows federal timing for pass-through entities."
+      },
+      {
+        "entityType": "c-corporation",
+        "returnForm": "State corporate income tax return",
+        "dueDate": "2026-04-15",
+        "extensionDate": "2026-10-15",
+        "estimatedPayments": [
+          "2026-04-15",
+          "2026-06-15",
+          "2026-09-15",
+          "2026-12-15"
+        ],
+        "notes": "Calendar-year due date follows federal timing for corporations."
+      },
+      {
+        "entityType": "llc",
+        "returnForm": "State business income tax return",
+        "dueDate": "2026-03-16",
+        "extensionDate": "2026-09-15",
+        "estimatedPayments": [],
+        "notes": "Calendar-year due date follows federal timing for pass-through entities."
+      },
+      {
+        "entityType": "nonprofit",
+        "returnForm": "State nonprofit return",
+        "dueDate": "2026-05-15",
+        "extensionDate": "2026-11-15",
+        "estimatedPayments": [],
+        "notes": "Nonprofit annual return generally due the 15th day of the 5th month."
+      }
+    ],
+    "notes": "Dates reflect calendar-year filers and common conformity to federal due dates."
+  },
+  {
+    "stateSlug": "nevada",
+    "stateName": "Nevada",
+    "abbreviation": "NV",
+    "hasIncomeTax": false,
+    "taxAgency": {
+      "name": "Nevada Department of Taxation",
+      "url": "https://tax.nv.gov"
+    },
+    "deadlines": [
+      {
+        "entityType": "individual",
+        "returnForm": "N/A",
+        "dueDate": null,
+        "extensionDate": null,
+        "estimatedPayments": [],
+        "notes": "No state individual income tax. Other business taxes may apply."
+      },
+      {
+        "entityType": "sole-proprietorship",
+        "returnForm": "N/A",
+        "dueDate": null,
+        "extensionDate": null,
+        "estimatedPayments": [],
+        "notes": "No state individual income tax. Other business taxes may apply."
+      },
+      {
+        "entityType": "partnership",
+        "returnForm": "N/A",
+        "dueDate": null,
+        "extensionDate": null,
+        "estimatedPayments": [],
+        "notes": "No state individual income tax. Other business taxes may apply."
+      },
+      {
+        "entityType": "s-corporation",
+        "returnForm": "N/A",
+        "dueDate": null,
+        "extensionDate": null,
+        "estimatedPayments": [],
+        "notes": "No state individual income tax. Other business taxes may apply."
+      },
+      {
+        "entityType": "c-corporation",
+        "returnForm": "N/A",
+        "dueDate": null,
+        "extensionDate": null,
+        "estimatedPayments": [],
+        "notes": "No state individual income tax. Other business taxes may apply."
+      },
+      {
+        "entityType": "llc",
+        "returnForm": "N/A",
+        "dueDate": null,
+        "extensionDate": null,
+        "estimatedPayments": [],
+        "notes": "No state individual income tax. Other business taxes may apply."
+      },
+      {
+        "entityType": "nonprofit",
+        "returnForm": "N/A",
+        "dueDate": null,
+        "extensionDate": null,
+        "estimatedPayments": [],
+        "notes": "No state individual income tax. Other business taxes may apply."
+      }
+    ],
+    "notes": "No state individual income tax; business taxes may still apply."
+  },
+  {
+    "stateSlug": "new-hampshire",
+    "stateName": "New Hampshire",
+    "abbreviation": "NH",
+    "hasIncomeTax": false,
+    "taxAgency": {
+      "name": "New Hampshire Department of Revenue Administration",
+      "url": "https://www.revenue.nh.gov"
+    },
+    "deadlines": [
+      {
+        "entityType": "individual",
+        "returnForm": "N/A",
+        "dueDate": null,
+        "extensionDate": null,
+        "estimatedPayments": [],
+        "notes": "No state individual income tax. Other business taxes may apply."
+      },
+      {
+        "entityType": "sole-proprietorship",
+        "returnForm": "N/A",
+        "dueDate": null,
+        "extensionDate": null,
+        "estimatedPayments": [],
+        "notes": "No state individual income tax. Other business taxes may apply."
+      },
+      {
+        "entityType": "partnership",
+        "returnForm": "N/A",
+        "dueDate": null,
+        "extensionDate": null,
+        "estimatedPayments": [],
+        "notes": "No state individual income tax. Other business taxes may apply."
+      },
+      {
+        "entityType": "s-corporation",
+        "returnForm": "N/A",
+        "dueDate": null,
+        "extensionDate": null,
+        "estimatedPayments": [],
+        "notes": "No state individual income tax. Other business taxes may apply."
+      },
+      {
+        "entityType": "c-corporation",
+        "returnForm": "N/A",
+        "dueDate": null,
+        "extensionDate": null,
+        "estimatedPayments": [],
+        "notes": "No state individual income tax. Other business taxes may apply."
+      },
+      {
+        "entityType": "llc",
+        "returnForm": "N/A",
+        "dueDate": null,
+        "extensionDate": null,
+        "estimatedPayments": [],
+        "notes": "No state individual income tax. Other business taxes may apply."
+      },
+      {
+        "entityType": "nonprofit",
+        "returnForm": "N/A",
+        "dueDate": null,
+        "extensionDate": null,
+        "estimatedPayments": [],
+        "notes": "No state individual income tax. Other business taxes may apply."
+      }
+    ],
+    "notes": "No state individual income tax; business taxes may still apply."
+  },
+  {
+    "stateSlug": "new-jersey",
+    "stateName": "New Jersey",
+    "abbreviation": "NJ",
+    "hasIncomeTax": true,
+    "taxAgency": {
+      "name": "New Jersey Division of Taxation",
+      "url": "https://www.nj.gov/treasury/taxation"
+    },
+    "deadlines": [
+      {
+        "entityType": "individual",
+        "returnForm": "Form NJ-1040 / NJ-1040NR",
+        "dueDate": "2026-04-15",
+        "extensionDate": "2026-10-15",
+        "estimatedPayments": [
+          "2026-04-15",
+          "2026-06-15",
+          "2026-09-15",
+          "2027-01-15"
+        ],
+        "notes": "NJ returns due when federal return is due; extension to file only."
+      },
+      {
+        "entityType": "sole-proprietorship",
+        "returnForm": "Form NJ-1040 / NJ-1040NR",
+        "dueDate": "2026-04-15",
+        "extensionDate": "2026-10-15",
+        "estimatedPayments": [
+          "2026-04-15",
+          "2026-06-15",
+          "2026-09-15",
+          "2027-01-15"
+        ],
+        "notes": "Business income reported on NJ-1040; extension to file only."
+      },
+      {
+        "entityType": "partnership",
+        "returnForm": "State partnership return",
+        "dueDate": "2026-03-16",
+        "extensionDate": "2026-09-15",
+        "estimatedPayments": [],
+        "notes": "Calendar-year due date follows federal timing for pass-through entities."
+      },
+      {
+        "entityType": "s-corporation",
+        "returnForm": "State S-corporation return",
+        "dueDate": "2026-03-16",
+        "extensionDate": "2026-09-15",
+        "estimatedPayments": [],
+        "notes": "Calendar-year due date follows federal timing for pass-through entities."
+      },
+      {
+        "entityType": "c-corporation",
+        "returnForm": "State C-corporation return",
+        "dueDate": "2026-04-15",
+        "extensionDate": "2026-10-15",
+        "estimatedPayments": [
+          "2026-04-15",
+          "2026-06-15",
+          "2026-09-15",
+          "2026-12-15"
+        ],
+        "notes": "Calendar-year due date follows federal timing for corporations."
+      },
+      {
+        "entityType": "llc",
+        "returnForm": "State LLC return",
+        "dueDate": "2026-03-16",
+        "extensionDate": "2026-09-15",
+        "estimatedPayments": [],
+        "notes": "Calendar-year due date follows federal timing for pass-through entities."
+      },
+      {
+        "entityType": "nonprofit",
+        "returnForm": "State nonprofit return",
+        "dueDate": "2026-05-15",
+        "extensionDate": "2026-11-15",
+        "estimatedPayments": [],
+        "notes": "Nonprofit annual return generally due the 15th day of the 5th month."
+      }
+    ],
+    "notes": "Dates reflect calendar-year filers and common conformity to federal due dates."
+  },
+  {
+    "stateSlug": "new-mexico",
+    "stateName": "New Mexico",
+    "abbreviation": "NM",
+    "hasIncomeTax": true,
+    "taxAgency": {
+      "name": "New Mexico Taxation and Revenue Department",
+      "url": "https://www.tax.newmexico.gov"
+    },
+    "deadlines": [
+      {
+        "entityType": "individual",
+        "returnForm": "State income tax return",
+        "dueDate": "2026-04-15",
+        "extensionDate": "2026-10-15",
+        "estimatedPayments": [
+          "2026-04-15",
+          "2026-06-15",
+          "2026-09-15",
+          "2027-01-15"
+        ],
+        "notes": "Conforms to the federal calendar-year due date unless the state announces relief."
+      },
+      {
+        "entityType": "sole-proprietorship",
+        "returnForm": "State income tax return",
+        "dueDate": "2026-04-15",
+        "extensionDate": "2026-10-15",
+        "estimatedPayments": [
+          "2026-04-15",
+          "2026-06-15",
+          "2026-09-15",
+          "2027-01-15"
+        ],
+        "notes": "Conforms to the federal calendar-year due date unless the state announces relief."
+      },
+      {
+        "entityType": "partnership",
+        "returnForm": "State business income tax return",
+        "dueDate": "2026-03-16",
+        "extensionDate": "2026-09-15",
+        "estimatedPayments": [],
+        "notes": "Calendar-year due date follows federal timing for pass-through entities."
+      },
+      {
+        "entityType": "s-corporation",
+        "returnForm": "State business income tax return",
+        "dueDate": "2026-03-16",
+        "extensionDate": "2026-09-15",
+        "estimatedPayments": [],
+        "notes": "Calendar-year due date follows federal timing for pass-through entities."
+      },
+      {
+        "entityType": "c-corporation",
+        "returnForm": "State corporate income tax return",
+        "dueDate": "2026-04-15",
+        "extensionDate": "2026-10-15",
+        "estimatedPayments": [
+          "2026-04-15",
+          "2026-06-15",
+          "2026-09-15",
+          "2026-12-15"
+        ],
+        "notes": "Calendar-year due date follows federal timing for corporations."
+      },
+      {
+        "entityType": "llc",
+        "returnForm": "State business income tax return",
+        "dueDate": "2026-03-16",
+        "extensionDate": "2026-09-15",
+        "estimatedPayments": [],
+        "notes": "Calendar-year due date follows federal timing for pass-through entities."
+      },
+      {
+        "entityType": "nonprofit",
+        "returnForm": "State nonprofit return",
+        "dueDate": "2026-05-15",
+        "extensionDate": "2026-11-15",
+        "estimatedPayments": [],
+        "notes": "Nonprofit annual return generally due the 15th day of the 5th month."
+      }
+    ],
+    "notes": "Dates reflect calendar-year filers and common conformity to federal due dates."
+  },
+  {
+    "stateSlug": "new-york",
+    "stateName": "New York",
+    "abbreviation": "NY",
+    "hasIncomeTax": true,
+    "taxAgency": {
+      "name": "New York Department of Taxation and Finance",
+      "url": "https://www.tax.ny.gov"
+    },
+    "deadlines": [
+      {
+        "entityType": "individual",
+        "returnForm": "Form IT-201 / IT-203",
+        "dueDate": "2026-04-15",
+        "extensionDate": "2026-10-15",
+        "estimatedPayments": [
+          "2026-04-15",
+          "2026-06-15",
+          "2026-09-15",
+          "2027-01-15"
+        ],
+        "notes": "NY personal income tax returns due April 15; extension request due same date."
+      },
+      {
+        "entityType": "sole-proprietorship",
+        "returnForm": "Form IT-201 / IT-203",
+        "dueDate": "2026-04-15",
+        "extensionDate": "2026-10-15",
+        "estimatedPayments": [
+          "2026-04-15",
+          "2026-06-15",
+          "2026-09-15",
+          "2027-01-15"
+        ],
+        "notes": "Business income reported on NY personal return."
+      },
+      {
+        "entityType": "partnership",
+        "returnForm": "State partnership return",
+        "dueDate": "2026-03-16",
+        "extensionDate": "2026-09-15",
+        "estimatedPayments": [],
+        "notes": "Calendar-year due date follows federal timing for pass-through entities."
+      },
+      {
+        "entityType": "s-corporation",
+        "returnForm": "State S-corporation return",
+        "dueDate": "2026-03-16",
+        "extensionDate": "2026-09-15",
+        "estimatedPayments": [],
+        "notes": "Calendar-year due date follows federal timing for pass-through entities."
+      },
+      {
+        "entityType": "c-corporation",
+        "returnForm": "State C-corporation return",
+        "dueDate": "2026-04-15",
+        "extensionDate": "2026-10-15",
+        "estimatedPayments": [
+          "2026-04-15",
+          "2026-06-15",
+          "2026-09-15",
+          "2026-12-15"
+        ],
+        "notes": "Calendar-year due date follows federal timing for corporations."
+      },
+      {
+        "entityType": "llc",
+        "returnForm": "State LLC return",
+        "dueDate": "2026-03-16",
+        "extensionDate": "2026-09-15",
+        "estimatedPayments": [],
+        "notes": "Calendar-year due date follows federal timing for pass-through entities."
+      },
+      {
+        "entityType": "nonprofit",
+        "returnForm": "State nonprofit return",
+        "dueDate": "2026-05-15",
+        "extensionDate": "2026-11-15",
+        "estimatedPayments": [],
+        "notes": "Nonprofit annual return generally due the 15th day of the 5th month."
+      }
+    ],
+    "notes": "Dates reflect calendar-year filers and common conformity to federal due dates."
+  },
+  {
+    "stateSlug": "north-carolina",
+    "stateName": "North Carolina",
+    "abbreviation": "NC",
+    "hasIncomeTax": true,
+    "taxAgency": {
+      "name": "North Carolina Department of Revenue",
+      "url": "https://www.ncdor.gov"
+    },
+    "deadlines": [
+      {
+        "entityType": "individual",
+        "returnForm": "Form D-400",
+        "dueDate": "2026-04-15",
+        "extensionDate": "2026-10-15",
+        "estimatedPayments": [
+          "2026-04-15",
+          "2026-06-15",
+          "2026-09-15",
+          "2027-01-15"
+        ],
+        "notes": "NC grants an automatic 6-month extension with a federal extension."
+      },
+      {
+        "entityType": "sole-proprietorship",
+        "returnForm": "Form D-400",
+        "dueDate": "2026-04-15",
+        "extensionDate": "2026-10-15",
+        "estimatedPayments": [
+          "2026-04-15",
+          "2026-06-15",
+          "2026-09-15",
+          "2027-01-15"
+        ],
+        "notes": "Business income reported on NC personal return."
+      },
+      {
+        "entityType": "partnership",
+        "returnForm": "State partnership return",
+        "dueDate": "2026-03-16",
+        "extensionDate": "2026-09-15",
+        "estimatedPayments": [],
+        "notes": "Calendar-year due date follows federal timing for pass-through entities."
+      },
+      {
+        "entityType": "s-corporation",
+        "returnForm": "State S-corporation return",
+        "dueDate": "2026-03-16",
+        "extensionDate": "2026-09-15",
+        "estimatedPayments": [],
+        "notes": "Calendar-year due date follows federal timing for pass-through entities."
+      },
+      {
+        "entityType": "c-corporation",
+        "returnForm": "State C-corporation return",
+        "dueDate": "2026-04-15",
+        "extensionDate": "2026-10-15",
+        "estimatedPayments": [
+          "2026-04-15",
+          "2026-06-15",
+          "2026-09-15",
+          "2026-12-15"
+        ],
+        "notes": "Calendar-year due date follows federal timing for corporations."
+      },
+      {
+        "entityType": "llc",
+        "returnForm": "State LLC return",
+        "dueDate": "2026-03-16",
+        "extensionDate": "2026-09-15",
+        "estimatedPayments": [],
+        "notes": "Calendar-year due date follows federal timing for pass-through entities."
+      },
+      {
+        "entityType": "nonprofit",
+        "returnForm": "State nonprofit return",
+        "dueDate": "2026-05-15",
+        "extensionDate": "2026-11-15",
+        "estimatedPayments": [],
+        "notes": "Nonprofit annual return generally due the 15th day of the 5th month."
+      }
+    ],
+    "notes": "Dates reflect calendar-year filers and common conformity to federal due dates."
+  },
+  {
+    "stateSlug": "north-dakota",
+    "stateName": "North Dakota",
+    "abbreviation": "ND",
+    "hasIncomeTax": true,
+    "taxAgency": {
+      "name": "North Dakota Office of State Tax Commissioner",
+      "url": "https://www.tax.nd.gov"
+    },
+    "deadlines": [
+      {
+        "entityType": "individual",
+        "returnForm": "State income tax return",
+        "dueDate": "2026-04-15",
+        "extensionDate": "2026-10-15",
+        "estimatedPayments": [
+          "2026-04-15",
+          "2026-06-15",
+          "2026-09-15",
+          "2027-01-15"
+        ],
+        "notes": "Conforms to the federal calendar-year due date unless the state announces relief."
+      },
+      {
+        "entityType": "sole-proprietorship",
+        "returnForm": "State income tax return",
+        "dueDate": "2026-04-15",
+        "extensionDate": "2026-10-15",
+        "estimatedPayments": [
+          "2026-04-15",
+          "2026-06-15",
+          "2026-09-15",
+          "2027-01-15"
+        ],
+        "notes": "Conforms to the federal calendar-year due date unless the state announces relief."
+      },
+      {
+        "entityType": "partnership",
+        "returnForm": "State business income tax return",
+        "dueDate": "2026-03-16",
+        "extensionDate": "2026-09-15",
+        "estimatedPayments": [],
+        "notes": "Calendar-year due date follows federal timing for pass-through entities."
+      },
+      {
+        "entityType": "s-corporation",
+        "returnForm": "State business income tax return",
+        "dueDate": "2026-03-16",
+        "extensionDate": "2026-09-15",
+        "estimatedPayments": [],
+        "notes": "Calendar-year due date follows federal timing for pass-through entities."
+      },
+      {
+        "entityType": "c-corporation",
+        "returnForm": "State corporate income tax return",
+        "dueDate": "2026-04-15",
+        "extensionDate": "2026-10-15",
+        "estimatedPayments": [
+          "2026-04-15",
+          "2026-06-15",
+          "2026-09-15",
+          "2026-12-15"
+        ],
+        "notes": "Calendar-year due date follows federal timing for corporations."
+      },
+      {
+        "entityType": "llc",
+        "returnForm": "State business income tax return",
+        "dueDate": "2026-03-16",
+        "extensionDate": "2026-09-15",
+        "estimatedPayments": [],
+        "notes": "Calendar-year due date follows federal timing for pass-through entities."
+      },
+      {
+        "entityType": "nonprofit",
+        "returnForm": "State nonprofit return",
+        "dueDate": "2026-05-15",
+        "extensionDate": "2026-11-15",
+        "estimatedPayments": [],
+        "notes": "Nonprofit annual return generally due the 15th day of the 5th month."
+      }
+    ],
+    "notes": "Dates reflect calendar-year filers and common conformity to federal due dates."
+  },
+  {
+    "stateSlug": "ohio",
+    "stateName": "Ohio",
+    "abbreviation": "OH",
+    "hasIncomeTax": true,
+    "taxAgency": {
+      "name": "Ohio Department of Taxation",
+      "url": "https://tax.ohio.gov"
+    },
+    "deadlines": [
+      {
+        "entityType": "individual",
+        "returnForm": "State income tax return",
+        "dueDate": "2026-04-15",
+        "extensionDate": "2026-10-15",
+        "estimatedPayments": [
+          "2026-04-15",
+          "2026-06-15",
+          "2026-09-15",
+          "2027-01-15"
+        ],
+        "notes": "Conforms to the federal calendar-year due date unless the state announces relief."
+      },
+      {
+        "entityType": "sole-proprietorship",
+        "returnForm": "State income tax return",
+        "dueDate": "2026-04-15",
+        "extensionDate": "2026-10-15",
+        "estimatedPayments": [
+          "2026-04-15",
+          "2026-06-15",
+          "2026-09-15",
+          "2027-01-15"
+        ],
+        "notes": "Conforms to the federal calendar-year due date unless the state announces relief."
+      },
+      {
+        "entityType": "partnership",
+        "returnForm": "State partnership return",
+        "dueDate": "2026-03-16",
+        "extensionDate": "2026-09-15",
+        "estimatedPayments": [],
+        "notes": "Calendar-year due date follows federal timing for pass-through entities."
+      },
+      {
+        "entityType": "s-corporation",
+        "returnForm": "State S-corporation return",
+        "dueDate": "2026-03-16",
+        "extensionDate": "2026-09-15",
+        "estimatedPayments": [],
+        "notes": "Calendar-year due date follows federal timing for pass-through entities."
+      },
+      {
+        "entityType": "c-corporation",
+        "returnForm": "State C-corporation return",
+        "dueDate": "2026-04-15",
+        "extensionDate": "2026-10-15",
+        "estimatedPayments": [
+          "2026-04-15",
+          "2026-06-15",
+          "2026-09-15",
+          "2026-12-15"
+        ],
+        "notes": "Calendar-year due date follows federal timing for corporations."
+      },
+      {
+        "entityType": "llc",
+        "returnForm": "State LLC return",
+        "dueDate": "2026-03-16",
+        "extensionDate": "2026-09-15",
+        "estimatedPayments": [],
+        "notes": "Calendar-year due date follows federal timing for pass-through entities."
+      },
+      {
+        "entityType": "nonprofit",
+        "returnForm": "State nonprofit return",
+        "dueDate": "2026-05-15",
+        "extensionDate": "2026-11-15",
+        "estimatedPayments": [],
+        "notes": "Nonprofit annual return generally due the 15th day of the 5th month."
+      }
+    ],
+    "notes": "Dates reflect calendar-year filers and common conformity to federal due dates."
+  },
+  {
+    "stateSlug": "oklahoma",
+    "stateName": "Oklahoma",
+    "abbreviation": "OK",
+    "hasIncomeTax": true,
+    "taxAgency": {
+      "name": "Oklahoma Tax Commission",
+      "url": "https://oklahoma.gov/tax.html"
+    },
+    "deadlines": [
+      {
+        "entityType": "individual",
+        "returnForm": "State income tax return",
+        "dueDate": "2026-04-15",
+        "extensionDate": "2026-10-15",
+        "estimatedPayments": [
+          "2026-04-15",
+          "2026-06-15",
+          "2026-09-15",
+          "2027-01-15"
+        ],
+        "notes": "Conforms to the federal calendar-year due date unless the state announces relief."
+      },
+      {
+        "entityType": "sole-proprietorship",
+        "returnForm": "State income tax return",
+        "dueDate": "2026-04-15",
+        "extensionDate": "2026-10-15",
+        "estimatedPayments": [
+          "2026-04-15",
+          "2026-06-15",
+          "2026-09-15",
+          "2027-01-15"
+        ],
+        "notes": "Conforms to the federal calendar-year due date unless the state announces relief."
+      },
+      {
+        "entityType": "partnership",
+        "returnForm": "State business income tax return",
+        "dueDate": "2026-03-16",
+        "extensionDate": "2026-09-15",
+        "estimatedPayments": [],
+        "notes": "Calendar-year due date follows federal timing for pass-through entities."
+      },
+      {
+        "entityType": "s-corporation",
+        "returnForm": "State business income tax return",
+        "dueDate": "2026-03-16",
+        "extensionDate": "2026-09-15",
+        "estimatedPayments": [],
+        "notes": "Calendar-year due date follows federal timing for pass-through entities."
+      },
+      {
+        "entityType": "c-corporation",
+        "returnForm": "State corporate income tax return",
+        "dueDate": "2026-04-15",
+        "extensionDate": "2026-10-15",
+        "estimatedPayments": [
+          "2026-04-15",
+          "2026-06-15",
+          "2026-09-15",
+          "2026-12-15"
+        ],
+        "notes": "Calendar-year due date follows federal timing for corporations."
+      },
+      {
+        "entityType": "llc",
+        "returnForm": "State business income tax return",
+        "dueDate": "2026-03-16",
+        "extensionDate": "2026-09-15",
+        "estimatedPayments": [],
+        "notes": "Calendar-year due date follows federal timing for pass-through entities."
+      },
+      {
+        "entityType": "nonprofit",
+        "returnForm": "State nonprofit return",
+        "dueDate": "2026-05-15",
+        "extensionDate": "2026-11-15",
+        "estimatedPayments": [],
+        "notes": "Nonprofit annual return generally due the 15th day of the 5th month."
+      }
+    ],
+    "notes": "Dates reflect calendar-year filers and common conformity to federal due dates."
+  },
+  {
+    "stateSlug": "oregon",
+    "stateName": "Oregon",
+    "abbreviation": "OR",
+    "hasIncomeTax": true,
+    "taxAgency": {
+      "name": "Oregon Department of Revenue",
+      "url": "https://www.oregon.gov/dor"
+    },
+    "deadlines": [
+      {
+        "entityType": "individual",
+        "returnForm": "Form OR-40",
+        "dueDate": "2026-04-15",
+        "extensionDate": "2026-10-15",
+        "estimatedPayments": [
+          "2026-04-15",
+          "2026-06-15",
+          "2026-09-15",
+          "2027-01-15"
+        ],
+        "notes": "Oregon honors federal extensions; payment due by April 15."
+      },
+      {
+        "entityType": "sole-proprietorship",
+        "returnForm": "Form OR-40",
+        "dueDate": "2026-04-15",
+        "extensionDate": "2026-10-15",
+        "estimatedPayments": [
+          "2026-04-15",
+          "2026-06-15",
+          "2026-09-15",
+          "2027-01-15"
+        ],
+        "notes": "Business income reported on OR personal return."
+      },
+      {
+        "entityType": "partnership",
+        "returnForm": "State partnership return",
+        "dueDate": "2026-03-16",
+        "extensionDate": "2026-09-15",
+        "estimatedPayments": [],
+        "notes": "Calendar-year due date follows federal timing for pass-through entities."
+      },
+      {
+        "entityType": "s-corporation",
+        "returnForm": "State S-corporation return",
+        "dueDate": "2026-03-16",
+        "extensionDate": "2026-09-15",
+        "estimatedPayments": [],
+        "notes": "Calendar-year due date follows federal timing for pass-through entities."
+      },
+      {
+        "entityType": "c-corporation",
+        "returnForm": "State C-corporation return",
+        "dueDate": "2026-04-15",
+        "extensionDate": "2026-10-15",
+        "estimatedPayments": [
+          "2026-04-15",
+          "2026-06-15",
+          "2026-09-15",
+          "2026-12-15"
+        ],
+        "notes": "Calendar-year due date follows federal timing for corporations."
+      },
+      {
+        "entityType": "llc",
+        "returnForm": "State LLC return",
+        "dueDate": "2026-03-16",
+        "extensionDate": "2026-09-15",
+        "estimatedPayments": [],
+        "notes": "Calendar-year due date follows federal timing for pass-through entities."
+      },
+      {
+        "entityType": "nonprofit",
+        "returnForm": "State nonprofit return",
+        "dueDate": "2026-05-15",
+        "extensionDate": "2026-11-15",
+        "estimatedPayments": [],
+        "notes": "Nonprofit annual return generally due the 15th day of the 5th month."
+      }
+    ],
+    "notes": "Dates reflect calendar-year filers and common conformity to federal due dates."
+  },
+  {
+    "stateSlug": "pennsylvania",
+    "stateName": "Pennsylvania",
+    "abbreviation": "PA",
+    "hasIncomeTax": true,
+    "taxAgency": {
+      "name": "Pennsylvania Department of Revenue",
+      "url": "https://www.revenue.pa.gov"
+    },
+    "deadlines": [
+      {
+        "entityType": "individual",
+        "returnForm": "Form PA-40",
+        "dueDate": "2026-04-15",
+        "extensionDate": "2026-10-15",
+        "estimatedPayments": [
+          "2026-04-15",
+          "2026-06-15",
+          "2026-09-15",
+          "2027-01-15"
+        ],
+        "notes": "PA follows IRS due date; extension to file only."
+      },
+      {
+        "entityType": "sole-proprietorship",
+        "returnForm": "Form PA-40",
+        "dueDate": "2026-04-15",
+        "extensionDate": "2026-10-15",
+        "estimatedPayments": [
+          "2026-04-15",
+          "2026-06-15",
+          "2026-09-15",
+          "2027-01-15"
+        ],
+        "notes": "Business income reported on PA-40."
+      },
+      {
+        "entityType": "partnership",
+        "returnForm": "State partnership return",
+        "dueDate": "2026-03-16",
+        "extensionDate": "2026-09-15",
+        "estimatedPayments": [],
+        "notes": "Calendar-year due date follows federal timing for pass-through entities."
+      },
+      {
+        "entityType": "s-corporation",
+        "returnForm": "State S-corporation return",
+        "dueDate": "2026-03-16",
+        "extensionDate": "2026-09-15",
+        "estimatedPayments": [],
+        "notes": "Calendar-year due date follows federal timing for pass-through entities."
+      },
+      {
+        "entityType": "c-corporation",
+        "returnForm": "State C-corporation return",
+        "dueDate": "2026-04-15",
+        "extensionDate": "2026-10-15",
+        "estimatedPayments": [
+          "2026-04-15",
+          "2026-06-15",
+          "2026-09-15",
+          "2026-12-15"
+        ],
+        "notes": "Calendar-year due date follows federal timing for corporations."
+      },
+      {
+        "entityType": "llc",
+        "returnForm": "State LLC return",
+        "dueDate": "2026-03-16",
+        "extensionDate": "2026-09-15",
+        "estimatedPayments": [],
+        "notes": "Calendar-year due date follows federal timing for pass-through entities."
+      },
+      {
+        "entityType": "nonprofit",
+        "returnForm": "State nonprofit return",
+        "dueDate": "2026-05-15",
+        "extensionDate": "2026-11-15",
+        "estimatedPayments": [],
+        "notes": "Nonprofit annual return generally due the 15th day of the 5th month."
+      }
+    ],
+    "notes": "Dates reflect calendar-year filers and common conformity to federal due dates."
+  },
+  {
+    "stateSlug": "rhode-island",
+    "stateName": "Rhode Island",
+    "abbreviation": "RI",
+    "hasIncomeTax": true,
+    "taxAgency": {
+      "name": "Rhode Island Division of Taxation",
+      "url": "https://tax.ri.gov"
+    },
+    "deadlines": [
+      {
+        "entityType": "individual",
+        "returnForm": "State income tax return",
+        "dueDate": "2026-04-15",
+        "extensionDate": "2026-10-15",
+        "estimatedPayments": [
+          "2026-04-15",
+          "2026-06-15",
+          "2026-09-15",
+          "2027-01-15"
+        ],
+        "notes": "Conforms to the federal calendar-year due date unless the state announces relief."
+      },
+      {
+        "entityType": "sole-proprietorship",
+        "returnForm": "State income tax return",
+        "dueDate": "2026-04-15",
+        "extensionDate": "2026-10-15",
+        "estimatedPayments": [
+          "2026-04-15",
+          "2026-06-15",
+          "2026-09-15",
+          "2027-01-15"
+        ],
+        "notes": "Conforms to the federal calendar-year due date unless the state announces relief."
+      },
+      {
+        "entityType": "partnership",
+        "returnForm": "State business income tax return",
+        "dueDate": "2026-03-16",
+        "extensionDate": "2026-09-15",
+        "estimatedPayments": [],
+        "notes": "Calendar-year due date follows federal timing for pass-through entities."
+      },
+      {
+        "entityType": "s-corporation",
+        "returnForm": "State business income tax return",
+        "dueDate": "2026-03-16",
+        "extensionDate": "2026-09-15",
+        "estimatedPayments": [],
+        "notes": "Calendar-year due date follows federal timing for pass-through entities."
+      },
+      {
+        "entityType": "c-corporation",
+        "returnForm": "State corporate income tax return",
+        "dueDate": "2026-04-15",
+        "extensionDate": "2026-10-15",
+        "estimatedPayments": [
+          "2026-04-15",
+          "2026-06-15",
+          "2026-09-15",
+          "2026-12-15"
+        ],
+        "notes": "Calendar-year due date follows federal timing for corporations."
+      },
+      {
+        "entityType": "llc",
+        "returnForm": "State business income tax return",
+        "dueDate": "2026-03-16",
+        "extensionDate": "2026-09-15",
+        "estimatedPayments": [],
+        "notes": "Calendar-year due date follows federal timing for pass-through entities."
+      },
+      {
+        "entityType": "nonprofit",
+        "returnForm": "State nonprofit return",
+        "dueDate": "2026-05-15",
+        "extensionDate": "2026-11-15",
+        "estimatedPayments": [],
+        "notes": "Nonprofit annual return generally due the 15th day of the 5th month."
+      }
+    ],
+    "notes": "Dates reflect calendar-year filers and common conformity to federal due dates."
+  },
+  {
+    "stateSlug": "south-carolina",
+    "stateName": "South Carolina",
+    "abbreviation": "SC",
+    "hasIncomeTax": true,
+    "taxAgency": {
+      "name": "South Carolina Department of Revenue",
+      "url": "https://dor.sc.gov"
+    },
+    "deadlines": [
+      {
+        "entityType": "individual",
+        "returnForm": "State income tax return",
+        "dueDate": "2026-04-15",
+        "extensionDate": "2026-10-15",
+        "estimatedPayments": [
+          "2026-04-15",
+          "2026-06-15",
+          "2026-09-15",
+          "2027-01-15"
+        ],
+        "notes": "Conforms to the federal calendar-year due date unless the state announces relief."
+      },
+      {
+        "entityType": "sole-proprietorship",
+        "returnForm": "State income tax return",
+        "dueDate": "2026-04-15",
+        "extensionDate": "2026-10-15",
+        "estimatedPayments": [
+          "2026-04-15",
+          "2026-06-15",
+          "2026-09-15",
+          "2027-01-15"
+        ],
+        "notes": "Conforms to the federal calendar-year due date unless the state announces relief."
+      },
+      {
+        "entityType": "partnership",
+        "returnForm": "State business income tax return",
+        "dueDate": "2026-03-16",
+        "extensionDate": "2026-09-15",
+        "estimatedPayments": [],
+        "notes": "Calendar-year due date follows federal timing for pass-through entities."
+      },
+      {
+        "entityType": "s-corporation",
+        "returnForm": "State business income tax return",
+        "dueDate": "2026-03-16",
+        "extensionDate": "2026-09-15",
+        "estimatedPayments": [],
+        "notes": "Calendar-year due date follows federal timing for pass-through entities."
+      },
+      {
+        "entityType": "c-corporation",
+        "returnForm": "State corporate income tax return",
+        "dueDate": "2026-04-15",
+        "extensionDate": "2026-10-15",
+        "estimatedPayments": [
+          "2026-04-15",
+          "2026-06-15",
+          "2026-09-15",
+          "2026-12-15"
+        ],
+        "notes": "Calendar-year due date follows federal timing for corporations."
+      },
+      {
+        "entityType": "llc",
+        "returnForm": "State business income tax return",
+        "dueDate": "2026-03-16",
+        "extensionDate": "2026-09-15",
+        "estimatedPayments": [],
+        "notes": "Calendar-year due date follows federal timing for pass-through entities."
+      },
+      {
+        "entityType": "nonprofit",
+        "returnForm": "State nonprofit return",
+        "dueDate": "2026-05-15",
+        "extensionDate": "2026-11-15",
+        "estimatedPayments": [],
+        "notes": "Nonprofit annual return generally due the 15th day of the 5th month."
+      }
+    ],
+    "notes": "Dates reflect calendar-year filers and common conformity to federal due dates."
+  },
+  {
+    "stateSlug": "south-dakota",
+    "stateName": "South Dakota",
+    "abbreviation": "SD",
+    "hasIncomeTax": false,
+    "taxAgency": {
+      "name": "South Dakota Department of Revenue",
+      "url": "https://dor.sd.gov"
+    },
+    "deadlines": [
+      {
+        "entityType": "individual",
+        "returnForm": "N/A",
+        "dueDate": null,
+        "extensionDate": null,
+        "estimatedPayments": [],
+        "notes": "No state individual income tax. Other business taxes may apply."
+      },
+      {
+        "entityType": "sole-proprietorship",
+        "returnForm": "N/A",
+        "dueDate": null,
+        "extensionDate": null,
+        "estimatedPayments": [],
+        "notes": "No state individual income tax. Other business taxes may apply."
+      },
+      {
+        "entityType": "partnership",
+        "returnForm": "N/A",
+        "dueDate": null,
+        "extensionDate": null,
+        "estimatedPayments": [],
+        "notes": "No state individual income tax. Other business taxes may apply."
+      },
+      {
+        "entityType": "s-corporation",
+        "returnForm": "N/A",
+        "dueDate": null,
+        "extensionDate": null,
+        "estimatedPayments": [],
+        "notes": "No state individual income tax. Other business taxes may apply."
+      },
+      {
+        "entityType": "c-corporation",
+        "returnForm": "N/A",
+        "dueDate": null,
+        "extensionDate": null,
+        "estimatedPayments": [],
+        "notes": "No state individual income tax. Other business taxes may apply."
+      },
+      {
+        "entityType": "llc",
+        "returnForm": "N/A",
+        "dueDate": null,
+        "extensionDate": null,
+        "estimatedPayments": [],
+        "notes": "No state individual income tax. Other business taxes may apply."
+      },
+      {
+        "entityType": "nonprofit",
+        "returnForm": "N/A",
+        "dueDate": null,
+        "extensionDate": null,
+        "estimatedPayments": [],
+        "notes": "No state individual income tax. Other business taxes may apply."
+      }
+    ],
+    "notes": "No state individual income tax; business taxes may still apply."
+  },
+  {
+    "stateSlug": "tennessee",
+    "stateName": "Tennessee",
+    "abbreviation": "TN",
+    "hasIncomeTax": false,
+    "taxAgency": {
+      "name": "Tennessee Department of Revenue",
+      "url": "https://www.tn.gov/revenue"
+    },
+    "deadlines": [
+      {
+        "entityType": "individual",
+        "returnForm": "N/A",
+        "dueDate": null,
+        "extensionDate": null,
+        "estimatedPayments": [],
+        "notes": "No state individual income tax. Other business taxes may apply."
+      },
+      {
+        "entityType": "sole-proprietorship",
+        "returnForm": "N/A",
+        "dueDate": null,
+        "extensionDate": null,
+        "estimatedPayments": [],
+        "notes": "No state individual income tax. Other business taxes may apply."
+      },
+      {
+        "entityType": "partnership",
+        "returnForm": "N/A",
+        "dueDate": null,
+        "extensionDate": null,
+        "estimatedPayments": [],
+        "notes": "No state individual income tax. Other business taxes may apply."
+      },
+      {
+        "entityType": "s-corporation",
+        "returnForm": "N/A",
+        "dueDate": null,
+        "extensionDate": null,
+        "estimatedPayments": [],
+        "notes": "No state individual income tax. Other business taxes may apply."
+      },
+      {
+        "entityType": "c-corporation",
+        "returnForm": "N/A",
+        "dueDate": null,
+        "extensionDate": null,
+        "estimatedPayments": [],
+        "notes": "No state individual income tax. Other business taxes may apply."
+      },
+      {
+        "entityType": "llc",
+        "returnForm": "N/A",
+        "dueDate": null,
+        "extensionDate": null,
+        "estimatedPayments": [],
+        "notes": "No state individual income tax. Other business taxes may apply."
+      },
+      {
+        "entityType": "nonprofit",
+        "returnForm": "N/A",
+        "dueDate": null,
+        "extensionDate": null,
+        "estimatedPayments": [],
+        "notes": "No state individual income tax. Other business taxes may apply."
+      }
+    ],
+    "notes": "No state individual income tax; business taxes may still apply."
+  },
+  {
+    "stateSlug": "texas",
+    "stateName": "Texas",
+    "abbreviation": "TX",
+    "hasIncomeTax": false,
+    "taxAgency": {
+      "name": "Texas Comptroller of Public Accounts",
+      "url": "https://comptroller.texas.gov"
+    },
+    "deadlines": [
+      {
+        "entityType": "individual",
+        "returnForm": "N/A",
+        "dueDate": null,
+        "extensionDate": null,
+        "estimatedPayments": [],
+        "notes": "No state individual income tax in Texas."
+      },
+      {
+        "entityType": "sole-proprietorship",
+        "returnForm": "N/A",
+        "dueDate": null,
+        "extensionDate": null,
+        "estimatedPayments": [],
+        "notes": "No state individual income tax in Texas."
+      },
+      {
+        "entityType": "partnership",
+        "returnForm": "N/A",
+        "dueDate": null,
+        "extensionDate": null,
+        "estimatedPayments": [],
+        "notes": "No state individual income tax. Other business taxes may apply."
+      },
+      {
+        "entityType": "s-corporation",
+        "returnForm": "N/A",
+        "dueDate": null,
+        "extensionDate": null,
+        "estimatedPayments": [],
+        "notes": "No state individual income tax. Other business taxes may apply."
+      },
+      {
+        "entityType": "c-corporation",
+        "returnForm": "N/A",
+        "dueDate": null,
+        "extensionDate": null,
+        "estimatedPayments": [],
+        "notes": "No state individual income tax. Other business taxes may apply."
+      },
+      {
+        "entityType": "llc",
+        "returnForm": "N/A",
+        "dueDate": null,
+        "extensionDate": null,
+        "estimatedPayments": [],
+        "notes": "No state individual income tax. Other business taxes may apply."
+      },
+      {
+        "entityType": "nonprofit",
+        "returnForm": "N/A",
+        "dueDate": null,
+        "extensionDate": null,
+        "estimatedPayments": [],
+        "notes": "No state individual income tax. Other business taxes may apply."
+      }
+    ],
+    "notes": "No state individual income tax; business taxes may still apply."
+  },
+  {
+    "stateSlug": "utah",
+    "stateName": "Utah",
+    "abbreviation": "UT",
+    "hasIncomeTax": true,
+    "taxAgency": {
+      "name": "Utah State Tax Commission",
+      "url": "https://tax.utah.gov"
+    },
+    "deadlines": [
+      {
+        "entityType": "individual",
+        "returnForm": "Form TC-40",
+        "dueDate": "2026-04-15",
+        "extensionDate": "2026-10-15",
+        "estimatedPayments": [
+          "2026-04-15",
+          "2026-06-15",
+          "2026-09-15",
+          "2027-01-15"
+        ],
+        "notes": "Utah income tax returns due April 15, 2026."
+      },
+      {
+        "entityType": "sole-proprietorship",
+        "returnForm": "Form TC-40",
+        "dueDate": "2026-04-15",
+        "extensionDate": "2026-10-15",
+        "estimatedPayments": [
+          "2026-04-15",
+          "2026-06-15",
+          "2026-09-15",
+          "2027-01-15"
+        ],
+        "notes": "Business income reported on UT personal return."
+      },
+      {
+        "entityType": "partnership",
+        "returnForm": "Form TC-65",
+        "dueDate": "2026-04-15",
+        "extensionDate": "2026-10-15",
+        "estimatedPayments": [],
+        "notes": "Utah partnership returns due April 15 for calendar year filers."
+      },
+      {
+        "entityType": "s-corporation",
+        "returnForm": "Form TC-20S",
+        "dueDate": "2026-04-15",
+        "extensionDate": "2026-10-15",
+        "estimatedPayments": [],
+        "notes": "Utah S corporation returns due April 15 for calendar year filers."
+      },
+      {
+        "entityType": "c-corporation",
+        "returnForm": "Form TC-20",
+        "dueDate": "2026-04-15",
+        "extensionDate": "2026-10-15",
+        "estimatedPayments": [
+          "2026-04-15",
+          "2026-06-15",
+          "2026-09-15",
+          "2026-12-15"
+        ],
+        "notes": "Utah corporate returns due April 15 for calendar year filers."
+      },
+      {
+        "entityType": "llc",
+        "returnForm": "State LLC return",
+        "dueDate": "2026-03-16",
+        "extensionDate": "2026-09-15",
+        "estimatedPayments": [],
+        "notes": "Calendar-year due date follows federal timing for pass-through entities."
+      },
+      {
+        "entityType": "nonprofit",
+        "returnForm": "State nonprofit return",
+        "dueDate": "2026-05-15",
+        "extensionDate": "2026-11-15",
+        "estimatedPayments": [],
+        "notes": "Nonprofit annual return generally due the 15th day of the 5th month."
+      }
+    ],
+    "notes": "Dates reflect calendar-year filers and common conformity to federal due dates."
+  },
+  {
+    "stateSlug": "vermont",
+    "stateName": "Vermont",
+    "abbreviation": "VT",
+    "hasIncomeTax": true,
+    "taxAgency": {
+      "name": "Vermont Department of Taxes",
+      "url": "https://tax.vermont.gov"
+    },
+    "deadlines": [
+      {
+        "entityType": "individual",
+        "returnForm": "State income tax return",
+        "dueDate": "2026-04-15",
+        "extensionDate": "2026-10-15",
+        "estimatedPayments": [
+          "2026-04-15",
+          "2026-06-15",
+          "2026-09-15",
+          "2027-01-15"
+        ],
+        "notes": "Conforms to the federal calendar-year due date unless the state announces relief."
+      },
+      {
+        "entityType": "sole-proprietorship",
+        "returnForm": "State income tax return",
+        "dueDate": "2026-04-15",
+        "extensionDate": "2026-10-15",
+        "estimatedPayments": [
+          "2026-04-15",
+          "2026-06-15",
+          "2026-09-15",
+          "2027-01-15"
+        ],
+        "notes": "Conforms to the federal calendar-year due date unless the state announces relief."
+      },
+      {
+        "entityType": "partnership",
+        "returnForm": "State business income tax return",
+        "dueDate": "2026-03-16",
+        "extensionDate": "2026-09-15",
+        "estimatedPayments": [],
+        "notes": "Calendar-year due date follows federal timing for pass-through entities."
+      },
+      {
+        "entityType": "s-corporation",
+        "returnForm": "State business income tax return",
+        "dueDate": "2026-03-16",
+        "extensionDate": "2026-09-15",
+        "estimatedPayments": [],
+        "notes": "Calendar-year due date follows federal timing for pass-through entities."
+      },
+      {
+        "entityType": "c-corporation",
+        "returnForm": "State corporate income tax return",
+        "dueDate": "2026-04-15",
+        "extensionDate": "2026-10-15",
+        "estimatedPayments": [
+          "2026-04-15",
+          "2026-06-15",
+          "2026-09-15",
+          "2026-12-15"
+        ],
+        "notes": "Calendar-year due date follows federal timing for corporations."
+      },
+      {
+        "entityType": "llc",
+        "returnForm": "State business income tax return",
+        "dueDate": "2026-03-16",
+        "extensionDate": "2026-09-15",
+        "estimatedPayments": [],
+        "notes": "Calendar-year due date follows federal timing for pass-through entities."
+      },
+      {
+        "entityType": "nonprofit",
+        "returnForm": "State nonprofit return",
+        "dueDate": "2026-05-15",
+        "extensionDate": "2026-11-15",
+        "estimatedPayments": [],
+        "notes": "Nonprofit annual return generally due the 15th day of the 5th month."
+      }
+    ],
+    "notes": "Dates reflect calendar-year filers and common conformity to federal due dates."
+  },
+  {
+    "stateSlug": "virginia",
+    "stateName": "Virginia",
+    "abbreviation": "VA",
+    "hasIncomeTax": true,
+    "taxAgency": {
+      "name": "Virginia Department of Taxation",
+      "url": "https://www.tax.virginia.gov"
+    },
+    "deadlines": [
+      {
+        "entityType": "individual",
+        "returnForm": "Form 760",
+        "dueDate": "2026-05-01",
+        "extensionDate": "2026-11-01",
+        "estimatedPayments": [
+          "2026-04-15",
+          "2026-06-15",
+          "2026-09-15",
+          "2027-01-15"
+        ],
+        "notes": "Virginia individual income tax returns are generally due May 1."
+      },
+      {
+        "entityType": "sole-proprietorship",
+        "returnForm": "Form 760",
+        "dueDate": "2026-05-01",
+        "extensionDate": "2026-11-01",
+        "estimatedPayments": [
+          "2026-04-15",
+          "2026-06-15",
+          "2026-09-15",
+          "2027-01-15"
+        ],
+        "notes": "Business income reported on VA personal return."
+      },
+      {
+        "entityType": "partnership",
+        "returnForm": "State partnership return",
+        "dueDate": "2026-03-16",
+        "extensionDate": "2026-09-15",
+        "estimatedPayments": [],
+        "notes": "Calendar-year due date follows federal timing for pass-through entities."
+      },
+      {
+        "entityType": "s-corporation",
+        "returnForm": "State S-corporation return",
+        "dueDate": "2026-03-16",
+        "extensionDate": "2026-09-15",
+        "estimatedPayments": [],
+        "notes": "Calendar-year due date follows federal timing for pass-through entities."
+      },
+      {
+        "entityType": "c-corporation",
+        "returnForm": "State C-corporation return",
+        "dueDate": "2026-04-15",
+        "extensionDate": "2026-10-15",
+        "estimatedPayments": [
+          "2026-04-15",
+          "2026-06-15",
+          "2026-09-15",
+          "2026-12-15"
+        ],
+        "notes": "Calendar-year due date follows federal timing for corporations."
+      },
+      {
+        "entityType": "llc",
+        "returnForm": "State LLC return",
+        "dueDate": "2026-03-16",
+        "extensionDate": "2026-09-15",
+        "estimatedPayments": [],
+        "notes": "Calendar-year due date follows federal timing for pass-through entities."
+      },
+      {
+        "entityType": "nonprofit",
+        "returnForm": "State nonprofit return",
+        "dueDate": "2026-05-15",
+        "extensionDate": "2026-11-15",
+        "estimatedPayments": [],
+        "notes": "Nonprofit annual return generally due the 15th day of the 5th month."
+      }
+    ],
+    "notes": "Dates reflect calendar-year filers and common conformity to federal due dates."
+  },
+  {
+    "stateSlug": "washington",
+    "stateName": "Washington",
+    "abbreviation": "WA",
+    "hasIncomeTax": false,
+    "taxAgency": {
+      "name": "Washington Department of Revenue",
+      "url": "https://dor.wa.gov"
+    },
+    "deadlines": [
+      {
+        "entityType": "individual",
+        "returnForm": "N/A",
+        "dueDate": null,
+        "extensionDate": null,
+        "estimatedPayments": [],
+        "notes": "No state individual income tax in Washington."
+      },
+      {
+        "entityType": "sole-proprietorship",
+        "returnForm": "N/A",
+        "dueDate": null,
+        "extensionDate": null,
+        "estimatedPayments": [],
+        "notes": "No state individual income tax in Washington."
+      },
+      {
+        "entityType": "partnership",
+        "returnForm": "N/A",
+        "dueDate": null,
+        "extensionDate": null,
+        "estimatedPayments": [],
+        "notes": "No state individual income tax. Other business taxes may apply."
+      },
+      {
+        "entityType": "s-corporation",
+        "returnForm": "N/A",
+        "dueDate": null,
+        "extensionDate": null,
+        "estimatedPayments": [],
+        "notes": "No state individual income tax. Other business taxes may apply."
+      },
+      {
+        "entityType": "c-corporation",
+        "returnForm": "N/A",
+        "dueDate": null,
+        "extensionDate": null,
+        "estimatedPayments": [],
+        "notes": "No state individual income tax. Other business taxes may apply."
+      },
+      {
+        "entityType": "llc",
+        "returnForm": "N/A",
+        "dueDate": null,
+        "extensionDate": null,
+        "estimatedPayments": [],
+        "notes": "No state individual income tax. Other business taxes may apply."
+      },
+      {
+        "entityType": "nonprofit",
+        "returnForm": "N/A",
+        "dueDate": null,
+        "extensionDate": null,
+        "estimatedPayments": [],
+        "notes": "No state individual income tax. Other business taxes may apply."
+      }
+    ],
+    "notes": "No state individual income tax; business taxes may still apply."
+  },
+  {
+    "stateSlug": "west-virginia",
+    "stateName": "West Virginia",
+    "abbreviation": "WV",
+    "hasIncomeTax": true,
+    "taxAgency": {
+      "name": "West Virginia State Tax Department",
+      "url": "https://tax.wv.gov"
+    },
+    "deadlines": [
+      {
+        "entityType": "individual",
+        "returnForm": "State income tax return",
+        "dueDate": "2026-04-15",
+        "extensionDate": "2026-10-15",
+        "estimatedPayments": [
+          "2026-04-15",
+          "2026-06-15",
+          "2026-09-15",
+          "2027-01-15"
+        ],
+        "notes": "Conforms to the federal calendar-year due date unless the state announces relief."
+      },
+      {
+        "entityType": "sole-proprietorship",
+        "returnForm": "State income tax return",
+        "dueDate": "2026-04-15",
+        "extensionDate": "2026-10-15",
+        "estimatedPayments": [
+          "2026-04-15",
+          "2026-06-15",
+          "2026-09-15",
+          "2027-01-15"
+        ],
+        "notes": "Conforms to the federal calendar-year due date unless the state announces relief."
+      },
+      {
+        "entityType": "partnership",
+        "returnForm": "State business income tax return",
+        "dueDate": "2026-03-16",
+        "extensionDate": "2026-09-15",
+        "estimatedPayments": [],
+        "notes": "Calendar-year due date follows federal timing for pass-through entities."
+      },
+      {
+        "entityType": "s-corporation",
+        "returnForm": "State business income tax return",
+        "dueDate": "2026-03-16",
+        "extensionDate": "2026-09-15",
+        "estimatedPayments": [],
+        "notes": "Calendar-year due date follows federal timing for pass-through entities."
+      },
+      {
+        "entityType": "c-corporation",
+        "returnForm": "State corporate income tax return",
+        "dueDate": "2026-04-15",
+        "extensionDate": "2026-10-15",
+        "estimatedPayments": [
+          "2026-04-15",
+          "2026-06-15",
+          "2026-09-15",
+          "2026-12-15"
+        ],
+        "notes": "Calendar-year due date follows federal timing for corporations."
+      },
+      {
+        "entityType": "llc",
+        "returnForm": "State business income tax return",
+        "dueDate": "2026-03-16",
+        "extensionDate": "2026-09-15",
+        "estimatedPayments": [],
+        "notes": "Calendar-year due date follows federal timing for pass-through entities."
+      },
+      {
+        "entityType": "nonprofit",
+        "returnForm": "State nonprofit return",
+        "dueDate": "2026-05-15",
+        "extensionDate": "2026-11-15",
+        "estimatedPayments": [],
+        "notes": "Nonprofit annual return generally due the 15th day of the 5th month."
+      }
+    ],
+    "notes": "Dates reflect calendar-year filers and common conformity to federal due dates."
+  },
+  {
+    "stateSlug": "wisconsin",
+    "stateName": "Wisconsin",
+    "abbreviation": "WI",
+    "hasIncomeTax": true,
+    "taxAgency": {
+      "name": "Wisconsin Department of Revenue",
+      "url": "https://www.revenue.wi.gov"
+    },
+    "deadlines": [
+      {
+        "entityType": "individual",
+        "returnForm": "Form 1",
+        "dueDate": "2026-04-15",
+        "extensionDate": "2026-10-15",
+        "estimatedPayments": [
+          "2026-04-15",
+          "2026-06-15",
+          "2026-09-15",
+          "2027-01-15"
+        ],
+        "notes": "WI returns due April 15, 2026; federal extension applies to WI."
+      },
+      {
+        "entityType": "sole-proprietorship",
+        "returnForm": "Form 1",
+        "dueDate": "2026-04-15",
+        "extensionDate": "2026-10-15",
+        "estimatedPayments": [
+          "2026-04-15",
+          "2026-06-15",
+          "2026-09-15",
+          "2027-01-15"
+        ],
+        "notes": "Business income reported on WI personal return."
+      },
+      {
+        "entityType": "partnership",
+        "returnForm": "State business income tax return",
+        "dueDate": "2026-03-16",
+        "extensionDate": "2026-09-15",
+        "estimatedPayments": [],
+        "notes": "Calendar-year due date follows federal timing for pass-through entities."
+      },
+      {
+        "entityType": "s-corporation",
+        "returnForm": "State business income tax return",
+        "dueDate": "2026-03-16",
+        "extensionDate": "2026-09-15",
+        "estimatedPayments": [],
+        "notes": "Calendar-year due date follows federal timing for pass-through entities."
+      },
+      {
+        "entityType": "c-corporation",
+        "returnForm": "State corporate income tax return",
+        "dueDate": "2026-04-15",
+        "extensionDate": "2026-10-15",
+        "estimatedPayments": [
+          "2026-04-15",
+          "2026-06-15",
+          "2026-09-15",
+          "2026-12-15"
+        ],
+        "notes": "Calendar-year due date follows federal timing for corporations."
+      },
+      {
+        "entityType": "llc",
+        "returnForm": "State business income tax return",
+        "dueDate": "2026-03-16",
+        "extensionDate": "2026-09-15",
+        "estimatedPayments": [],
+        "notes": "Calendar-year due date follows federal timing for pass-through entities."
+      },
+      {
+        "entityType": "nonprofit",
+        "returnForm": "State nonprofit return",
+        "dueDate": "2026-05-15",
+        "extensionDate": "2026-11-15",
+        "estimatedPayments": [],
+        "notes": "Nonprofit annual return generally due the 15th day of the 5th month."
+      }
+    ],
+    "notes": "Dates reflect calendar-year filers and common conformity to federal due dates."
+  },
+  {
+    "stateSlug": "wyoming",
+    "stateName": "Wyoming",
+    "abbreviation": "WY",
+    "hasIncomeTax": false,
+    "taxAgency": {
+      "name": "Wyoming Department of Revenue",
+      "url": "https://revenue.wyo.gov"
+    },
+    "deadlines": [
+      {
+        "entityType": "individual",
+        "returnForm": "N/A",
+        "dueDate": null,
+        "extensionDate": null,
+        "estimatedPayments": [],
+        "notes": "No state individual income tax. Other business taxes may apply."
+      },
+      {
+        "entityType": "sole-proprietorship",
+        "returnForm": "N/A",
+        "dueDate": null,
+        "extensionDate": null,
+        "estimatedPayments": [],
+        "notes": "No state individual income tax. Other business taxes may apply."
+      },
+      {
+        "entityType": "partnership",
+        "returnForm": "N/A",
+        "dueDate": null,
+        "extensionDate": null,
+        "estimatedPayments": [],
+        "notes": "No state individual income tax. Other business taxes may apply."
+      },
+      {
+        "entityType": "s-corporation",
+        "returnForm": "N/A",
+        "dueDate": null,
+        "extensionDate": null,
+        "estimatedPayments": [],
+        "notes": "No state individual income tax. Other business taxes may apply."
+      },
+      {
+        "entityType": "c-corporation",
+        "returnForm": "N/A",
+        "dueDate": null,
+        "extensionDate": null,
+        "estimatedPayments": [],
+        "notes": "No state individual income tax. Other business taxes may apply."
+      },
+      {
+        "entityType": "llc",
+        "returnForm": "N/A",
+        "dueDate": null,
+        "extensionDate": null,
+        "estimatedPayments": [],
+        "notes": "No state individual income tax. Other business taxes may apply."
+      },
+      {
+        "entityType": "nonprofit",
+        "returnForm": "N/A",
+        "dueDate": null,
+        "extensionDate": null,
+        "estimatedPayments": [],
+        "notes": "No state individual income tax. Other business taxes may apply."
+      }
+    ],
+    "notes": "No state individual income tax; business taxes may still apply."
+  }
+]

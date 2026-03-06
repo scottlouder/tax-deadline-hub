@@ -1,0 +1,512 @@
+[
+  {
+    "slug": "alabama",
+    "name": "Alabama",
+    "abbreviation": "AL",
+    "hasIncomeTax": true,
+    "taxAgency": {
+      "name": "Alabama Department of Revenue",
+      "url": "https://www.revenue.alabama.gov"
+    }
+  },
+  {
+    "slug": "alaska",
+    "name": "Alaska",
+    "abbreviation": "AK",
+    "hasIncomeTax": false,
+    "taxAgency": {
+      "name": "Alaska Department of Revenue",
+      "url": "https://tax.alaska.gov"
+    }
+  },
+  {
+    "slug": "arizona",
+    "name": "Arizona",
+    "abbreviation": "AZ",
+    "hasIncomeTax": true,
+    "taxAgency": {
+      "name": "Arizona Department of Revenue",
+      "url": "https://azdor.gov"
+    }
+  },
+  {
+    "slug": "arkansas",
+    "name": "Arkansas",
+    "abbreviation": "AR",
+    "hasIncomeTax": true,
+    "taxAgency": {
+      "name": "Arkansas Department of Finance and Administration",
+      "url": "https://www.dfa.arkansas.gov"
+    }
+  },
+  {
+    "slug": "california",
+    "name": "California",
+    "abbreviation": "CA",
+    "hasIncomeTax": true,
+    "taxAgency": {
+      "name": "California Franchise Tax Board",
+      "url": "https://www.ftb.ca.gov"
+    }
+  },
+  {
+    "slug": "colorado",
+    "name": "Colorado",
+    "abbreviation": "CO",
+    "hasIncomeTax": true,
+    "taxAgency": {
+      "name": "Colorado Department of Revenue",
+      "url": "https://tax.colorado.gov"
+    }
+  },
+  {
+    "slug": "connecticut",
+    "name": "Connecticut",
+    "abbreviation": "CT",
+    "hasIncomeTax": true,
+    "taxAgency": {
+      "name": "Connecticut Department of Revenue Services",
+      "url": "https://portal.ct.gov/DRS"
+    }
+  },
+  {
+    "slug": "delaware",
+    "name": "Delaware",
+    "abbreviation": "DE",
+    "hasIncomeTax": true,
+    "taxAgency": {
+      "name": "Delaware Division of Revenue",
+      "url": "https://revenue.delaware.gov"
+    }
+  },
+  {
+    "slug": "district-of-columbia",
+    "name": "District of Columbia",
+    "abbreviation": "DC",
+    "hasIncomeTax": true,
+    "taxAgency": {
+      "name": "DC Office of Tax and Revenue",
+      "url": "https://otr.cfo.dc.gov"
+    }
+  },
+  {
+    "slug": "florida",
+    "name": "Florida",
+    "abbreviation": "FL",
+    "hasIncomeTax": false,
+    "taxAgency": {
+      "name": "Florida Department of Revenue",
+      "url": "https://floridarevenue.com"
+    }
+  },
+  {
+    "slug": "georgia",
+    "name": "Georgia",
+    "abbreviation": "GA",
+    "hasIncomeTax": true,
+    "taxAgency": {
+      "name": "Georgia Department of Revenue",
+      "url": "https://dor.georgia.gov"
+    }
+  },
+  {
+    "slug": "hawaii",
+    "name": "Hawaii",
+    "abbreviation": "HI",
+    "hasIncomeTax": true,
+    "taxAgency": {
+      "name": "Hawaii Department of Taxation",
+      "url": "https://tax.hawaii.gov"
+    }
+  },
+  {
+    "slug": "idaho",
+    "name": "Idaho",
+    "abbreviation": "ID",
+    "hasIncomeTax": true,
+    "taxAgency": {
+      "name": "Idaho State Tax Commission",
+      "url": "https://tax.idaho.gov"
+    }
+  },
+  {
+    "slug": "illinois",
+    "name": "Illinois",
+    "abbreviation": "IL",
+    "hasIncomeTax": true,
+    "taxAgency": {
+      "name": "Illinois Department of Revenue",
+      "url": "https://tax.illinois.gov"
+    }
+  },
+  {
+    "slug": "indiana",
+    "name": "Indiana",
+    "abbreviation": "IN",
+    "hasIncomeTax": true,
+    "taxAgency": {
+      "name": "Indiana Department of Revenue",
+      "url": "https://www.in.gov/dor"
+    }
+  },
+  {
+    "slug": "iowa",
+    "name": "Iowa",
+    "abbreviation": "IA",
+    "hasIncomeTax": true,
+    "taxAgency": {
+      "name": "Iowa Department of Revenue",
+      "url": "https://tax.iowa.gov"
+    }
+  },
+  {
+    "slug": "kansas",
+    "name": "Kansas",
+    "abbreviation": "KS",
+    "hasIncomeTax": true,
+    "taxAgency": {
+      "name": "Kansas Department of Revenue",
+      "url": "https://www.ksrevenue.gov"
+    }
+  },
+  {
+    "slug": "kentucky",
+    "name": "Kentucky",
+    "abbreviation": "KY",
+    "hasIncomeTax": true,
+    "taxAgency": {
+      "name": "Kentucky Department of Revenue",
+      "url": "https://revenue.ky.gov"
+    }
+  },
+  {
+    "slug": "louisiana",
+    "name": "Louisiana",
+    "abbreviation": "LA",
+    "hasIncomeTax": true,
+    "taxAgency": {
+      "name": "Louisiana Department of Revenue",
+      "url": "https://revenue.louisiana.gov"
+    }
+  },
+  {
+    "slug": "maine",
+    "name": "Maine",
+    "abbreviation": "ME",
+    "hasIncomeTax": true,
+    "taxAgency": {
+      "name": "Maine Revenue Services",
+      "url": "https://www.maine.gov/revenue"
+    }
+  },
+  {
+    "slug": "maryland",
+    "name": "Maryland",
+    "abbreviation": "MD",
+    "hasIncomeTax": true,
+    "taxAgency": {
+      "name": "Comptroller of Maryland",
+      "url": "https://www.marylandtaxes.gov"
+    }
+  },
+  {
+    "slug": "massachusetts",
+    "name": "Massachusetts",
+    "abbreviation": "MA",
+    "hasIncomeTax": true,
+    "taxAgency": {
+      "name": "Massachusetts Department of Revenue",
+      "url": "https://www.mass.gov/orgs/massachusetts-department-of-revenue"
+    }
+  },
+  {
+    "slug": "michigan",
+    "name": "Michigan",
+    "abbreviation": "MI",
+    "hasIncomeTax": true,
+    "taxAgency": {
+      "name": "Michigan Department of Treasury",
+      "url": "https://www.michigan.gov/taxes"
+    }
+  },
+  {
+    "slug": "minnesota",
+    "name": "Minnesota",
+    "abbreviation": "MN",
+    "hasIncomeTax": true,
+    "taxAgency": {
+      "name": "Minnesota Department of Revenue",
+      "url": "https://www.revenue.state.mn.us"
+    }
+  },
+  {
+    "slug": "mississippi",
+    "name": "Mississippi",
+    "abbreviation": "MS",
+    "hasIncomeTax": true,
+    "taxAgency": {
+      "name": "Mississippi Department of Revenue",
+      "url": "https://www.dor.ms.gov"
+    }
+  },
+  {
+    "slug": "missouri",
+    "name": "Missouri",
+    "abbreviation": "MO",
+    "hasIncomeTax": true,
+    "taxAgency": {
+      "name": "Missouri Department of Revenue",
+      "url": "https://dor.mo.gov"
+    }
+  },
+  {
+    "slug": "montana",
+    "name": "Montana",
+    "abbreviation": "MT",
+    "hasIncomeTax": true,
+    "taxAgency": {
+      "name": "Montana Department of Revenue",
+      "url": "https://mtrevenue.gov"
+    }
+  },
+  {
+    "slug": "nebraska",
+    "name": "Nebraska",
+    "abbreviation": "NE",
+    "hasIncomeTax": true,
+    "taxAgency": {
+      "name": "Nebraska Department of Revenue",
+      "url": "https://revenue.nebraska.gov"
+    }
+  },
+  {
+    "slug": "nevada",
+    "name": "Nevada",
+    "abbreviation": "NV",
+    "hasIncomeTax": false,
+    "taxAgency": {
+      "name": "Nevada Department of Taxation",
+      "url": "https://tax.nv.gov"
+    }
+  },
+  {
+    "slug": "new-hampshire",
+    "name": "New Hampshire",
+    "abbreviation": "NH",
+    "hasIncomeTax": false,
+    "taxAgency": {
+      "name": "New Hampshire Department of Revenue Administration",
+      "url": "https://www.revenue.nh.gov"
+    }
+  },
+  {
+    "slug": "new-jersey",
+    "name": "New Jersey",
+    "abbreviation": "NJ",
+    "hasIncomeTax": true,
+    "taxAgency": {
+      "name": "New Jersey Division of Taxation",
+      "url": "https://www.nj.gov/treasury/taxation"
+    }
+  },
+  {
+    "slug": "new-mexico",
+    "name": "New Mexico",
+    "abbreviation": "NM",
+    "hasIncomeTax": true,
+    "taxAgency": {
+      "name": "New Mexico Taxation and Revenue Department",
+      "url": "https://www.tax.newmexico.gov"
+    }
+  },
+  {
+    "slug": "new-york",
+    "name": "New York",
+    "abbreviation": "NY",
+    "hasIncomeTax": true,
+    "taxAgency": {
+      "name": "New York Department of Taxation and Finance",
+      "url": "https://www.tax.ny.gov"
+    }
+  },
+  {
+    "slug": "north-carolina",
+    "name": "North Carolina",
+    "abbreviation": "NC",
+    "hasIncomeTax": true,
+    "taxAgency": {
+      "name": "North Carolina Department of Revenue",
+      "url": "https://www.ncdor.gov"
+    }
+  },
+  {
+    "slug": "north-dakota",
+    "name": "North Dakota",
+    "abbreviation": "ND",
+    "hasIncomeTax": true,
+    "taxAgency": {
+      "name": "North Dakota Office of State Tax Commissioner",
+      "url": "https://www.tax.nd.gov"
+    }
+  },
+  {
+    "slug": "ohio",
+    "name": "Ohio",
+    "abbreviation": "OH",
+    "hasIncomeTax": true,
+    "taxAgency": {
+      "name": "Ohio Department of Taxation",
+      "url": "https://tax.ohio.gov"
+    }
+  },
+  {
+    "slug": "oklahoma",
+    "name": "Oklahoma",
+    "abbreviation": "OK",
+    "hasIncomeTax": true,
+    "taxAgency": {
+      "name": "Oklahoma Tax Commission",
+      "url": "https://oklahoma.gov/tax.html"
+    }
+  },
+  {
+    "slug": "oregon",
+    "name": "Oregon",
+    "abbreviation": "OR",
+    "hasIncomeTax": true,
+    "taxAgency": {
+      "name": "Oregon Department of Revenue",
+      "url": "https://www.oregon.gov/dor"
+    }
+  },
+  {
+    "slug": "pennsylvania",
+    "name": "Pennsylvania",
+    "abbreviation": "PA",
+    "hasIncomeTax": true,
+    "taxAgency": {
+      "name": "Pennsylvania Department of Revenue",
+      "url": "https://www.revenue.pa.gov"
+    }
+  },
+  {
+    "slug": "rhode-island",
+    "name": "Rhode Island",
+    "abbreviation": "RI",
+    "hasIncomeTax": true,
+    "taxAgency": {
+      "name": "Rhode Island Division of Taxation",
+      "url": "https://tax.ri.gov"
+    }
+  },
+  {
+    "slug": "south-carolina",
+    "name": "South Carolina",
+    "abbreviation": "SC",
+    "hasIncomeTax": true,
+    "taxAgency": {
+      "name": "South Carolina Department of Revenue",
+      "url": "https://dor.sc.gov"
+    }
+  },
+  {
+    "slug": "south-dakota",
+    "name": "South Dakota",
+    "abbreviation": "SD",
+    "hasIncomeTax": false,
+    "taxAgency": {
+      "name": "South Dakota Department of Revenue",
+      "url": "https://dor.sd.gov"
+    }
+  },
+  {
+    "slug": "tennessee",
+    "name": "Tennessee",
+    "abbreviation": "TN",
+    "hasIncomeTax": false,
+    "taxAgency": {
+      "name": "Tennessee Department of Revenue",
+      "url": "https://www.tn.gov/revenue"
+    }
+  },
+  {
+    "slug": "texas",
+    "name": "Texas",
+    "abbreviation": "TX",
+    "hasIncomeTax": false,
+    "taxAgency": {
+      "name": "Texas Comptroller of Public Accounts",
+      "url": "https://comptroller.texas.gov"
+    }
+  },
+  {
+    "slug": "utah",
+    "name": "Utah",
+    "abbreviation": "UT",
+    "hasIncomeTax": true,
+    "taxAgency": {
+      "name": "Utah State Tax Commission",
+      "url": "https://tax.utah.gov"
+    }
+  },
+  {
+    "slug": "vermont",
+    "name": "Vermont",
+    "abbreviation": "VT",
+    "hasIncomeTax": true,
+    "taxAgency": {
+      "name": "Vermont Department of Taxes",
+      "url": "https://tax.vermont.gov"
+    }
+  },
+  {
+    "slug": "virginia",
+    "name": "Virginia",
+    "abbreviation": "VA",
+    "hasIncomeTax": true,
+    "taxAgency": {
+      "name": "Virginia Department of Taxation",
+      "url": "https://www.tax.virginia.gov"
+    }
+  },
+  {
+    "slug": "washington",
+    "name": "Washington",
+    "abbreviation": "WA",
+    "hasIncomeTax": false,
+    "taxAgency": {
+      "name": "Washington Department of Revenue",
+      "url": "https://dor.wa.gov"
+    }
+  },
+  {
+    "slug": "west-virginia",
+    "name": "West Virginia",
+    "abbreviation": "WV",
+    "hasIncomeTax": true,
+    "taxAgency": {
+      "name": "West Virginia State Tax Department",
+      "url": "https://tax.wv.gov"
+    }
+  },
+  {
+    "slug": "wisconsin",
+    "name": "Wisconsin",
+    "abbreviation": "WI",
+    "hasIncomeTax": true,
+    "taxAgency": {
+      "name": "Wisconsin Department of Revenue",
+      "url": "https://www.revenue.wi.gov"
+    }
+  },
+  {
+    "slug": "wyoming",
+    "name": "Wyoming",
+    "abbreviation": "WY",
+    "hasIncomeTax": false,
+    "taxAgency": {
+      "name": "Wyoming Department of Revenue",
+      "url": "https://revenue.wyo.gov"
+    }
+  }
+]

@@ -1,0 +1,115 @@
+{
+  "taxYear": 2025,
+  "filingYear": 2026,
+  "entityDeadlines": [
+    {
+      "entityType": "sole-proprietorship",
+      "form": "Form 1040 Schedule C",
+      "dueDate": "2026-04-15",
+      "extensionDate": "2026-10-15",
+      "estimatedDates": [
+        "2026-04-15",
+        "2026-06-15",
+        "2026-09-15",
+        "2027-01-15"
+      ],
+      "notes": "Estimated tax uses Form 1040-ES; payment due by April 15."
+    },
+    {
+      "entityType": "partnership",
+      "form": "Form 1065",
+      "dueDate": "2026-03-16",
+      "extensionDate": "2026-09-15",
+      "estimatedDates": [],
+      "notes": "Calendar-year partnerships file by March 16, 2026 (March 15 is Sunday)."
+    },
+    {
+      "entityType": "s-corporation",
+      "form": "Form 1120-S",
+      "dueDate": "2026-03-16",
+      "extensionDate": "2026-09-15",
+      "estimatedDates": [
+        "2026-04-15",
+        "2026-06-15",
+        "2026-09-15",
+        "2026-12-15"
+      ],
+      "notes": "Estimated tax applies if S corp owes tax at entity level."
+    },
+    {
+      "entityType": "c-corporation",
+      "form": "Form 1120",
+      "dueDate": "2026-04-15",
+      "extensionDate": "2026-10-15",
+      "estimatedDates": [
+        "2026-04-15",
+        "2026-06-15",
+        "2026-09-15",
+        "2026-12-15"
+      ],
+      "notes": "Calendar-year C corps file by the 15th day of the 4th month."
+    },
+    {
+      "entityType": "llc",
+      "form": "Depends on classification",
+      "dueDate": "2026-04-15",
+      "extensionDate": "2026-10-15",
+      "estimatedDates": [],
+      "notes": "Single-member LLCs follow Form 1040; multi-member LLCs follow Form 1065."
+    },
+    {
+      "entityType": "nonprofit",
+      "form": "Form 990 / 990-EZ / 990-PF",
+      "dueDate": "2026-05-15",
+      "extensionDate": "2026-11-15",
+      "estimatedDates": [],
+      "notes": "Due the 15th day of the 5th month after year end."
+    }
+  ],
+  "payrollDeadlines": [
+    {
+      "form": "Form 941",
+      "schedule": "Quarterly",
+      "dueDates": [
+        "2026-04-30",
+        "2026-07-31",
+        "2026-11-02",
+        "2027-02-01"
+      ],
+      "notes": "Due last day of month after quarter end; next business day if weekend/holiday."
+    },
+    {
+      "form": "Form 940",
+      "schedule": "Annual",
+      "dueDates": [
+        "2027-02-01"
+      ],
+      "notes": "Employers who deposit on time may file by Feb 10."
+    },
+    {
+      "form": "Form W-2/W-3",
+      "schedule": "Annual",
+      "dueDates": [
+        "2026-02-02"
+      ],
+      "notes": "Provide W-2 to employees and file with SSA by Jan 31; next business day if weekend."
+    },
+    {
+      "form": "Form 1099-NEC",
+      "schedule": "Annual",
+      "dueDates": [
+        "2026-02-02"
+      ],
+      "notes": "File with IRS and furnish to recipients by Jan 31; next business day if weekend."
+    },
+    {
+      "form": "Form 1099-MISC",
+      "schedule": "Annual",
+      "dueDates": [
+        "2026-03-02",
+        "2026-03-31"
+      ],
+      "notes": "Paper due Feb 28; e-file due Mar 31. Recipients due Jan 31; weekend rule applies."
+    }
+  ]
+}
