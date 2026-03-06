@@ -7,6 +7,9 @@ export const metadata: Metadata = {
   title: "TaxDeadlineHub | US Tax Deadline Calendar",
   description: "Programmatic SEO hub for federal and state tax deadlines in 2026.",
   metadataBase: new URL("https://taxdeadlinehub.com"),
+  verification: {
+    google: "KOONvFZwDwDgfNwpZxGWwzcJ4r8S_CfEk2gM-h5-vNY",
+  },
 };
 
 export default function RootLayout({
