@@ -27,7 +27,22 @@ export const generateMetadata = async ({ params }: PageProps): Promise<Metadata>
   const description = state
     ? `${state.name} quarterly estimated tax payment due dates for 2026. Federal and state schedules for individuals, corporations, and S-corps.`
     : "State estimated tax payment due dates for 2026.";
-  return { title, description };
+  return {
+    title,
+    description,
+    alternates: { canonical: `/state/${stateSlug}/estimated-payments` },
+    openGraph: {
+      title,
+      description,
+      url: `/state/${stateSlug}/estimated-payments`,
+      type: "website",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+    },
+  };
 };
 
 export default async function StateEstimatedPaymentsPage({ params }: PageProps) {

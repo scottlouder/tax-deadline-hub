@@ -3,7 +3,7 @@ import { entityTypes, states } from "../lib/data";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://taxdeadlinehub.com";
-  const staticRoutes = ["", "/calculators"].map((route) => ({
+  const staticRoutes = ["", "/calculators", "/estimated-payments"].map((route) => ({
     url: `${baseUrl}${route}`,
     lastModified: new Date(),
     changeFrequency: "weekly" as const,
@@ -33,5 +33,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }))
   );
 
-  return [...staticRoutes, ...stateRoutes, ...entityRoutes, ...comboRoutes];
+  const estimatedPaymentRoutes = states.map((state) => ({
+    url: `${baseUrl}/state/${state.slug}/estimated-payments`,
+    lastModified: new Date(),
+    changeFrequency: "weekly" as const,
+    priority: 0.6,
+  }));
+
+  return [...staticRoutes, ...stateRoutes, ...entityRoutes, ...comboRoutes, ...estimatedPaymentRoutes];
 }

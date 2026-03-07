@@ -25,7 +25,22 @@ export const generateMetadata = async ({ params }: PageProps): Promise<Metadata>
   const description = state
     ? `Federal and ${state.name} state tax deadlines, extensions, and estimated payments for 2026.`
     : "State tax deadlines for 2026.";
-  return { title, description };
+  return {
+    title,
+    description,
+    alternates: { canonical: `/state/${slug}` },
+    openGraph: {
+      title,
+      description,
+      url: `/state/${slug}`,
+      type: "website",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+    },
+  };
 };
 
 export default async function StatePage({ params }: PageProps) {

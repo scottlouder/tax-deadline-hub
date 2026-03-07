@@ -12,6 +12,7 @@ export default function Footer() {
         </div>
         <div className="flex flex-wrap gap-4 text-sm font-semibold text-slate-600">
           <Link href="/" className="hover:text-slate-900">Home</Link>
+          <Link href="/estimated-payments" className="hover:text-slate-900">Estimated Payments</Link>
           <Link href="/calculators" className="hover:text-slate-900">Calculators</Link>
         </div>
       </div>

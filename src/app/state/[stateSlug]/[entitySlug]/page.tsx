@@ -32,7 +32,22 @@ export const generateMetadata = async ({ params }: PageProps): Promise<Metadata>
   const description = state && entity
     ? `${entity.name} filing dates, extensions, and estimates for ${state.name} in 2026.`
     : "State and entity tax deadlines for 2026.";
-  return { title, description };
+  return {
+    title,
+    description,
+    alternates: { canonical: `/state/${stateSlug}/${entitySlug}` },
+    openGraph: {
+      title,
+      description,
+      url: `/state/${stateSlug}/${entitySlug}`,
+      type: "website",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+    },
+  };
 };
 
 export default async function StateEntityPage({ params }: PageProps) {

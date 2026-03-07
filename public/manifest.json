@@ -1,0 +1,9 @@
+{
+  "name": "TaxDeadlineHub",
+  "short_name": "TDH",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#1e3a5f",
+  "background_color": "#f8fafc",
+  "icons": []
+}
