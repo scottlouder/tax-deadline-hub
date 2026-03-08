@@ -1,8 +1,32 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import StateGrid from "../components/StateGrid";
 import UpcomingDeadlines from "../components/UpcomingDeadlines";
 import FAQSection from "../components/FAQSection";
 import { entityTypes, states } from "../lib/data";
+
+export const metadata: Metadata = {
+  title: "2026 US Tax Deadlines by State & Entity Type | TaxDeadlineHub",
+  description:
+    "Find every 2026 federal and state tax deadline, extension date, and estimated payment schedule. Covers all 50 states and entity types including sole proprietorships, S-corps, C-corps, partnerships, and nonprofits.",
+  keywords: [
+    "2026 tax deadlines",
+    "state tax deadlines",
+    "federal tax deadline 2026",
+    "tax extension deadline",
+    "estimated tax payments 2026",
+    "IRS filing deadline",
+    "S-corp tax deadline",
+    "C-corp tax deadline",
+    "partnership tax deadline",
+    "nonprofit tax deadline",
+    "quarterly tax payments",
+    "tax deadline by state",
+  ],
+  alternates: {
+    canonical: "https://taxdeadlinehub.com",
+  },
+};
 
 export default function Home() {
   return (
