@@ -21,9 +21,9 @@ export default function EstimatedPaymentCalendar({
       {title ? (
         <p className="mb-4 text-base font-semibold text-slate-900">{title}</p>
       ) : null}
-      <div className="relative">
+      <div className="relative" style={{ minHeight: `${quarters.length * 60 + 8}px` }}>
         {/* Timeline bar */}
-        <div className="absolute left-[19px] top-4 h-[calc(100%-32px)] w-0.5 bg-slate-200" />
+        <div className="absolute left-[19px] top-4 bottom-4 w-0.5 bg-slate-200" />
 
         <div className="space-y-5">
           {quarters.map((q) => {

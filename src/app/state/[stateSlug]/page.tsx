@@ -52,6 +52,47 @@ export default async function StatePage({ params }: PageProps) {
     return <div className="text-sm text-slate-600">State not found.</div>;
   }
 
+  const noIncomeTaxDetails: Record<string, { taxes: string; businessTax: string }> = {
+    alaska: {
+      taxes: "Alaska has no state income tax or sales tax. However, residents pay property taxes, and local municipalities may levy their own sales taxes. Alaska also imposes a corporate income tax on businesses.",
+      businessTax: "Yes. Alaska levies a corporate income tax ranging from 0% to 9.4% on net income. Oil and gas companies face additional production taxes and surcharges.",
+    },
+    florida: {
+      taxes: "Florida has no state income tax. Residents pay a 6% state sales tax (plus local surtaxes up to 2%), property taxes, and documentary stamp taxes on real estate transactions.",
+      businessTax: "Yes. Florida imposes a 5.5% corporate income tax on C-corporations with taxable income exceeding $50,000. S-corps and sole proprietors are generally exempt.",
+    },
+    nevada: {
+      taxes: "Nevada has no state income or corporate income tax. Revenue comes primarily from sales tax (6.85% base rate plus local additions), gaming taxes, and property taxes.",
+      businessTax: "Yes. Nevada imposes a Commerce Tax on businesses with gross revenue exceeding $4 million and a Modified Business Tax on employer-paid wages.",
+    },
+    "new-hampshire": {
+      taxes: "New Hampshire has no general income tax or sales tax. However, the state levies property taxes (among the highest in the nation) and an Interest & Dividends Tax that is being phased out.",
+      businessTax: "Yes. New Hampshire imposes a Business Profits Tax (7.5%) and a Business Enterprise Tax (0.55%) on businesses operating in the state.",
+    },
+    "south-dakota": {
+      taxes: "South Dakota has no state income tax, corporate income tax, or personal property tax. The state relies on a 4.5% sales tax (plus local additions) and property taxes for revenue.",
+      businessTax: "South Dakota has no corporate income tax. Businesses pay sales tax on taxable goods, bank franchise taxes for financial institutions, and various excise taxes.",
+    },
+    tennessee: {
+      taxes: "Tennessee has no state income tax on wages or salary (the Hall Income Tax on investment income was fully repealed in 2021). The state has a 7% sales tax (plus local additions up to 2.75%) and property taxes.",
+      businessTax: "Yes. Tennessee imposes a franchise tax (0.25% of net worth or book value of real/tangible personal property) and an excise tax (6.5% of net earnings) on businesses.",
+    },
+    texas: {
+      taxes: "Texas has no state income tax. Revenue comes from a 6.25% state sales tax (plus local additions up to 2%), property taxes (among the highest in the nation), and various excise taxes.",
+      businessTax: "Yes. Texas imposes a Franchise Tax (also called the margin tax) on businesses with revenue exceeding $2.47 million, at rates of 0.375% to 0.75% depending on the type of business.",
+    },
+    washington: {
+      taxes: "Washington has no state income tax. The state relies on a 6.5% sales tax (plus local additions), property taxes, and a Business & Occupation (B&O) tax. A 7% capital gains tax applies to gains over $250,000.",
+      businessTax: "Yes. Washington's B&O tax applies to gross receipts at rates ranging from 0.138% to 3.3% depending on business classification. There is no deduction for costs of doing business.",
+    },
+    wyoming: {
+      taxes: "Wyoming has no state income tax, corporate income tax, or estate tax. The state has a 4% sales tax (plus local additions up to 2%) and property taxes.",
+      businessTax: "Wyoming has no corporate income tax. Businesses pay sales tax on taxable goods, and mineral extraction companies pay severance taxes. There is no general business tax on revenue or profits.",
+    },
+  };
+
+  const stateNoTaxInfo = !state.hasIncomeTax ? noIncomeTaxDetails[state.slug] : null;
+
   const faqItems = [
     {
       question: `Does ${state.name} conform to federal due dates?`,
@@ -63,6 +104,22 @@ export default async function StatePage({ params }: PageProps) {
       question: `Where can I file ${state.name} tax forms?`,
       answer: `Visit ${state.taxAgency.name} at ${state.taxAgency.url} for official forms and e-file options.`,
     },
+    ...(stateNoTaxInfo
+      ? [
+          {
+            question: `Does ${state.name} have any business taxes?`,
+            answer: stateNoTaxInfo.businessTax,
+          },
+          {
+            question: `What taxes do ${state.name} residents still need to pay?`,
+            answer: stateNoTaxInfo.taxes,
+          },
+          {
+            question: `Are there any state-level tax obligations in ${state.name}?`,
+            answer: `While ${state.name} does not have a state income tax, residents and businesses are still subject to federal income tax obligations. Additionally, ${stateNoTaxInfo.taxes.toLowerCase().includes("property tax") ? "property taxes, " : ""}${stateNoTaxInfo.taxes.toLowerCase().includes("sales tax") ? "sales taxes, " : ""}and other state-specific taxes may apply. Visit ${state.taxAgency.name} for complete details.`,
+          },
+        ]
+      : []),
   ];
 
   return (
@@ -129,6 +186,35 @@ export default async function StatePage({ params }: PageProps) {
           </Link>
         </div>
       </section>
+
+      {stateNoTaxInfo && (
+        <section className="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm">
+          <h2 className="text-2xl font-semibold text-slate-900">
+            Taxes in {state.name}
+          </h2>
+          <p className="mt-3 text-sm leading-relaxed text-slate-600">
+            Although {state.name} is one of nine U.S. states with no state income
+            tax, residents and businesses are still responsible for other tax
+            obligations at the federal, state, and local levels.
+          </p>
+          <div className="mt-4 rounded-2xl bg-slate-50 p-4">
+            <p className="text-sm font-semibold text-slate-900">
+              What taxes apply in {state.name}?
+            </p>
+            <p className="mt-2 text-sm leading-relaxed text-slate-600">
+              {stateNoTaxInfo.taxes}
+            </p>
+          </div>
+          <div className="mt-3 rounded-2xl bg-slate-50 p-4">
+            <p className="text-sm font-semibold text-slate-900">
+              Business tax obligations
+            </p>
+            <p className="mt-2 text-sm leading-relaxed text-slate-600">
+              {stateNoTaxInfo.businessTax}
+            </p>
+          </div>
+        </section>
+      )}
 
       <FAQSection faqs={faqItems} />
     </div>
