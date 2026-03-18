@@ -40,5 +40,21 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.6,
   }));
 
-  return [...staticRoutes, ...stateRoutes, ...entityRoutes, ...comboRoutes, ...estimatedPaymentRoutes];
+  const blogRoutes = [
+    "2026-federal-tax-deadlines",
+    "estimated-tax-payments-guide",
+    "state-tax-filing-deadlines-2026",
+    "c-corp-tax-deadlines-2026",
+    "utah-estimated-tax-payments",
+    "florida-business-tax-guide",
+    "iowa-tax-deadlines-2026",
+    "massachusetts-tax-deadlines-2026",
+  ].map((slug) => ({
+    url: `${baseUrl}/blog/${slug}`,
+    lastModified: new Date(),
+    changeFrequency: "monthly" as const,
+    priority: 0.8,
+  }));
+
+  return [...staticRoutes, ...stateRoutes, ...entityRoutes, ...comboRoutes, ...estimatedPaymentRoutes, ...blogRoutes];
 }

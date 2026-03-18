@@ -4,6 +4,7 @@ const navLinks = [
   { href: "/", label: "Home" },
   { href: "/estimated-payments", label: "Estimated Payments" },
   { href: "/calculators", label: "Calculators" },
+  { href: "/blog", label: "Guides" },
 ];
 
 export default function Header() {
