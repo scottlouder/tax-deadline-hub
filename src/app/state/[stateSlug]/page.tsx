@@ -8,6 +8,8 @@ import {
   getStateDeadlineBySlug,
   states,
   entityTypes,
+  getNeighboringStates,
+  getPopularStates,
 } from "../../../lib/data";
 
 export const generateStaticParams = () =>
@@ -52,6 +54,9 @@ export default async function StatePage({ params }: PageProps) {
     return <div className="text-sm text-slate-600">State not found.</div>;
   }
 
+  const neighboringStates = getNeighboringStates(slug);
+  const popularStatesList = getPopularStates();
+
   const noIncomeTaxDetails: Record<string, { taxes: string; businessTax: string }> = {
     alaska: {
       taxes: "Alaska has no state income tax or sales tax. However, residents pay property taxes, and local municipalities may levy their own sales taxes. Alaska also imposes a corporate income tax on businesses.",
@@ -94,6 +99,30 @@ export default async function StatePage({ params }: PageProps) {
   const stateNoTaxInfo = !state.hasIncomeTax ? noIncomeTaxDetails[state.slug] : null;
 
   const faqItems = [
+    {
+      question: `When are taxes due in ${state.name}?`,
+      answer: state.hasIncomeTax
+        ? `${state.name} state income tax returns for 2025 are generally due on April 15, 2026, aligning with the federal deadline. However, some entity types such as partnerships and S-corporations have earlier deadlines (March 16, 2026). Check the deadlines above for your specific entity type.`
+        : `${state.name} does not have a state income tax, so there is no state income tax filing deadline. However, residents must still file their federal income tax return by April 15, 2026.`,
+    },
+    {
+      question: `Does ${state.name} require estimated tax payments?`,
+      answer: state.hasIncomeTax
+        ? `Yes, ${state.name} generally requires estimated tax payments if you expect to owe more than a certain threshold in state income tax. Payments typically follow a quarterly schedule. Visit the estimated payments page for ${state.name} for specific due dates.`
+        : `${state.name} does not levy a state income tax, so state-level estimated tax payments are not required. However, you may still need to make federal estimated tax payments.`,
+    },
+    {
+      question: `What is the ${state.name} tax extension deadline?`,
+      answer: state.hasIncomeTax
+        ? `${state.name} generally grants a 6-month extension for filing state income tax returns, moving the deadline to October 15, 2026 for most individual filers. Note that an extension to file is not an extension to pay — any tax owed is still due by the original deadline.`
+        : `Since ${state.name} does not have a state income tax, there is no state extension deadline. For federal taxes, you can request an automatic 6-month extension to October 15, 2026 using Form 4868.`,
+    },
+    {
+      question: `What are the ${state.name} tax rates for 2026?`,
+      answer: state.hasIncomeTax
+        ? `${state.name} tax rates vary by income level and filing status. For the most current rates and brackets, visit ${state.taxAgency.name} at ${state.taxAgency.url}. Tax rates can change annually based on state legislation.`
+        : `${state.name} does not impose a state income tax on individuals. However, other taxes such as sales tax, property tax, and business taxes may apply. Visit ${state.taxAgency.name} for details.`,
+    },
     {
       question: `Does ${state.name} conform to federal due dates?`,
       answer: state.hasIncomeTax
@@ -187,6 +216,58 @@ export default async function StatePage({ params }: PageProps) {
         </div>
       </section>
 
+      {/* State-specific expanded content for top-performing pages */}
+      {slug === "missouri" && (
+        <section className="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm space-y-6">
+          <h2 className="text-2xl font-semibold text-slate-900">
+            Missouri Tax Deadlines 2026: Detailed Guide
+          </h2>
+          <div className="space-y-4 text-sm leading-relaxed text-slate-600">
+            <p>
+              Missouri imposes a progressive income tax with rates ranging from 2.0% to 4.8% for tax year 2026. The state has been gradually reducing its top rate from the previous 5.3% as part of ongoing tax reform legislation. Missouri conforms closely to federal tax deadlines, making it convenient for taxpayers who file both returns simultaneously.
+            </p>
+
+            <div className="rounded-2xl bg-slate-50 p-4">
+              <p className="font-semibold text-slate-900">Individual Filing Deadline</p>
+              <p className="mt-2">
+                Missouri individual income tax returns (Form MO-1040) are due April 15, 2026, matching the federal deadline. If you cannot file by this date, Missouri grants an automatic 6-month extension to October 15, 2026. However, you must pay at least 90% of your tax liability by the original April 15 deadline to avoid penalties and interest. File an extension request using Form MO-60.
+              </p>
+            </div>
+
+            <div className="rounded-2xl bg-slate-50 p-4">
+              <p className="font-semibold text-slate-900">Business Entity Deadlines</p>
+              <ul className="mt-2 list-disc pl-5 space-y-1">
+                <li><strong>Partnerships (Form MO-1065):</strong> Due March 16, 2026, with a 6-month extension to September 15, 2026. Missouri partnerships must file an informational return and issue K-1s to partners.</li>
+                <li><strong>S Corporations (Form MO-1120S):</strong> Due March 16, 2026, with extension to September 15, 2026. S-corps pass income through to shareholders but must still file a Missouri return.</li>
+                <li><strong>C Corporations (Form MO-1120):</strong> Due April 15, 2026, for calendar-year filers, with extension to October 15, 2026. Missouri corporate income tax is 4% of Missouri taxable income.</li>
+                <li><strong>Nonprofits:</strong> Due May 15, 2026, with extension to November 15, 2026. Tax-exempt organizations must file if they have Missouri unrelated business income.</li>
+              </ul>
+            </div>
+
+            <div className="rounded-2xl bg-slate-50 p-4">
+              <p className="font-semibold text-slate-900">Estimated Tax Payments in Missouri</p>
+              <p className="mt-2">
+                Missouri requires quarterly estimated tax payments if you expect to owe $100 or more in state income tax after subtracting withholding and credits. Use Form MO-1040ES to submit payments. The quarterly due dates are April 15, June 15, and September 15 of 2026, and January 15, 2027. Underpayment penalties may apply if you fail to pay at least 90% of the current year&apos;s liability or 100% of the prior year&apos;s liability.
+              </p>
+            </div>
+
+            <div className="rounded-2xl bg-slate-50 p-4">
+              <p className="font-semibold text-slate-900">Missouri Tax Credits and Deductions</p>
+              <p className="mt-2">
+                Missouri offers several tax credits that can reduce your overall liability and affect estimated payment calculations. These include the Property Tax Credit (Circuit Breaker) for eligible seniors and disabled individuals, the Missouri Earned Income Tax Credit (equal to 10% of the federal EITC), and credits for contributions to Missouri 529 education savings plans (MOST). Missouri also allows a deduction for 100% of federal income taxes paid, which is relatively unique among states.
+              </p>
+            </div>
+
+            <div className="rounded-2xl bg-slate-50 p-4">
+              <p className="font-semibold text-slate-900">Payment Methods</p>
+              <p className="mt-2">
+                Missouri accepts tax payments through several channels: the Missouri Department of Revenue online portal at dor.mo.gov (free for bank account payments), credit or debit card payments through approved processors (convenience fees apply), and mail with paper vouchers and check or money order payable to the &quot;Director of Revenue.&quot; Missouri also supports electronic funds transfer for business taxpayers.
+              </p>
+            </div>
+          </div>
+        </section>
+      )}
+
       {stateNoTaxInfo && (
         <section className="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm">
           <h2 className="text-2xl font-semibold text-slate-900">
@@ -217,6 +298,72 @@ export default async function StatePage({ params }: PageProps) {
       )}
 
       <FAQSection faqs={faqItems} />
+
+      {/* Related Pages - Entity-specific pages for this state */}
+      <section className="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm">
+        <h2 className="text-2xl font-semibold text-slate-900">
+          {state.name} Tax Deadlines by Entity Type
+        </h2>
+        <p className="mt-2 text-sm text-slate-600">
+          View detailed deadlines for specific business entity types in {state.name}.
+        </p>
+        <div className="mt-4 grid gap-3 sm:grid-cols-2 md:grid-cols-3">
+          {entityTypes.map((entity) => (
+            <Link
+              key={entity.slug}
+              href={`/state/${state.slug}/${entity.slug}`}
+              className="rounded-xl border border-slate-200 bg-slate-50 p-3 text-sm transition hover:-translate-y-0.5 hover:shadow-md"
+            >
+              <p className="font-semibold text-blue-800">{entity.name}</p>
+              <p className="mt-1 text-xs text-slate-500">{entity.deadlineInfo}</p>
+            </Link>
+          ))}
+        </div>
+      </section>
+
+      {/* Nearby States */}
+      {neighboringStates.length > 0 && (
+        <section className="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm">
+          <h2 className="text-2xl font-semibold text-slate-900">
+            Nearby State Tax Deadlines
+          </h2>
+          <p className="mt-2 text-sm text-slate-600">
+            Compare tax deadlines with neighboring states.
+          </p>
+          <div className="mt-4 flex flex-wrap gap-3">
+            {neighboringStates.map((neighbor) => (
+              <Link
+                key={neighbor.slug}
+                href={`/state/${neighbor.slug}`}
+                className="rounded-full border border-slate-200 px-4 py-2 text-sm font-semibold text-slate-700 transition hover:bg-slate-50 hover:text-blue-700"
+              >
+                {neighbor.name}
+              </Link>
+            ))}
+          </div>
+        </section>
+      )}
+
+      {/* Popular States Quick Links */}
+      <section className="rounded-2xl border border-slate-100 bg-slate-50 p-5">
+        <h2 className="text-lg font-semibold text-slate-900">Popular States</h2>
+        <p className="mt-1 text-sm text-slate-600">
+          Quick links to the most-searched state tax deadline pages.
+        </p>
+        <div className="mt-3 flex flex-wrap gap-2">
+          {popularStatesList
+            .filter((s) => s.slug !== state.slug)
+            .map((s) => (
+              <Link
+                key={s.slug}
+                href={`/state/${s.slug}`}
+                className="rounded-full border border-slate-200 bg-white px-3 py-1.5 text-xs font-semibold text-slate-600 transition hover:text-blue-700"
+              >
+                {s.name}
+              </Link>
+            ))}
+        </div>
+      </section>
     </div>
   );
 }

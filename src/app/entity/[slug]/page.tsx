@@ -7,6 +7,7 @@ import {
   entityTypes,
   federalDeadlines,
   getEntityBySlug,
+  getStateBySlug,
   stateDeadlines,
 } from "../../../lib/data";
 import { formatDate } from "../../../lib/dates";
@@ -133,6 +134,40 @@ export default async function EntityPage({ params }: PageProps) {
               </p>
             </div>
           ))}
+        </div>
+      </section>
+
+      {/* Quick Links to Popular States */}
+      <section className="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm">
+        <h2 className="text-2xl font-semibold text-slate-900">
+          Popular States for {entity.name}
+        </h2>
+        <p className="mt-2 text-sm text-slate-600">
+          Quick links to {entity.name.toLowerCase()} tax deadlines in the most-searched states.
+        </p>
+        <div className="mt-4 grid gap-3 sm:grid-cols-2 md:grid-cols-4">
+          {(["california", "texas", "new-york", "florida", "pennsylvania", "ohio", "illinois", "new-jersey", "massachusetts", "missouri"] as const).map((stateSlug) => {
+            const s = getStateBySlug(stateSlug);
+            if (!s) return null;
+            return (
+              <div key={s.slug} className="rounded-xl border border-slate-200 bg-slate-50 p-3 text-sm">
+                <Link
+                  href={`/state/${s.slug}/${entity.slug}`}
+                  className="font-semibold text-blue-800 hover:underline"
+                >
+                  {s.name}
+                </Link>
+                <div className="mt-1 flex flex-col gap-0.5">
+                  <Link href={`/state/${s.slug}`} className="text-xs text-slate-500 hover:text-blue-700">
+                    All {s.name} Deadlines
+                  </Link>
+                  <Link href={`/state/${s.slug}/estimated-payments`} className="text-xs text-slate-500 hover:text-blue-700">
+                    Estimated Payments
+                  </Link>
+                </div>
+              </div>
+            );
+          })}
         </div>
       </section>
 

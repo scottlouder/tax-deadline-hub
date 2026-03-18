@@ -3,7 +3,7 @@ import Link from "next/link";
 import StateGrid from "../components/StateGrid";
 import UpcomingDeadlines from "../components/UpcomingDeadlines";
 import FAQSection from "../components/FAQSection";
-import { entityTypes, states } from "../lib/data";
+import { entityTypes, states, getStateBySlug } from "../lib/data";
 
 export const metadata: Metadata = {
   title: "2026 US Tax Deadlines by State & Entity Type | TaxDeadlineHub",
@@ -76,6 +76,40 @@ export default function Home() {
       </section>
 
       <UpcomingDeadlines />
+
+      {/* Most Searched States */}
+      <section className="space-y-6">
+        <div>
+          <h2 className="text-2xl font-semibold text-slate-900">Most Searched States</h2>
+          <p className="mt-2 text-sm text-slate-600">
+            Quick access to tax deadline pages for the most-searched states.
+          </p>
+        </div>
+        <div className="grid gap-4 sm:grid-cols-2 md:grid-cols-5">
+          {(["california", "texas", "new-york", "florida", "pennsylvania", "ohio", "illinois", "new-jersey", "massachusetts", "missouri"] as const).map((slug) => {
+            const s = getStateBySlug(slug);
+            if (!s) return null;
+            return (
+              <div key={s.slug} className="rounded-2xl border border-slate-200 bg-white p-4 shadow-sm transition hover:-translate-y-1 hover:shadow-md">
+                <Link href={`/state/${s.slug}`} className="text-sm font-semibold text-blue-800 hover:underline">
+                  {s.name}
+                </Link>
+                <div className="mt-2 flex flex-col gap-1">
+                  <Link href={`/state/${s.slug}/estimated-payments`} className="text-xs text-slate-500 hover:text-blue-700">
+                    Estimated Payments
+                  </Link>
+                  <Link href={`/state/${s.slug}/sole-proprietorship`} className="text-xs text-slate-500 hover:text-blue-700">
+                    Sole Proprietorship
+                  </Link>
+                  <Link href={`/state/${s.slug}/c-corporation`} className="text-xs text-slate-500 hover:text-blue-700">
+                    C Corporation
+                  </Link>
+                </div>
+              </div>
+            );
+          })}
+        </div>
+      </section>
 
       <section id="states">
         <StateGrid states={states} />

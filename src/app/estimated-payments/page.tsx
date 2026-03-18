@@ -15,7 +15,11 @@ export const metadata: Metadata = {
     "when are estimated taxes due",
     "1040-ES due dates",
     "quarterly tax payments schedule",
+    "when are estimated taxes due 2026",
+    "estimated tax payment schedule 2026",
+    "quarterly estimated tax payments",
   ],
+  alternates: { canonical: "https://taxdeadlinehub.com/estimated-payments" },
 };
 
 export default function EstimatedPaymentsPage() {
