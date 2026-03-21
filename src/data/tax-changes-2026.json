@@ -1,0 +1,320 @@
+[
+  {
+    "slug": "no-tax-on-tips",
+    "title": "No Tax on Tips: Federal Tip Income Exclusion for 2025 Returns",
+    "shortTitle": "No Tax on Tips",
+    "description": "Tips are now excluded from federal income tax for qualifying tipped workers filing 2025 returns. Claim the exclusion on the new Schedule 1-A.",
+    "effectiveDate": "2025-01-01",
+    "claimMethod": "Schedule 1-A (Form 1040)",
+    "eligibility": "W-2 employees who receive tips in qualifying occupations (food service, hospitality, barbers/stylists, rideshare/delivery drivers, and other traditionally tipped roles). Tips must be reported to employer. Self-employment tips do not qualify.",
+    "keyFacts": [
+      "Tips are fully excluded from federal income tax for 2025 returns filed in 2026.",
+      "Maximum annual exclusion is $25,000 in tip income per taxpayer.",
+      "Only W-2 reported tips qualify — cash tips must be reported to your employer via Form 4070.",
+      "Social Security and Medicare taxes still apply to tip income.",
+      "Claim the exclusion on the new IRS Schedule 1-A attached to your Form 1040.",
+      "The exclusion phases out for taxpayers with AGI above $160,000 (single) or $320,000 (married filing jointly)."
+    ],
+    "relatedDeadlines": [
+      { "date": "2026-04-15", "description": "Federal filing deadline for 2025 individual returns (Form 1040)" },
+      { "date": "2026-10-15", "description": "Extended filing deadline if you filed Form 4868" },
+      { "date": "2026-04-15", "description": "Deadline to pay any remaining 2025 tax liability" }
+    ],
+    "faqs": [
+      {
+        "question": "How do I claim the no-tax-on-tips exclusion on my 2025 tax return?",
+        "answer": "File the new IRS Schedule 1-A with your Form 1040. Enter your total qualifying tip income on Schedule 1-A, which will calculate the exclusion amount (up to $25,000). The excluded amount flows to Schedule 1 as an adjustment to income."
+      },
+      {
+        "question": "Do I still owe Social Security and Medicare taxes on tips?",
+        "answer": "Yes. The tip exclusion only applies to federal income tax. FICA taxes (Social Security at 6.2% and Medicare at 1.45%) still apply to all reported tip income. Your employer will continue to withhold these from your paycheck."
+      },
+      {
+        "question": "Does the no-tax-on-tips provision apply to self-employed workers?",
+        "answer": "No. The exclusion applies only to tips reported on a W-2 from an employer. Self-employed individuals (1099 workers) who receive tips or gratuities cannot use this exclusion. The income must be reported through the employer-employee relationship."
+      },
+      {
+        "question": "Is there an income limit for the tip income exclusion?",
+        "answer": "Yes. The exclusion phases out for higher earners. Single filers with AGI above $160,000 and married filing jointly filers above $320,000 see a reduced exclusion. The maximum exclusion is $25,000 per taxpayer regardless of total tips earned."
+      },
+      {
+        "question": "What types of workers qualify for no tax on tips?",
+        "answer": "Workers in traditionally tipped occupations qualify, including food servers, bartenders, hotel staff, barbers, hairstylists, rideshare drivers, delivery drivers, valets, and similar service roles. The key requirement is that tips are reported to an employer on a W-2."
+      }
+    ],
+    "targetKeywords": [
+      "no tax on tips 2025",
+      "tip income exclusion 2026",
+      "are tips taxable 2025",
+      "schedule 1-a tips",
+      "no tax on tips filing",
+      "tip exclusion irs"
+    ]
+  },
+  {
+    "slug": "no-tax-on-overtime",
+    "title": "No Tax on Overtime: Federal Overtime Pay Exclusion for 2025 Returns",
+    "shortTitle": "No Tax on Overtime",
+    "description": "Overtime pay is now excluded from federal income tax for W-2 employees filing 2025 returns. Claim the exclusion using the new Schedule 1-A.",
+    "effectiveDate": "2025-01-01",
+    "claimMethod": "Schedule 1-A (Form 1040)",
+    "eligibility": "W-2 employees who earned overtime pay (hours worked beyond 40 per week at 1.5x or higher rate). Must be non-exempt employees covered by FLSA overtime provisions. Salaried exempt employees do not qualify.",
+    "keyFacts": [
+      "Overtime pay (hours beyond 40/week) is excluded from federal income tax for 2025.",
+      "Only W-2 employees eligible for FLSA overtime qualify — salaried exempt workers do not.",
+      "There is no dollar cap on the overtime exclusion amount.",
+      "FICA taxes (Social Security and Medicare) still apply to overtime earnings.",
+      "Claim the exclusion on Schedule 1-A, the same new form used for tip exclusions.",
+      "Employers must separately report overtime pay in Box 14 of your W-2 for 2025."
+    ],
+    "relatedDeadlines": [
+      { "date": "2026-04-15", "description": "Federal filing deadline for 2025 individual returns (Form 1040)" },
+      { "date": "2026-10-15", "description": "Extended filing deadline if you filed Form 4868" },
+      { "date": "2026-01-31", "description": "Deadline for employers to issue W-2s with overtime breakout in Box 14" }
+    ],
+    "faqs": [
+      {
+        "question": "How do I claim the no-tax-on-overtime exclusion on my 2025 return?",
+        "answer": "Use the new IRS Schedule 1-A attached to your Form 1040. Enter your total overtime pay as shown in Box 14 of your W-2. Schedule 1-A calculates the exclusion, which flows to Schedule 1 as an adjustment to gross income."
+      },
+      {
+        "question": "Does the overtime exclusion apply to salaried employees?",
+        "answer": "Only if you are a non-exempt salaried employee who earns overtime under the FLSA. Salaried employees classified as exempt (most managers, professionals, and administrative roles earning above the FLSA salary threshold) do not qualify for the overtime exclusion."
+      },
+      {
+        "question": "Do I still pay Social Security and Medicare taxes on overtime pay?",
+        "answer": "Yes. The exclusion covers federal income tax only. FICA taxes (6.2% Social Security and 1.45% Medicare) still apply to all overtime earnings. Your employer will continue withholding FICA from overtime pay."
+      },
+      {
+        "question": "Where do I find my overtime pay amount for the exclusion?",
+        "answer": "Check Box 14 of your 2025 W-2. Employers are now required to separately report overtime compensation in Box 14. If your employer did not break out overtime pay, contact your payroll department for a corrected W-2 before filing."
+      },
+      {
+        "question": "Can self-employed workers claim the overtime exclusion?",
+        "answer": "No. The overtime exclusion is limited to W-2 employees who earn overtime pay under the Fair Labor Standards Act. Self-employed individuals, independent contractors, and gig workers cannot claim this exclusion."
+      }
+    ],
+    "targetKeywords": [
+      "no tax on overtime 2025",
+      "overtime pay exclusion 2026",
+      "is overtime taxable 2025",
+      "schedule 1-a overtime",
+      "overtime tax exemption irs",
+      "no tax on overtime filing"
+    ]
+  },
+  {
+    "slug": "schedule-1a",
+    "title": "Schedule 1-A: New IRS Form for Tip and Overtime Exclusions (2025)",
+    "shortTitle": "Schedule 1-A",
+    "description": "Schedule 1-A is a brand-new IRS form for 2025 tax returns. It is used to claim the federal income tax exclusions for tip income and overtime pay under the One Big Beautiful Bill.",
+    "effectiveDate": "2025-01-01",
+    "claimMethod": "Schedule 1-A (Form 1040) — attach to your return",
+    "eligibility": "Any taxpayer claiming the tip income exclusion, overtime pay exclusion, or both on their 2025 federal return.",
+    "keyFacts": [
+      "Schedule 1-A is a net-new IRS form introduced for 2025 tax returns.",
+      "It combines both the tip exclusion and overtime exclusion on one form.",
+      "The form attaches to your Form 1040 and flows to Schedule 1, line 26.",
+      "Available for download from IRS.gov and supported by all major tax software for 2025 filing.",
+      "You only need to file Schedule 1-A if you are claiming one or both exclusions.",
+      "The form requires W-2 Box 14 data for overtime and tip income documentation."
+    ],
+    "relatedDeadlines": [
+      { "date": "2026-04-15", "description": "Federal filing deadline — Schedule 1-A must be filed with Form 1040" },
+      { "date": "2026-10-15", "description": "Extended deadline — Schedule 1-A accepted with extension returns" },
+      { "date": "2026-01-31", "description": "W-2 issuance deadline — need Box 14 data for Schedule 1-A" }
+    ],
+    "faqs": [
+      {
+        "question": "What is Schedule 1-A and who needs to file it?",
+        "answer": "Schedule 1-A is a new IRS form for 2025 tax returns that lets taxpayers claim the federal income tax exclusion on tips, overtime pay, or both. You need to file it only if you are claiming one or both of these new exclusions. It attaches to your Form 1040."
+      },
+      {
+        "question": "Where can I download Schedule 1-A?",
+        "answer": "Schedule 1-A is available on IRS.gov under Forms & Instructions for the 2025 tax year. All major tax preparation software (TurboTax, H&R Block, FreeTaxUSA, etc.) includes Schedule 1-A in their 2025 filing products."
+      },
+      {
+        "question": "How does Schedule 1-A connect to the rest of my tax return?",
+        "answer": "Schedule 1-A calculates your tip and/or overtime exclusion amounts. The total exclusion flows to Schedule 1 (Additional Income and Adjustments to Income), line 26, as an adjustment that reduces your gross income on Form 1040."
+      },
+      {
+        "question": "Can I claim both the tip and overtime exclusion on the same Schedule 1-A?",
+        "answer": "Yes. Schedule 1-A has separate sections for tip income exclusion and overtime pay exclusion. If you qualify for both, complete both sections on a single Schedule 1-A. The combined exclusion will flow as one adjustment to your Schedule 1."
+      },
+      {
+        "question": "What information do I need to complete Schedule 1-A?",
+        "answer": "You need your W-2 showing tip income (Box 7 or Box 14) and overtime pay (Box 14). You also need your total AGI to determine if income phaseouts apply to the tip exclusion. Keep records of tip reporting (Form 4070) if applicable."
+      }
+    ],
+    "targetKeywords": [
+      "schedule 1-a irs form",
+      "schedule 1-a 2025",
+      "irs schedule 1-a tips overtime",
+      "new irs form 2025",
+      "schedule 1-a form 1040",
+      "how to file schedule 1-a"
+    ]
+  },
+  {
+    "slug": "senior-standard-deduction",
+    "title": "Enhanced Senior Standard Deduction: Extra $4,000 for Taxpayers 65+ (2025)",
+    "shortTitle": "Senior Standard Deduction",
+    "description": "Seniors age 65 and older receive an additional $4,000 standard deduction on top of the normal amount for 2025 returns, providing significant tax relief for retirees.",
+    "effectiveDate": "2025-01-01",
+    "claimMethod": "Form 1040 — standard deduction (no special form required)",
+    "eligibility": "Taxpayers who are age 65 or older by December 31, 2025 (born before January 2, 1961) and who take the standard deduction. Both spouses can claim the additional amount if both are 65+.",
+    "keyFacts": [
+      "Additional $4,000 standard deduction per qualifying person age 65 or older.",
+      "Stacks on top of the regular standard deduction ($15,350 single, $30,700 married filing jointly for 2025).",
+      "A single filer 65+ gets a total standard deduction of $19,350 ($15,350 + $4,000).",
+      "Married filing jointly with both spouses 65+ gets $38,700 ($30,700 + $4,000 + $4,000).",
+      "Replaces the previous additional deduction amounts ($1,950 single / $1,550 each for married).",
+      "No special form required — the enhanced amount is built into the standard deduction on Form 1040."
+    ],
+    "relatedDeadlines": [
+      { "date": "2026-04-15", "description": "Federal filing deadline for 2025 individual returns" },
+      { "date": "2026-10-15", "description": "Extended filing deadline for 2025 returns" },
+      { "date": "2026-04-15", "description": "Deadline to pay any tax owed for 2025" }
+    ],
+    "faqs": [
+      {
+        "question": "How much is the senior standard deduction for 2025?",
+        "answer": "For 2025 returns filed in 2026, taxpayers 65+ get an additional $4,000 standard deduction per person. A single filer 65+ gets $19,350 total ($15,350 base + $4,000). Married filing jointly with both spouses 65+ gets $38,700 ($30,700 + $8,000)."
+      },
+      {
+        "question": "Do I need to file a special form for the senior standard deduction?",
+        "answer": "No. The enhanced senior standard deduction is automatically calculated on Form 1040. Simply check the box on Form 1040 indicating you are 65 or older, and the higher standard deduction amount applies. No separate schedule is needed."
+      },
+      {
+        "question": "Can I claim the senior deduction if I itemize?",
+        "answer": "No. The additional $4,000 senior deduction is part of the standard deduction. If you itemize deductions on Schedule A, you cannot claim the additional senior standard deduction. Choose whichever method (standard vs. itemized) gives you the larger total deduction."
+      },
+      {
+        "question": "What age qualifies for the enhanced senior standard deduction?",
+        "answer": "You must be 65 or older by December 31, 2025 (born before January 2, 1961). The IRS considers you 65 on the day before your 65th birthday. If you turn 65 on January 1, 2026, you are considered 65 for 2025 tax purposes."
+      },
+      {
+        "question": "How does the new $4,000 senior deduction compare to the old amount?",
+        "answer": "Previously, seniors got an additional $1,950 (single) or $1,550 per person (married filing jointly). The new $4,000 amount more than doubles the prior benefit, saving a single senior in the 22% bracket roughly $451 more in taxes compared to the old additional deduction."
+      }
+    ],
+    "targetKeywords": [
+      "senior standard deduction 2025",
+      "standard deduction over 65 2025",
+      "additional deduction seniors 2026",
+      "senior tax deduction increase",
+      "4000 senior deduction",
+      "senior standard deduction one big beautiful bill"
+    ]
+  },
+  {
+    "slug": "child-tax-credit-2500",
+    "title": "Child Tax Credit Increased to $2,500 per Child for 2025",
+    "shortTitle": "Child Tax Credit $2,500",
+    "description": "The Child Tax Credit increases to $2,500 per qualifying child for 2025 returns, up from $2,000 per child. More of the credit is refundable for lower-income families.",
+    "effectiveDate": "2025-01-01",
+    "claimMethod": "Schedule 8812 (Form 1040)",
+    "eligibility": "Taxpayers with qualifying children under age 17 as of December 31, 2025. Child must have a valid SSN, be a U.S. citizen or resident, and be claimed as a dependent. Income phaseout begins at $200,000 (single) / $400,000 (married filing jointly).",
+    "keyFacts": [
+      "Credit increased to $2,500 per qualifying child, up from $2,000.",
+      "Refundable portion (Additional Child Tax Credit) increased to $1,900 per child.",
+      "Qualifying child must be under age 17 on December 31, 2025.",
+      "Income phaseout begins at $200,000 AGI (single) / $400,000 (married filing jointly).",
+      "Child must have a valid Social Security number (not an ITIN).",
+      "Claimed on Schedule 8812, which calculates both the nonrefundable and refundable portions."
+    ],
+    "relatedDeadlines": [
+      { "date": "2026-04-15", "description": "Federal filing deadline — file to claim Child Tax Credit" },
+      { "date": "2026-10-15", "description": "Extended deadline — still eligible for refundable CTC" },
+      { "date": "2029-04-15", "description": "Last day to file 2025 return and claim CTC refund (3-year limit)" }
+    ],
+    "faqs": [
+      {
+        "question": "How much is the Child Tax Credit for 2025?",
+        "answer": "The Child Tax Credit is $2,500 per qualifying child for 2025 returns, an increase from the prior $2,000 per child. For example, a family with 3 qualifying children could receive up to $7,500 in credits."
+      },
+      {
+        "question": "Is the 2025 Child Tax Credit refundable?",
+        "answer": "Partially. Up to $1,900 per child is refundable as the Additional Child Tax Credit (ACTC), meaning you can receive it even if you owe no federal income tax. The remaining $600 per child is nonrefundable and can only offset tax owed."
+      },
+      {
+        "question": "What are the income limits for the Child Tax Credit in 2025?",
+        "answer": "The full $2,500 credit is available to single filers with AGI up to $200,000 and married filing jointly up to $400,000. Above those thresholds, the credit phases out by $50 for every $1,000 of additional income."
+      },
+      {
+        "question": "What qualifies a child for the 2025 Child Tax Credit?",
+        "answer": "The child must be under age 17 on December 31, 2025, have a valid Social Security number, be a U.S. citizen or resident alien, be your dependent, live with you for more than half the year, and not provide more than half of their own financial support."
+      },
+      {
+        "question": "How do I claim the increased Child Tax Credit?",
+        "answer": "Complete Schedule 8812 (Credits for Qualifying Children and Other Dependents) with your Form 1040. The schedule calculates both the nonrefundable credit (up to $2,500 per child) and the refundable Additional Child Tax Credit (up to $1,900 per child)."
+      }
+    ],
+    "targetKeywords": [
+      "child tax credit 2025",
+      "child tax credit 2500",
+      "ctc 2025 amount",
+      "child tax credit increase 2026",
+      "schedule 8812 2025",
+      "child tax credit one big beautiful bill"
+    ]
+  },
+  {
+    "slug": "one-big-beautiful-bill-tax-changes",
+    "title": "One Big Beautiful Bill Tax Changes: Complete Guide for 2025 Returns",
+    "shortTitle": "All Tax Changes",
+    "description": "Complete overview of all tax changes from the One Big Beautiful Bill that affect 2025 federal tax returns filed in 2026, including no tax on tips, no tax on overtime, Schedule 1-A, increased Child Tax Credit, and enhanced senior deduction.",
+    "effectiveDate": "2025-01-01",
+    "claimMethod": "Various — see individual provisions",
+    "eligibility": "All U.S. taxpayers filing 2025 federal returns may be affected by one or more provisions. Specific eligibility varies by provision.",
+    "keyFacts": [
+      "The One Big Beautiful Bill introduced the largest set of individual tax changes since the 2017 Tax Cuts and Jobs Act.",
+      "No Tax on Tips: Up to $25,000 in tip income excluded from federal income tax.",
+      "No Tax on Overtime: Overtime pay for W-2 non-exempt employees excluded from federal income tax.",
+      "New Schedule 1-A: Brand new IRS form for claiming tip and overtime exclusions.",
+      "Child Tax Credit: Increased to $2,500 per qualifying child (up from $2,000).",
+      "Senior Standard Deduction: Additional $4,000 per person for taxpayers age 65+.",
+      "All provisions are effective for tax year 2025 returns filed during the 2026 filing season."
+    ],
+    "relatedDeadlines": [
+      { "date": "2026-01-27", "description": "IRS begins accepting 2025 e-filed returns" },
+      { "date": "2026-01-31", "description": "Employers must issue W-2s with new Box 14 reporting" },
+      { "date": "2026-04-15", "description": "Federal filing deadline for 2025 returns" },
+      { "date": "2026-10-15", "description": "Extended filing deadline for 2025 returns" }
+    ],
+    "faqs": [
+      {
+        "question": "What tax changes from the One Big Beautiful Bill affect my 2025 return?",
+        "answer": "The key changes are: (1) No tax on tips — up to $25,000 excluded, (2) No tax on overtime pay for W-2 employees, (3) New Schedule 1-A form for claiming these exclusions, (4) Child Tax Credit increased to $2,500 per child, and (5) Enhanced $4,000 additional standard deduction for seniors 65+."
+      },
+      {
+        "question": "When did the One Big Beautiful Bill tax changes take effect?",
+        "answer": "All individual tax provisions in the One Big Beautiful Bill are effective for tax year 2025. This means they apply to returns being filed during the 2026 filing season (January through April/October 2026)."
+      },
+      {
+        "question": "Do I need new tax forms for the One Big Beautiful Bill changes?",
+        "answer": "The main new form is Schedule 1-A, required only if you are claiming the tip or overtime exclusion. The Child Tax Credit is still claimed on Schedule 8812 (updated amounts). The senior standard deduction requires no special form — it is built into the Form 1040 standard deduction."
+      },
+      {
+        "question": "Will my tax software handle the One Big Beautiful Bill changes?",
+        "answer": "Yes. All major tax preparation software (TurboTax, H&R Block, FreeTaxUSA, TaxAct, etc.) has been updated for 2025 returns to include Schedule 1-A, the increased Child Tax Credit, and the enhanced senior standard deduction. If you file electronically, the software will guide you through claiming any applicable provisions."
+      },
+      {
+        "question": "Do these federal changes affect my state tax return?",
+        "answer": "It depends on your state. States that fully conform to federal AGI may automatically reflect the tip and overtime exclusions. States with fixed conformity dates may not recognize the changes until they update their tax code. Check your specific state page on TaxDeadlineHub for details."
+      },
+      {
+        "question": "Can I claim multiple provisions from the One Big Beautiful Bill?",
+        "answer": "Yes. The provisions are independent of each other. For example, a 67-year-old server earning tips and overtime could claim the tip exclusion, overtime exclusion (both on Schedule 1-A), and the enhanced senior standard deduction — all on the same 2025 return."
+      }
+    ],
+    "targetKeywords": [
+      "one big beautiful bill tax changes",
+      "2026 tax law changes",
+      "2025 tax return new rules",
+      "one big beautiful bill summary",
+      "new tax provisions 2025",
+      "tax changes 2026 filing season"
+    ]
+  }
+]

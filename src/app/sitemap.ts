@@ -1,5 +1,6 @@
 import { MetadataRoute } from "next";
 import { entityTypes, states } from "../lib/data";
+import { getAllTaxChangeSlugs } from "../lib/tax-changes";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://taxdeadlinehub.com";
@@ -56,5 +57,19 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }));
 
-  return [...staticRoutes, ...stateRoutes, ...entityRoutes, ...comboRoutes, ...estimatedPaymentRoutes, ...blogRoutes];
+  const changesHubRoute = [{
+    url: `${baseUrl}/changes`,
+    lastModified: new Date(),
+    changeFrequency: "weekly" as const,
+    priority: 0.9,
+  }];
+
+  const changesRoutes = getAllTaxChangeSlugs().map((slug) => ({
+    url: `${baseUrl}/changes/${slug}`,
+    lastModified: new Date(),
+    changeFrequency: "weekly" as const,
+    priority: 0.9,
+  }));
+
+  return [...staticRoutes, ...changesHubRoute, ...changesRoutes, ...stateRoutes, ...entityRoutes, ...comboRoutes, ...estimatedPaymentRoutes, ...blogRoutes];
 }

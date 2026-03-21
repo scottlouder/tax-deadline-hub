@@ -57,6 +57,26 @@ export default function Home() {
         </div>
       </section>
 
+      <section className="rounded-2xl border border-amber-200 bg-gradient-to-r from-amber-50 to-amber-100 p-6 shadow-sm">
+        <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
+          <div>
+            <p className="text-sm font-semibold uppercase tracking-wider text-amber-700">New for 2026 Filing Season</p>
+            <p className="mt-1 text-lg font-semibold text-slate-900">
+              No tax on tips, no tax on overtime, $2,500 Child Tax Credit &amp; more
+            </p>
+            <p className="mt-1 text-sm text-slate-600">
+              The One Big Beautiful Bill changed how you file your 2025 return. See what&apos;s new.
+            </p>
+          </div>
+          <Link
+            href="/changes"
+            className="shrink-0 rounded-full bg-amber-600 px-5 py-2.5 text-sm font-semibold text-white shadow-sm transition hover:bg-amber-700"
+          >
+            View Tax Changes →
+          </Link>
+        </div>
+      </section>
+
       <section className="grid gap-6 md:grid-cols-3">
         <div className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
           <p className="text-sm font-semibold text-slate-500">States Covered</p>

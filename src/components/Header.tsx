@@ -4,6 +4,7 @@ const navLinks = [
   { href: "/", label: "Home" },
   { href: "/estimated-payments", label: "Estimated Payments" },
   { href: "/calculators", label: "Calculators" },
+  { href: "/changes", label: "Tax Changes" },
   { href: "/blog", label: "Guides" },
 ];
 
